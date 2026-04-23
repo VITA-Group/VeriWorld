@@ -1,0 +1,38 @@
+# Real API keys — never commit. Copy model_configs.example.json → model_configs.json and fill.
+model_configs.json
+# Machine-local run defaults (build paths, per-task knobs). Copy run_defaults.example.json → run_defaults.json.
+run_defaults.json
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Editors
+.vscode/
+.idea/
+.claude/
+
+# VeriWorld runs (each run is its own timestamped folder — gitignored by default).
+# Legacy ``runs/`` layout (flat under CWD) plus the new hierarchical
+# ``veriworld/results/<task_path>/seed_XXXX_TS/<model>/`` structure.
+runs/
+veriworld/results/
+
+# Paper drafts / LaTeX sources — keep local for the author, don't publish
+# (double-blind review, arXiv preprint is a separate step)
+paper/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+# Legacy side-effect: generate_params.py also writes a params.json alongside itself.
+# Not source — regenerated from seed on every run and belongs in the per-run workspace.
+veriworld/benchmark/**/params.json

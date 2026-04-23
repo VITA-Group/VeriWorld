@@ -1,0 +1,51 @@
+[
+    {
+        "_comment": "Interactive-tier — consistent 20-30s/step under concurrent load. Auto-join fair-comparison parallel batches. See docs/MODELS.md for latency measurements.",
+        "name": "gpt-4o",
+        "model": "gpt-4o",
+        "api_key": "PASTE_YOUR_KEY_HERE",
+        "base_url": "https://api.openai.com/v1",
+        "parallel": true
+    },
+    {
+        "_comment": "GPT-5 family — reasoning_effort=minimal is mandatory for interactive-tier latency; omitting it makes responses 3-5x slower and can produce empty content if max_tokens is tight. Threaded through VLMClient via ModelConfig.extra_params.",
+        "name": "gpt-5.2",
+        "model": "gpt-5.2",
+        "api_key": "PASTE_YOUR_KEY_HERE",
+        "base_url": "https://api.openai.com/v1",
+        "parallel": true,
+        "extra_params": {"reasoning_effort": "minimal"}
+    },
+    {
+        "_comment": "Anthropic — native protocol auto-selected when base_url contains 'anthropic'. Without that substring, the client falls back to OpenAI-compat (useful for gateway routing).",
+        "name": "claude-sonnet-4-6",
+        "model": "claude-sonnet-4-6",
+        "api_key": "PASTE_YOUR_KEY_HERE",
+        "base_url": "https://api.anthropic.com/v1",
+        "parallel": true
+    },
+    {
+        "_comment": "Env-var lookup — resolved at load time. Useful for CI.",
+        "name": "gemini-3-pro",
+        "model": "gemini-3-pro-preview",
+        "api_key": "env:GEMINI_API_KEY",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+        "parallel": true
+    },
+    {
+        "_comment": "Key rotation — client advances on 429 / 503 / 529. Useful with free-tier quotas.",
+        "name": "qwen-vl-max",
+        "model": "qwen-vl-max",
+        "api_key": ["PASTE_KEY_1", "PASTE_KEY_2"],
+        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "parallel": true
+    },
+    {
+        "_comment": "Computational-tier — too slow (>60s/step) for interactive benchmarks but fine for per-round computational tasks like surface_billiards (5 rounds). Set parallel=false so it does not join default parallel batches; include explicitly via --models <name> when needed.",
+        "name": "claude-opus-4-5",
+        "model": "claude-opus-4-5-20251101",
+        "api_key": "PASTE_YOUR_KEY_HERE",
+        "base_url": "https://api.anthropic.com/v1",
+        "parallel": false
+    }
+]

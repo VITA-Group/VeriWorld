@@ -1,0 +1,53 @@
+{
+    "_comment": "Copy to run_defaults.json (gitignored) and customize. CLI flags override these.",
+
+    "builds": {
+        "_comment": "Local paths to the two UE builds. Orchestrator picks by task path: 'computational' in the module path → computational build, else interactive.",
+        "interactive":   "C:\\Users\\yanzh\\projects\\unreal_projects\\demo2\\PackagedOutput\\Windows\\demo1.exe",
+        "computational": "C:\\Users\\yanzh\\projects\\unreal_projects\\demo2\\PackagedOutput_dev\\Windows\\demo1.exe"
+    },
+
+    "parallel": {
+        "_comment": "Global batch settings. 'seeds' is a list or a string spec like '0,1' / '0-3'.",
+        "seeds": [0, 1],
+        "base_port": 9003,
+        "max_instances": 6,
+        "width": 640,
+        "height": 480
+    },
+
+    "tasks": {
+        "_comment": "Per-ablation default kwargs. Keys must match the module path used in --task.",
+
+        "veriworld.benchmark.interactive.navigation.mazenavfps.vp_bf": {
+            "max_steps": 30,
+            "grid_size": 4,
+            "materials": 3
+        },
+
+        "veriworld.benchmark.interactive.navigation.mazenavfps.pv_bf": {
+            "max_steps": 30,
+            "grid_size": 4,
+            "materials": 3,
+            "history_size": 6
+        },
+
+        "veriworld.benchmark.interactive.navigation.tunnel.vp_bf": {
+            "max_steps": 50,
+            "tunnel_radius": 80.0,
+            "colorful": true
+        },
+
+        "veriworld.benchmark.interactive.navigation.tunnel.af": {
+            "max_steps": 50,
+            "tunnel_radius": 80.0,
+            "colorful": true
+        },
+
+        "veriworld.benchmark.computational.feedback.surface_billiards": {
+            "max_rounds": 5,
+            "n_frames": 6,
+            "settle_timeout": 60
+        }
+    }
+}
