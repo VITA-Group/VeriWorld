@@ -1,0 +1,3 @@
+Candidate-02 compatibility draft. Do not apply to the final candidate-03 runtime.
+Use output/VeriWorld_paper_runtime_checks.zip with the final runtime ZIP.
+Compatibility is built into the final native runtime; no external patch is needed.

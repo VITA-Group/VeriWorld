@@ -1,0 +1,1946 @@
+{
+  ".gitignore": {
+    "bytes": 99,
+    "sha256": "4c5e3851597195e88e50b5020af60f99b6669662b83dd241a2ee4a63f32b6a49"
+  },
+  "API_CONFIGURATION.txt": {
+    "bytes": 2044,
+    "sha256": "6760aa264f96af35b3ea95c1113e3e08479737f581f41728c66be680cb2f91f4"
+  },
+  "CITATION.cff": {
+    "bytes": 2922,
+    "sha256": "975f62cc4fec763ca2ebeef0bebe275658218caa6ff9bcc8320982f974f09730"
+  },
+  "DATASET_METADATA.md": {
+    "bytes": 4896,
+    "sha256": "2f2b74b950028dbe4d0e191b532494cfe4ef3b0a452bc86e406b981de2626be7"
+  },
+  "DISTRIBUTION_CHANNEL.txt": {
+    "bytes": 546,
+    "sha256": "b63410abddbd6a05bcea5f0c3cec8fb7e7c5270b1ac2077c503c23820117f693"
+  },
+  "HARDENING_VALIDATION.json": {
+    "bytes": 2995,
+    "sha256": "b46b89fe19002ae4b24db48589efff47fb2a3adc49e312f8de23226ad5e50dcd"
+  },
+  "KNOWN_ISSUES.md": {
+    "bytes": 1315,
+    "sha256": "536031569f824135dda6198209768c8fefc1a21b3ae13269acefea69a86a2674"
+  },
+  "LICENSE": {
+    "bytes": 7702,
+    "sha256": "342d73467202abe812ffa87e3fdc7c2bdce16e153ef5c774bbb22d57f6a64096"
+  },
+  "MIGRATION_PROVENANCE.json": {
+    "bytes": 70384,
+    "sha256": "21b5e4a50e48b6488bbdad0fb655e1a4d7c083d980abe22b3d89ae45620b39e0"
+  },
+  "NOTICE.md": {
+    "bytes": 9396,
+    "sha256": "44fd99f62f99e274d795c3b7d75337fbe2d446a8b2d5174c95f842f692fd2eaa"
+  },
+  "ORIGINAL_RELEASE_SOURCE_MANIFEST.json": {
+    "bytes": 86996,
+    "sha256": "f100f2b2545b0bbd71af450c1aa0e156e9e79edc3f73ec41dda953533b7d50f9"
+  },
+  "README.md": {
+    "bytes": 15806,
+    "sha256": "7c2d6bdb2c5701239d3d9089cde91d722a0cbf8d2ed2113e912df5677cd04324"
+  },
+  "RELEASE_DOWNLOADS.md": {
+    "bytes": 4286,
+    "sha256": "d3f9b3ce2bb05138a8385871a6fcc42b5deeaf3542bddf21910c59214e9a0e2e"
+  },
+  "RELEASE_STATUS.md": {
+    "bytes": 2484,
+    "sha256": "edc5e13e4fca6b35bdcc6a21e8a3386cc12478b04c093f03ed5ea981e8e8e7cd"
+  },
+  "RUNTIME_PROTECTION.md": {
+    "bytes": 2286,
+    "sha256": "9a637c1e69e4c7430099d8717dcab3f51a443c303d412784a8ddc189b6730d01"
+  },
+  "SHA256SUMS": {
+    "bytes": 1661,
+    "sha256": "2b61f2d18cdb7b1730fc51f792c9b57e724cb9433eb83a40a3ba32967c690bc6"
+  },
+  "SUPPORTING_DATA.txt": {
+    "bytes": 6042,
+    "sha256": "4522a10d3890d5c3baed7a1ad80a866ccbd0235a7b1cbee9d1e4b2eb326b6c39"
+  },
+  "TASK_SEED_NOTES.txt": {
+    "bytes": 1348,
+    "sha256": "376990ddb6896edeef1e3270d3af1ceaff8964d61699f652144cdf519c6755b1"
+  },
+  "croissant.json": {
+    "bytes": 24235,
+    "sha256": "fb992da21526d211c7a60546193b26f3e91773d9d9220f6b7af117fdb72dcd35"
+  },
+  "data/computational_physics_episodes.csv": {
+    "bytes": 60751,
+    "sha256": "dbd0c239b7e6683c4526665b71ee22facee49884a71f5b8a261440c0a3b47d2e"
+  },
+  "data/continuous_metrics.csv": {
+    "bytes": 254232,
+    "sha256": "32a59af49ca01ed7c716f3001a322032739413866b0c46b4fa7b0c0bd9eb7f39"
+  },
+  "data/core_unpaired_episodes.csv": {
+    "bytes": 14541,
+    "sha256": "f14dd5f8bcae08e8803e91f789f0f638f3977ee142c671e7fa7ca864b3be703b"
+  },
+  "data/episode_metrics.csv": {
+    "bytes": 440242,
+    "sha256": "07647855cbd21d5b0795ad526bc8ecfb911f15dc17ae6e29d0086674491a77aa"
+  },
+  "data/photoreal_episodes.csv": {
+    "bytes": 259841,
+    "sha256": "dc8cb64a535a8e26b7a76ab2c6502adb3fba329c643bdc225962c9bc1a084bc5"
+  },
+  "data/prompt_and_span_controls.csv": {
+    "bytes": 205352,
+    "sha256": "7a79bb03fd330ecd357fe5e48b97189ec5de672e3809703d2bf04470cb6a9ca3"
+  },
+  "data/ranking_inputs.csv": {
+    "bytes": 1642,
+    "sha256": "093000107f3b67941fdb369289dc187fce2918f6f00f34a16ba24cc2e40bf950"
+  },
+  "data/structural_probe.csv": {
+    "bytes": 26564,
+    "sha256": "f07af445757b12933ee39a1e755566026445b2241f5ffcacb4669f43355f3bfd"
+  },
+  "data/task_catalog.csv": {
+    "bytes": 2106,
+    "sha256": "ec30302664ece3c23a618537ab7aa82138ba16ea7165e43c343babb32e0ce995"
+  },
+  "docs/input_conditions.md": {
+    "bytes": 14199,
+    "sha256": "c739dcefa6fbcab9fb785f28203ca6a361d5ec5367cc100bb304114ac86558b9"
+  },
+  "download_stats.py": {
+    "bytes": 1389,
+    "sha256": "2d6d8373c61a825ad99c4f94a61f05e282cab5def06b9d73e92740355c3ccffe"
+  },
+  "download_veriworld.py": {
+    "bytes": 7806,
+    "sha256": "605ec35381e2ae589fbe09802600baf0d30a9ae1f597bf75da0101bf713c2457"
+  },
+  "manifest.json": {
+    "bytes": 2301,
+    "sha256": "8a5f9456e9853884b0cdf089606c03cc126c6993769252d526b4fbc7c1b3e90d"
+  },
+  "model_configs.example.json": {
+    "bytes": 375,
+    "sha256": "5432f3f2b4739f53b316bc7abebd0cad68fe21a24052ce376e89a4d46b053883"
+  },
+  "model_configs.paper.example.json": {
+    "bytes": 4175,
+    "sha256": "f8b77b47a976cb1139d8fb7b3fc57efbcbff3d98e92cfa0d6f85fb7e30a5cb1f"
+  },
+  "release_connectivity_scope.json": {
+    "bytes": 22389,
+    "sha256": "59e1ef7ef6f1f18b8d474feaa57539c221894b4a984687658a03a8ae6108ec43"
+  },
+  "release_seed_fixtures.json": {
+    "bytes": 298372,
+    "sha256": "ddddae34a22ce763f2d6f78c301284548746b3489cd3bfa386950a1d319e1923"
+  },
+  "reproduce_statistics.py": {
+    "bytes": 7791,
+    "sha256": "24d610de75b912ef4518ef31f49b92e88271db40dc88a1b88909c83a6813cb8f"
+  },
+  "reproduced_statistics.json": {
+    "bytes": 88463,
+    "sha256": "d1e5ed556f0a1b6fef60ade6feff97f2c1115813071b823f0e816e9a2d2e3cfe"
+  },
+  "requirements.txt": {
+    "bytes": 281,
+    "sha256": "7be05900e9a77c8ab2a7bb0015d1319eefd99d88876e0d655ba70d0331f33f77"
+  },
+  "run_task.py": {
+    "bytes": 12263,
+    "sha256": "c41a45f943431ce08bc68b35bfde391f455b69ec527ac2698be373a2147a6a35"
+  },
+  "runtime_compat/SUPERSEDED.txt": {
+    "bytes": 242,
+    "sha256": "112fd8c57f62b32b2c202b51627a272d1218ca2df55b4976012b57d15147b4cc"
+  },
+  "runtime_compat/patch_info.json": {
+    "bytes": 352,
+    "sha256": "9e7d7bbccccf47ba0f0092c1ebdabb9d36111cbb6594cef1380f10718b10259c"
+  },
+  "runtime_compat/veriworld/benchmark/interactive_control/mazenavfps/move_camera.py": {
+    "bytes": 15074,
+    "sha256": "74932b67daf10a0d129c4e3db57f144b412e1bffad74932197ff2cd112e9cbf1"
+  },
+  "runtime_compat/veriworld/benchmark/interactive_control/tunnel_nav3d/move_camera.py": {
+    "bytes": 15413,
+    "sha256": "2126a0330d0ce2ef574de1afc56f74784ca245b1d426ca7acbb543f0dac477da"
+  },
+  "runtime_compat/veriworld/common/ws.py": {
+    "bytes": 5228,
+    "sha256": "be4808f4512f6246d425f06acdd2696aab516fdb4893e1438d3a2dede2c86d7f"
+  },
+  "runtime_compat/veriworld/infra/interactive/engine.py": {
+    "bytes": 11275,
+    "sha256": "bcff0c03a2f8edad2a7089f653f26eb28ef514eeb65bc77d1aea6b473c9e893f"
+  },
+  "runtime_compat/veriworld/infra/paper_materials.py": {
+    "bytes": 3967,
+    "sha256": "d3e7c54b2fef09ec0179dfa517095653b15239de6a82ef61d63dfa266f7c1ecb"
+  },
+  "task_entrypoints.json": {
+    "bytes": 3798,
+    "sha256": "84c602f476df44bb7a3f9070d9c7da6bb857cb874dd2ed282552c60e265da11a"
+  },
+  "tests/test_billiards_transport.py": {
+    "bytes": 6316,
+    "sha256": "e61d08c590aaad35408b9ced63f72ebb3de1b33f45a7e839224a386bfce0ffda"
+  },
+  "tests/test_boxfold_transport.py": {
+    "bytes": 3449,
+    "sha256": "b0157086cc3b764b967a373b70042f63cd5d0ce9df1ab7fb403836b153ebffc3"
+  },
+  "tests/test_generator_isolation.py": {
+    "bytes": 1195,
+    "sha256": "311d176c9b3085638250b27d06dc6bbc984c573c4f2c98c409c1274e558a1324"
+  },
+  "tests/test_moving_api_failure.py": {
+    "bytes": 3100,
+    "sha256": "fc381a344e246cb2be83c17bbede4e11154a40ba756e464d43796bd695d7ebe6"
+  },
+  "tests/test_navigation_transport.py": {
+    "bytes": 4333,
+    "sha256": "e1fdca19d63ab9abea99b5c6b37f28ebeae3a6f480ccd84bd9bce88a48b217e0"
+  },
+  "tests/test_photo_api_failure.py": {
+    "bytes": 2060,
+    "sha256": "eb16dda927b6769004dd9f564fc14a183832021499f8b177e736c987175bf78d"
+  },
+  "tests/test_physics_action_parsing.py": {
+    "bytes": 3515,
+    "sha256": "661971608dc4ee208a1ba891a857f70908767e1b54a63877332d442350097a7e"
+  },
+  "tests/test_physics_variants.py": {
+    "bytes": 2131,
+    "sha256": "08692305e7202ccd20b5c107c4ee6b51be6a00d73ee813ea01a6cbad4b6d560c"
+  },
+  "tests/test_place_transport.py": {
+    "bytes": 6029,
+    "sha256": "76aed435aa78836059085c00c495d37153d74ac98ee5d25d4323c8a17946a667"
+  },
+  "tests/test_release_client_options.py": {
+    "bytes": 4153,
+    "sha256": "99f53e24638e78757386ba3e13873bc0430b1a4f1bd23d6df331ba2c0d7012b6"
+  },
+  "tests/test_release_launchers.py": {
+    "bytes": 3282,
+    "sha256": "adb624a2072f1c334333c4c116695a856977aae67b37edcc037f4dd1305165b2"
+  },
+  "tests/test_reproduce_commands.py": {
+    "bytes": 5422,
+    "sha256": "591c389456a8617e558ffe9d22055798eaf8d989289653b89759c327a34b898d"
+  },
+  "tests/test_runtime_isolation.py": {
+    "bytes": 1915,
+    "sha256": "a290b960314e40fceaf84dd58bc0f19a555ccd9f7c21ef732537cf930a60e7e4"
+  },
+  "tests/test_tunnel_readiness.py": {
+    "bytes": 1666,
+    "sha256": "49febc618e2566058b71128d7e30f43751d1c06baa9dcbe44899e55368dd769b"
+  },
+  "tests/test_vlm_response_metadata.py": {
+    "bytes": 4763,
+    "sha256": "25cfc002d62a8c61eccf0e91ae50407d8a74c6188fe741027ed209df077808a4"
+  },
+  "validate_release_seeds.py": {
+    "bytes": 1645,
+    "sha256": "af887a48ffc546125431a984bd39da43fc7c3ce6166d23c79aa51e74109cb7f7"
+  },
+  "verification_and_harness_examples.txt": {
+    "bytes": 3279,
+    "sha256": "c4959ad70671b4d529519d14e29c721a9acf4ad9a6dae9c3f63b6f769b4bfc1a"
+  },
+  "veriworld/__init__.py": {
+    "bytes": 211,
+    "sha256": "31bfde4b9ce677f3479918b18396b65d0d7453778a5952d96cce938f98f9e9a0"
+  },
+  "veriworld/benchmark/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/computational_physics/__init__.py": {
+    "bytes": 58,
+    "sha256": "3630276c614dafd5975a2aa81566ce74ad77a0291fbeb9a8362be114db21cf7e"
+  },
+  "veriworld/benchmark/computational_physics/curvy_billiards/README.md": {
+    "bytes": 3139,
+    "sha256": "5609c0759426dd2d3c0e1563fc4518cf418316cf7a5a0a3f5e7a513a085c9b8a"
+  },
+  "veriworld/benchmark/computational_physics/curvy_billiards/__init__.py": {
+    "bytes": 214,
+    "sha256": "01268191bcf147562f2b7d4116d6a02298f710c9b6266453cc62c0e89651a3b8"
+  },
+  "veriworld/benchmark/computational_physics/curvy_billiards/__main__.py": {
+    "bytes": 2580,
+    "sha256": "854c50d814e59520a4cc425258e077881677500a88005b10cd1dc25ae1a166fd"
+  },
+  "veriworld/benchmark/computational_physics/curvy_billiards/generate_params.py": {
+    "bytes": 10336,
+    "sha256": "56380a099356d5ec272db7c97b7ec76e5be79461d7e7eb79827c3869c3d0f481"
+  },
+  "veriworld/benchmark/computational_physics/curvy_billiards/lean_verify/README.md": {
+    "bytes": 2400,
+    "sha256": "e95a4a4ceb0eb81780c1b456299a6fe4e28b14639c6b109d8fe07b19ae3f5a37"
+  },
+  "veriworld/benchmark/computational_physics/curvy_billiards/lean_verify/bouncy_ball.slang": {
+    "bytes": 6212,
+    "sha256": "7ccee73138fe513fc87adcc0c806414aa084beb072f92a4b57b4edfb0e73827f"
+  },
+  "veriworld/benchmark/computational_physics/curvy_billiards/lean_verify/solvability_check.py": {
+    "bytes": 2706,
+    "sha256": "8f42cc0e7b88e0bda72981c24d8481f1fbfa26ba7d5d18a93562cceb4cf3105c"
+  },
+  "veriworld/benchmark/computational_physics/curvy_billiards/setup_observe.py": {
+    "bytes": 6797,
+    "sha256": "751e7262f44b504dea287c107b206ae93604c43de0f9a9f46c6f7e45bdb88cef"
+  },
+  "veriworld/benchmark/computational_physics/curvy_billiards/setup_shot.py": {
+    "bytes": 9846,
+    "sha256": "b41913059702c07f97020c63e6f9ed1469752883b40e177e2be6fcb1fb989b8a"
+  },
+  "veriworld/benchmark/computational_physics/curvy_billiards/task.md": {
+    "bytes": 2596,
+    "sha256": "e3bc7c9a0b8da3c5fb9367c1f4a56c1a0ceb0f7efe532e4bef9bf5e3f640e594"
+  },
+  "veriworld/benchmark/computational_physics/curvy_billiards/task.py": {
+    "bytes": 30449,
+    "sha256": "1389272fd8b23eb80a1455aa431c76f750ea72fe65aba3c4ff81e4921fb6225c"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/README.md": {
+    "bytes": 1776,
+    "sha256": "a2a8eb12117ff0c6f13d66f17b2fd2e8fb481e8c3c0e2923ef7cba8fe4ac4a72"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/__init__.py": {
+    "bytes": 272,
+    "sha256": "b56c216abd7b283aa3d7e2793255a3597f39d2b0da8b44e61a496c60e8fe9302"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/api.md": {
+    "bytes": 9404,
+    "sha256": "82a24bdc1b11d9aa659fb6f4c55d5e3c262e3205ad9daa9126f090763491f3c8"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/example.py": {
+    "bytes": 7414,
+    "sha256": "f7c53ea69212bfe4890acd71891ee47ed3e948831ddcda75f884252751758bed"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/generate_params.py": {
+    "bytes": 2732,
+    "sha256": "485402eaaf9f7e40199deee87a95af3d94cec886ffc173321c452c394068624b"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/lean_verify/DropToTarget.lean": {
+    "bytes": 12157,
+    "sha256": "072f82122e385486a186d6163bf54f1789af2e6b89c1f99f7f3dd753771d6318"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/lean_verify/README.md": {
+    "bytes": 2190,
+    "sha256": "067acd8369bb0219542b8746e4eda8f28a0156f10c8bddb862149626f60e1800"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/lean_verify/cross_check.py": {
+    "bytes": 2334,
+    "sha256": "43bb323715bdd2715d954fcbe1502ed79686c2cd4c76e56a55ec40d5a47e014f"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/lean_verify/ground_truth.py": {
+    "bytes": 13798,
+    "sha256": "a439d66efa1ae9d1856b7c1e3a141dc4de8efc81831427226d3e7c4c8f16e591"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/lean_verify/slide_ball.slang": {
+    "bytes": 5940,
+    "sha256": "b08f240114fa31f9ef2bd4bfdd778bb5d69bd429d0c04930c8443c38011968f4"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/lean_verify/solvability_check.py": {
+    "bytes": 3543,
+    "sha256": "646f81c45d8b0e5d0302be2029d6e413c14179a6cb8073241e1280934f3238d7"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/params.json": {
+    "bytes": 251,
+    "sha256": "a23ca34048e892f832667acca1fbb22241c327aacea9ff99365aa19b6aab12d4"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/setup_observe.py": {
+    "bytes": 5225,
+    "sha256": "d0cfad8871ec6f8c55641567184d743640d28161d6ba996b69289fa368ac97cd"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/task.md": {
+    "bytes": 1488,
+    "sha256": "a1a6c5f3116ebe47ba89639d658ba96a67cc7e0482a979214972b874cdd3a6f5"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/visual/README.md": {
+    "bytes": 1755,
+    "sha256": "f3baf24cdb2e87ba84b73b86def0d93289522633633856640ebf4df7a1752da3"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/visual/__init__.py": {
+    "bytes": 362,
+    "sha256": "ad6b6c171af73e884c13e1b39eb3290a7cc8bf9906bb06aba0cbc474ec4f3290"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/visual/__main__.py": {
+    "bytes": 2535,
+    "sha256": "df53f06b25b8c237b196e4ff4e97daa0f3dc6e6db45cc74c327236b355e33a19"
+  },
+  "veriworld/benchmark/computational_physics/drop_to_target/visual/task.py": {
+    "bytes": 18734,
+    "sha256": "47a9a2691ecd3cf0d7b9d10ad989967ec1f4fab9057d6df1a1a34037c80793c8"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/PROVENANCE.json": {
+    "bytes": 1625,
+    "sha256": "ef8198c7cb541283b34dd8bf23d60e511d547bac13e58d67af545e88af020221"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/README.md": {
+    "bytes": 7132,
+    "sha256": "0fcee3848c6a068d15726daec4cda543d175469c9f9b37faa6f6dd2ec08a3591"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/__init__.py": {
+    "bytes": 69,
+    "sha256": "d9f45ec03ac26e5f102cbe1120219b019e38911a7e0d4fdc041a5a42cef40c65"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/__main__.py": {
+    "bytes": 1544,
+    "sha256": "d6bbbd55de8eb904c9545f245ea28bcad7edbf19eab72e7393d9c769817c2c7f"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/action_parsing.py": {
+    "bytes": 9206,
+    "sha256": "15054f746452b3db82d5a52e379db6ce5669409fa4e5da14f38ce5f03746d29a"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/curvy/generate_params.py": {
+    "bytes": 12706,
+    "sha256": "966921cfbc88345d8929835be4cf6b1f3f48bbc1c81f68d0cf1a3e290e3e1dc5"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/curvy/observe.py": {
+    "bytes": 7249,
+    "sha256": "93ff96b95b8cfdeffdbac9d34f5fde30341ee2e8086ee057f606b08949d1456d"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/curvy/seed0/lean_verify/billiard_ball.slang": {
+    "bytes": 5793,
+    "sha256": "de20aac564a377e8bf0f990ebdffcd2d491bbdd6eda7dc61d6f367c50a2fbdb6"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/curvy/seed0/params.json": {
+    "bytes": 4235,
+    "sha256": "243bc64e1a02e9c102b1f1a4a1c85930e22477482b718e317a8266d73d7460d2"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/curvy/seed0/reference.py": {
+    "bytes": 9961,
+    "sha256": "46b14b230edede0a9d111b8928ccaa33f3fb8e1a90bc12092c2dadd188e4329a"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/curvy/seed2/lean_verify/billiard_ball.slang": {
+    "bytes": 5793,
+    "sha256": "de20aac564a377e8bf0f990ebdffcd2d491bbdd6eda7dc61d6f367c50a2fbdb6"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/curvy/seed2/params.json": {
+    "bytes": 3845,
+    "sha256": "772d433bedd63a44ea861bb06f072ea7fd8b468a7269a691c36ad75d35741cd2"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/curvy/seed2/reference.py": {
+    "bytes": 9904,
+    "sha256": "2cc8d32d88d19e4c8bee827cce898f5adcf00fec07228c95bee00842c122f37d"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/curvy/seed9/lean_verify/billiard_ball.slang": {
+    "bytes": 5793,
+    "sha256": "de20aac564a377e8bf0f990ebdffcd2d491bbdd6eda7dc61d6f367c50a2fbdb6"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/curvy/seed9/params.json": {
+    "bytes": 4428,
+    "sha256": "c4f178812bbcc9cab12688367a710e42328633f39d34cc2ca2b5f4f17d9f1f33"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/curvy/seed9/reference.py": {
+    "bytes": 9904,
+    "sha256": "0a9cf17dc57074a007b3ff22a23d98257e1f3fb98ef6d1a0ddf9e17d3eda95ec"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/curvy/submission_template.py": {
+    "bytes": 10167,
+    "sha256": "fbf20558c6adac03aa66eb1f7cb523dd7b825972ab2bee9f929b6bf766d30161"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/drop/generate_params.py": {
+    "bytes": 2083,
+    "sha256": "6389a53d4f42dc2d232e1a830fb487aaab6e57e6ee5d6cddc6d2192d1e05f841"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/drop/observe.py": {
+    "bytes": 5207,
+    "sha256": "488dc48c719278ae5cc5d3aaf9af49c18178eab58eebb0e3bc7072f575c9fb91"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/drop/seed0/agent_interface/slide_ball.slang": {
+    "bytes": 5940,
+    "sha256": "b08f240114fa31f9ef2bd4bfdd778bb5d69bd429d0c04930c8443c38011968f4"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/drop/seed0/params.json": {
+    "bytes": 249,
+    "sha256": "dc0cb2875208bdea3a3f8dfef65a720e94592ae8fff83f0ed7dcb301c3a5762b"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/drop/seed0/reference.py": {
+    "bytes": 11016,
+    "sha256": "8f4792e9ee53ffefd900c2fc3089947e5fcbcf3ec6d3799194fb8e6432132517"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/drop/seed1/agent_interface/slide_ball.slang": {
+    "bytes": 5940,
+    "sha256": "b08f240114fa31f9ef2bd4bfdd778bb5d69bd429d0c04930c8443c38011968f4"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/drop/seed1/params.json": {
+    "bytes": 250,
+    "sha256": "2d6763dd4b92b858645e93d9675849e92467d00b1a51099bc1bf9f59ae0325b9"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/drop/seed1/reference.py": {
+    "bytes": 11002,
+    "sha256": "6954e0f1386dc6c9025294935cb08be531de55f961ecdc5206c528180ebd62f4"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/drop/seed2/agent_interface/slide_ball.slang": {
+    "bytes": 5940,
+    "sha256": "b08f240114fa31f9ef2bd4bfdd778bb5d69bd429d0c04930c8443c38011968f4"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/drop/seed2/params.json": {
+    "bytes": 245,
+    "sha256": "9da19f8f0dc293dccc4d4c46b6981f5245f89185247ec4e171439d929a8b9bf4"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/drop/seed2/reference.py": {
+    "bytes": 11014,
+    "sha256": "15b6f22f2aa07a9eead7a9eb94bd0e974d2f745da9e2d41b21911320a6c7f0e3"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/drop/submission_template.py": {
+    "bytes": 10453,
+    "sha256": "d87c7a3073eebc2ef9fbd19f3735c1a702776043e31e74fb152dc3ed57ad2ecc"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/feedback_frames.py": {
+    "bytes": 1929,
+    "sha256": "557c2dd45c447779bd73b2394a5b0057779835b4dee36c183124026170ec0a01"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/task.py": {
+    "bytes": 10972,
+    "sha256": "dc8f7f6b8c88ffd1c48725bc4aa4d5d33499271854271d1234986be381d88bd4"
+  },
+  "veriworld/benchmark/computational_physics/paper_tasks/variants.py": {
+    "bytes": 1579,
+    "sha256": "3f7622ed6b8080b9dd940db5c6c66be812963848731b3016e885543d598949d2"
+  },
+  "veriworld/benchmark/interactive_control/__init__.py": {
+    "bytes": 56,
+    "sha256": "f8f1cf37f0937aee2218ec4a0db5fa72eef2d04f7118fca6bf8a6c30a51c17ac"
+  },
+  "veriworld/benchmark/interactive_control/billiards/README.md": {
+    "bytes": 5043,
+    "sha256": "5d41274658b80567b72f2d7767bf53f6d6a24d0ae770b118bce281a28a83479f"
+  },
+  "veriworld/benchmark/interactive_control/billiards/RUNBOOK.md": {
+    "bytes": 8104,
+    "sha256": "a5a70162954513414c564a2e5394d48aa63e8761e79b6d1d0f8c308f24d7e4a0"
+  },
+  "veriworld/benchmark/interactive_control/billiards/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/interactive_control/billiards/_shared.py": {
+    "bytes": 40762,
+    "sha256": "612737d5d46b00e23cd7a1d341c530833cc4092ee67cc67f952fb8310b8c6572"
+  },
+  "veriworld/benchmark/interactive_control/billiards/_test_aim_line.py": {
+    "bytes": 5229,
+    "sha256": "6eb1d84d282243555d4280fe2815c9488f5903d1fde38531f6dd6473bf504e12"
+  },
+  "veriworld/benchmark/interactive_control/billiards/_transport.py": {
+    "bytes": 2258,
+    "sha256": "e0412c041dac71622a52622f46b9c0520abd6eec75e28bb8e75b1b7da70be9b9"
+  },
+  "veriworld/benchmark/interactive_control/billiards/generate_params.py": {
+    "bytes": 9889,
+    "sha256": "ad28566a713d75eb6cffe82727f679fd2dd5caf77092c8402617a12163aad81d"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_aimline_confirm/README.md": {
+    "bytes": 4509,
+    "sha256": "6d45b5f64f537154c7c33cf406528f212bd4ac1fc1b914c69e5ca55d0d3b2dc4"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_aimline_confirm/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_aimline_confirm/_common.py": {
+    "bytes": 1507,
+    "sha256": "2b15b67668b4b34d2410bb24bb41eb75825a8e5dd0cf77243e7a9d9a5c514c02"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_aimline_confirm/api.md": {
+    "bytes": 3745,
+    "sha256": "24a8f102472613222ba0aa9ff9900362b3c2655e4d394089eb3a3d2c85aeabb8"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_aimline_confirm/example.py": {
+    "bytes": 769,
+    "sha256": "34dd0f69512b1e6859d1ef376ac5d66bfb984ad2121c898506efc77d8265372c"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_aimline_confirm/shot_code/__init__.py": {
+    "bytes": 222,
+    "sha256": "8d7e5c3e7f2a484af1d98774f8b5f4454ee01a5e230d0e7cb24c7a7f9898c885"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_aimline_confirm/shot_code/__main__.py": {
+    "bytes": 2642,
+    "sha256": "725c0e5671f7b62b378187c120ccfb71f10032d836037961c878cd6ee122c696"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_aimline_confirm/shot_code/task.py": {
+    "bytes": 27306,
+    "sha256": "01e847e4be2bd0260c1efbfdd40ba1bc20cd09c6f41aaefbf82882ad3bdfb20c"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_groundtruth/README.md": {
+    "bytes": 3821,
+    "sha256": "89b623c3f6edd16af3539dff2d8c7be87af88d41e80af1a8ad2edbc5399ca60c"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_groundtruth/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_groundtruth/_common.py": {
+    "bytes": 1507,
+    "sha256": "2b15b67668b4b34d2410bb24bb41eb75825a8e5dd0cf77243e7a9d9a5c514c02"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_groundtruth/api.md": {
+    "bytes": 2564,
+    "sha256": "17704c82ccb5d6fdb8c0690dbcab7688ba5b54ccb0b80af7d99b22cb0a98db5c"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_groundtruth/example.py": {
+    "bytes": 130,
+    "sha256": "7fac99ef81ff17772d3df9adf883cabe7a764172ed0ee7aa4c0c9bc4f616a248"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_groundtruth/shot_code/__init__.py": {
+    "bytes": 222,
+    "sha256": "8d7e5c3e7f2a484af1d98774f8b5f4454ee01a5e230d0e7cb24c7a7f9898c885"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_groundtruth/shot_code/__main__.py": {
+    "bytes": 2239,
+    "sha256": "103d258900c921c57619f66d84bbee1a165c77141f276a5a8810a0b21d5708dd"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_groundtruth/shot_code/task.py": {
+    "bytes": 16130,
+    "sha256": "c28fcd6efe5b64c6052d9ba0fede68f414a50c1c57de911e052a85e50832802f"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image/README.md": {
+    "bytes": 2754,
+    "sha256": "cc96decbedec1ef75db4b2611b2af39294c85dbd3174220448306f29f0df72c4"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image/_common.py": {
+    "bytes": 1507,
+    "sha256": "2b15b67668b4b34d2410bb24bb41eb75825a8e5dd0cf77243e7a9d9a5c514c02"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image/api.md": {
+    "bytes": 1343,
+    "sha256": "3820f7100193a35c1811906dc800bc7c6c94f1f46cb698b8a8bb149484347815"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image/example.py": {
+    "bytes": 130,
+    "sha256": "7fac99ef81ff17772d3df9adf883cabe7a764172ed0ee7aa4c0c9bc4f616a248"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image/shot_code/__init__.py": {
+    "bytes": 222,
+    "sha256": "8d7e5c3e7f2a484af1d98774f8b5f4454ee01a5e230d0e7cb24c7a7f9898c885"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image/shot_code/__main__.py": {
+    "bytes": 2470,
+    "sha256": "b08720844cb07bb2fe4d1c0fb94d3fe9ac6e05679d38e42c2fa8d26f6d11fdbb"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image/shot_code/task.py": {
+    "bytes": 11871,
+    "sha256": "459b505fbd6d470d4dbff44cee1701092911a113f37a23cf76fecc5272aff09c"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image_aimline_confirm/README.md": {
+    "bytes": 5131,
+    "sha256": "c2b3aa04948c844ea100cbd706aa7528df736f2edb164129079fa6aae89f33da"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image_aimline_confirm/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image_aimline_confirm/_common.py": {
+    "bytes": 1507,
+    "sha256": "2b15b67668b4b34d2410bb24bb41eb75825a8e5dd0cf77243e7a9d9a5c514c02"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image_aimline_confirm/api.md": {
+    "bytes": 3543,
+    "sha256": "85287e8b710dda3cd8e8e5bbccfe41a2967bb4e83056210aa2805415434d243d"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image_aimline_confirm/example.py": {
+    "bytes": 769,
+    "sha256": "34dd0f69512b1e6859d1ef376ac5d66bfb984ad2121c898506efc77d8265372c"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image_aimline_confirm/shot_code/__init__.py": {
+    "bytes": 222,
+    "sha256": "8d7e5c3e7f2a484af1d98774f8b5f4454ee01a5e230d0e7cb24c7a7f9898c885"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image_aimline_confirm/shot_code/__main__.py": {
+    "bytes": 2648,
+    "sha256": "ab793947e5f358054a4ad2dd40a267c989ef6690e1c9420968072f5e68ba3711"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_image_aimline_confirm/shot_code/task.py": {
+    "bytes": 24850,
+    "sha256": "47225f78cb035fb128956fa3c7dd5124b12d02d7a34eb48fa4bb3af381cb5dee"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_querytool/README.md": {
+    "bytes": 4048,
+    "sha256": "dfe4b78c6e9d1c07a96604931a0dc3bc67d123db622ec75ac1277bb94b74291a"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_querytool/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_querytool/_common.py": {
+    "bytes": 1356,
+    "sha256": "93246b1460c83617df279e42a371081a182faa59de8d1584a43de7c88e6dff31"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_querytool/api.md": {
+    "bytes": 3862,
+    "sha256": "4919a93d1808b70e3e8350a9f1fbed604658e6b75df8c02e2690d576ffbb7fbb"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_querytool/example.py": {
+    "bytes": 632,
+    "sha256": "d0e4a61f4785d0e44aa4ab69a387dd678219e7942be6f8ca17090fa1d84286d4"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_querytool/shot_code/__init__.py": {
+    "bytes": 222,
+    "sha256": "8d7e5c3e7f2a484af1d98774f8b5f4454ee01a5e230d0e7cb24c7a7f9898c885"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_querytool/shot_code/__main__.py": {
+    "bytes": 2514,
+    "sha256": "70ea025a43601345ea928ae6993b7c0662003da4eeb584bb6388c71bb7c9714a"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_querytool/shot_code/task.py": {
+    "bytes": 23586,
+    "sha256": "b2486e914b1f3112977dc61696c739a84157035797075a595ff906b7499aa015"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_video/README.md": {
+    "bytes": 2926,
+    "sha256": "c67bfcb658706da4604e8ce43e5649a247e41d8e70a2b0aa91908fccad5153c3"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_video/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_video/_common.py": {
+    "bytes": 2287,
+    "sha256": "4773b295291eefb1a30a038427c887c71c3af82c8622687bd55d47c9ac10164a"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_video/api.md": {
+    "bytes": 2139,
+    "sha256": "16aeaee2277277fa8a1c8832b6d212a37f039a78f6e5c8bbb1fa3453887f671c"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_video/example.py": {
+    "bytes": 336,
+    "sha256": "18d685264ce4d213b893c8a8621a69cb8a6503e0cb5fbc702bff6a298a8393cb"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_video/shot_code/__init__.py": {
+    "bytes": 222,
+    "sha256": "8d7e5c3e7f2a484af1d98774f8b5f4454ee01a5e230d0e7cb24c7a7f9898c885"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_video/shot_code/__main__.py": {
+    "bytes": 2524,
+    "sha256": "b13327a5f92f3fbb515679646b98b5a1649aa7c6e81b36d408e4326aa73dc3a9"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_video/shot_code/task.py": {
+    "bytes": 12717,
+    "sha256": "ea85f13409b5313c385c68fae12813f6f8fe17b63b907391bc4d3be0b29177db"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visiongroundtruth/README.md": {
+    "bytes": 3339,
+    "sha256": "bddc2630d05e9cc935929d5a809132ee55a1e3f73cfb1c3cd008102196e0f96d"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visiongroundtruth/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visiongroundtruth/_common.py": {
+    "bytes": 1507,
+    "sha256": "2b15b67668b4b34d2410bb24bb41eb75825a8e5dd0cf77243e7a9d9a5c514c02"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visiongroundtruth/api.md": {
+    "bytes": 1968,
+    "sha256": "3ecf3d38cc253c5017ac78e541caf63c164bedcb2c855c4ce0415eb300f17949"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visiongroundtruth/example.py": {
+    "bytes": 130,
+    "sha256": "7fac99ef81ff17772d3df9adf883cabe7a764172ed0ee7aa4c0c9bc4f616a248"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visiongroundtruth/shot_code/__init__.py": {
+    "bytes": 222,
+    "sha256": "8d7e5c3e7f2a484af1d98774f8b5f4454ee01a5e230d0e7cb24c7a7f9898c885"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visiongroundtruth/shot_code/__main__.py": {
+    "bytes": 2233,
+    "sha256": "82c0f30657c4fa6b75c602e87b0131f979c72d0c3be31e47c392b8c697a49236"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visiongroundtruth/shot_code/task.py": {
+    "bytes": 16302,
+    "sha256": "30edccdf233e26399750c451b1bb93eb58a374fbe87bef7cb467c64f3d733212"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition/README.md": {
+    "bytes": 2985,
+    "sha256": "ec8e3b9d6d079fdb9c63c50cae72a777420e9786f4992149d79438b390cef5cf"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition/_common.py": {
+    "bytes": 1507,
+    "sha256": "2b15b67668b4b34d2410bb24bb41eb75825a8e5dd0cf77243e7a9d9a5c514c02"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition/api.md": {
+    "bytes": 4537,
+    "sha256": "051dfedb5f5e9c4bce8b6c549b94a2fe382576b2d7fdd3c7b48dcdf4f8530d0a"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition/example.py": {
+    "bytes": 327,
+    "sha256": "36285cd428819077e5a1c5c1002ebf5e85ef2f1dbf8562d39ba28f3be58ffa80"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition/shot_code/__init__.py": {
+    "bytes": 222,
+    "sha256": "8d7e5c3e7f2a484af1d98774f8b5f4454ee01a5e230d0e7cb24c7a7f9898c885"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition/shot_code/__main__.py": {
+    "bytes": 2233,
+    "sha256": "82c0f30657c4fa6b75c602e87b0131f979c72d0c3be31e47c392b8c697a49236"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition/shot_code/task.py": {
+    "bytes": 15703,
+    "sha256": "738e6c253167b155e9eb8cba49e11741179092abf75ceabfce25d72734885a4a"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition_doublecall/README.md": {
+    "bytes": 3106,
+    "sha256": "19ed2dff05f9f87163d7123217f40a8cf01993f09d8d3f028fb55e4fb07c32c7"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition_doublecall/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition_doublecall/_common.py": {
+    "bytes": 1507,
+    "sha256": "2b15b67668b4b34d2410bb24bb41eb75825a8e5dd0cf77243e7a9d9a5c514c02"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition_doublecall/api.md": {
+    "bytes": 2823,
+    "sha256": "31023464aa24f934a1015aee491980dc0f8af5ab1d7114f25bd858dd68b6545c"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition_doublecall/example.py": {
+    "bytes": 487,
+    "sha256": "11934c1159da32ad955a34c28008963270353efc1bb86ca4f23dad9980183fa9"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition_doublecall/shot_code/__init__.py": {
+    "bytes": 222,
+    "sha256": "8d7e5c3e7f2a484af1d98774f8b5f4454ee01a5e230d0e7cb24c7a7f9898c885"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition_doublecall/shot_code/__main__.py": {
+    "bytes": 2233,
+    "sha256": "82c0f30657c4fa6b75c602e87b0131f979c72d0c3be31e47c392b8c697a49236"
+  },
+  "veriworld/benchmark/interactive_control/billiards/harness_visionposition_doublecall/shot_code/task.py": {
+    "bytes": 20987,
+    "sha256": "41ed4e9b34b947c385fecf2c3ff3197061e4d3732b13d37c30a0abadbcd7e49c"
+  },
+  "veriworld/benchmark/interactive_control/billiards/params.json": {
+    "bytes": 1777,
+    "sha256": "0edbc943e03a0920e524879c3b2afc845316e8eaae62ec673176f7674ca13794"
+  },
+  "veriworld/benchmark/interactive_control/billiards/task.md": {
+    "bytes": 6584,
+    "sha256": "b9e181cd6cc2736899623bd3130bde470f7ea01c282e49c67f444dda51fe065f"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/README.md": {
+    "bytes": 3584,
+    "sha256": "1245cc31d33fd0f9500b34ed873b1106eb0c38340f7e8a778a5aaa42ab4d68ac"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/__init__.py": {
+    "bytes": 666,
+    "sha256": "f79bf0206667ac00e202edd72718e60628b20eae2858df582e8d2f161cccfdd1"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/generate_params.py": {
+    "bytes": 7072,
+    "sha256": "90dea5473866552a78e30844342f386a4b31844f66761d4a2f52d98b225fa99c"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_knowledge/README.md": {
+    "bytes": 4180,
+    "sha256": "f5b5a9305dc19e0e0684d0b243bba552b28acc22166fffc579b1886dc8746549"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_knowledge/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_knowledge/_common.py": {
+    "bytes": 15653,
+    "sha256": "03fe429d15907953265c09e582c968fe388da86dd8c8f7eadb79e80a2d6807f2"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_knowledge/vp_bf/__init__.py": {
+    "bytes": 176,
+    "sha256": "b22dab6cdfbbface13eb4a54a69622bcbf168f1e6c561759a4bd5f6d1cd32146"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_knowledge/vp_bf/__main__.py": {
+    "bytes": 2055,
+    "sha256": "a93d6164988284613adc2f59fc8564e7f614c30021ffdf46545c9d85a7b1bfb2"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_knowledge/vp_bf/task.py": {
+    "bytes": 10587,
+    "sha256": "b5b6ed588de23e57945d6efff77c36befea5ce0f582b95ebf741ce7d880a5e92"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/README.md": {
+    "bytes": 4681,
+    "sha256": "fb76d46aaf39d67e99e702b7ee181c41ae3a21254b2c75e8ab61290f9a98b47c"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/_common.py": {
+    "bytes": 13853,
+    "sha256": "5b889ddd0a30db4304fdb4f48768018820fc58961f263d735386d79bd1ca5efb"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/pr_bf/README.md": {
+    "bytes": 1713,
+    "sha256": "2f48dfa221abf617329de8d91f4f855eb2f2c07960fc10d4842cd2f1b8669e18"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/pr_bf/__init__.py": {
+    "bytes": 146,
+    "sha256": "7d3a5e880f1f23fd2aa42d4b5b16169fd81eb6665b976dc16670c905d78a6aea"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/pr_bf/__main__.py": {
+    "bytes": 2086,
+    "sha256": "6e5a726c858aeda7319ddbbad103f4cb20d4734a2cd867d8fd751f5ddd80e316"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/pr_bf/task.py": {
+    "bytes": 10489,
+    "sha256": "6006e216cabcc8dc073ffef9262368dcba4e9bbf32b3e8d68bfc650774c3c8da"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/pr_sa/README.md": {
+    "bytes": 1946,
+    "sha256": "f45c47881c2004f9ce4ef1a709c50f024f3bada9da0f853801bb8c2f91b7c27f"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/pr_sa/__init__.py": {
+    "bytes": 146,
+    "sha256": "fedb2dda023f1f7babbeb6c4228912fc7e03aaaffb51dec212c52d3b0063c836"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/pr_sa/__main__.py": {
+    "bytes": 2101,
+    "sha256": "4f3ff6598ebffffcd42b3af4fc3b7d47fdd0f50ea2399253f341a2b6a875d03b"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/pr_sa/task.py": {
+    "bytes": 10370,
+    "sha256": "c8d52c9a5307ee85586b82a14754252249a1c2a6234df97dcf0a581bcbe8c7e7"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/pv_bf/README.md": {
+    "bytes": 806,
+    "sha256": "ab27e4bc062aae4279b7218bed5c981a913ae11d1387b8dd11034abe53d60cb5"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/pv_bf/__init__.py": {
+    "bytes": 144,
+    "sha256": "c5492ec1d4f6204663183ab2eeb1acfc1489a33a4c9a5c394de85bcb6dfc1c5b"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/pv_bf/__main__.py": {
+    "bytes": 2170,
+    "sha256": "1adf53559fc491f1fe659377e0339542a66834c7600648d6e2fbab2f6a6cc74d"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/pv_bf/task.py": {
+    "bytes": 9834,
+    "sha256": "c7ecc7fb823c508a1044b72f576154135bcf841c4a6a2580a3919708973f1c02"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/v_bf/README.md": {
+    "bytes": 1083,
+    "sha256": "800593b544465ac42cec6f591c7ccacee87a2d1d20e0ace640979739fdf163ea"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/v_bf/__init__.py": {
+    "bytes": 144,
+    "sha256": "a676d731af033cb179b4f969976dfeaf80723d75a055d9e2dbef630f7961a138"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/v_bf/__main__.py": {
+    "bytes": 2098,
+    "sha256": "db43692ba0d8734214bcdb2216a13f2a5b012afad625357eb97b29b17a2ede97"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/v_bf/task.py": {
+    "bytes": 9498,
+    "sha256": "3d0365ba377d734f3d4cccde22e2ef6460cc57623b5dfa5036d9eeb39d407b76"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/v_sa/README.md": {
+    "bytes": 955,
+    "sha256": "32b47a0313b835bd3c7f2bef045456d8f0fb7db7964cc29887d60057b9ca0bcc"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/v_sa/__init__.py": {
+    "bytes": 144,
+    "sha256": "287ac4fde0beeb952edb8108f0fc5f78118718f7c208ee3393199f6d0a3a8286"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/v_sa/__main__.py": {
+    "bytes": 2098,
+    "sha256": "7e3456fd8fb2289f266428afbd871d4a3e8d76e95e69a2d196922e7ce65194f1"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/v_sa/task.py": {
+    "bytes": 9431,
+    "sha256": "14f82d8eb160a0597b703dea0d8a1fd26fa73097745aff5028645628701ab054"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vp_bf/README.md": {
+    "bytes": 1463,
+    "sha256": "c55e5c9f41233b558ac572072200558967611695057b66d601e45513c123552a"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vp_bf/__init__.py": {
+    "bytes": 134,
+    "sha256": "1fbbec4f3e20d0758193eb84ca59492202f1603e8da0613590dc17ec7d6289d4"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vp_bf/__main__.py": {
+    "bytes": 2055,
+    "sha256": "a93d6164988284613adc2f59fc8564e7f614c30021ffdf46545c9d85a7b1bfb2"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vp_bf/task.py": {
+    "bytes": 10241,
+    "sha256": "6677ad07fd6cdfd22352b68f56d3ae0c779d91a9bfcd038d4d5ce573bbd9055e"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vp_sa/__init__.py": {
+    "bytes": 138,
+    "sha256": "0fb40880caa1c84b8b09a9b93d74becc2253475822311a97971d276ace620828"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vp_sa/__main__.py": {
+    "bytes": 2055,
+    "sha256": "a93d6164988284613adc2f59fc8564e7f614c30021ffdf46545c9d85a7b1bfb2"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vp_sa/task.py": {
+    "bytes": 10212,
+    "sha256": "77526f1a562f8dcf297216ece88e000a28143132d6d20a963ce7124e4e6df290"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vrp_bf/README.md": {
+    "bytes": 1349,
+    "sha256": "31f0289949bcfde971adfb613bf301f51fda822ecc0911cf90b1ac93fc3b6d9a"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vrp_bf/__init__.py": {
+    "bytes": 145,
+    "sha256": "2713a7671e986e71cff4460de27ff6daae91c32220746bfd54cbe2e782b0d745"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vrp_bf/__main__.py": {
+    "bytes": 2076,
+    "sha256": "3a379bdfecb5fb3af49a00d2ac3a8dac65c404d638ffdf050a97966ccf1e6c4d"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vrp_bf/task.py": {
+    "bytes": 10630,
+    "sha256": "08a4dc0151a1f22cd98101467524cfee296e92dd2c48c5ec26518f506d8976ca"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vrp_sa/__init__.py": {
+    "bytes": 157,
+    "sha256": "7d55c3ecc2d47f157caf742bfe737f689bb00da4b06cbcff159874f2424e0a60"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vrp_sa/__main__.py": {
+    "bytes": 2076,
+    "sha256": "a2926c8a2001bde77c360c848687a74f16afcc0e437e122b7b7f123e18f16d68"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/harness_structured/vrp_sa/task.py": {
+    "bytes": 10719,
+    "sha256": "404770b17ed8a7d8045d97d2b0b9d97d0d5c00ece90e8c4496bb7a81a060a41b"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/lean_verify/MazeConnectivity.lean": {
+    "bytes": 10936,
+    "sha256": "84e59cafcd4f7a4f7af75af3f3b2f928b39608eb41cde1c605e41f4d0e1956ac"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/lean_verify/README.md": {
+    "bytes": 2433,
+    "sha256": "b261f6d11d119008d06536f68c73b13e78f03080409fee47e6d1a94cf804397b"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/lean_verify/cross_check.py": {
+    "bytes": 3640,
+    "sha256": "21b1924d826e0801e9807e6ea8585bb744ac60eb939adc91b9ae9c6ace511e95"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/lean_verify/ground_truth.py": {
+    "bytes": 3703,
+    "sha256": "af3aef6c42dfe4df5b1a4d0d872991a839de6077217d9b7ae3286e05c1e4cf19"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/move_camera.py": {
+    "bytes": 14217,
+    "sha256": "edd339ab05a0ee7afed32173f8e03ee039ed5613b1bc447d8d40a498065beb1e"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/params.json": {
+    "bytes": 2876,
+    "sha256": "1568b2b63781dc59d738ff7ca797370dfa807f79c2ae415d2ec3a4c9e2b23e1c"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/task.md": {
+    "bytes": 1831,
+    "sha256": "14b9d91bf71c4d9006e4e31f84dd60f2e2fc8c6de2a47ac7ce43ddcca9e603b6"
+  },
+  "veriworld/benchmark/interactive_control/mazenavfps/ue_setup.py": {
+    "bytes": 6204,
+    "sha256": "6ec947e1d4c94a3a2e103887c8ea681c449210e063e92efba9b772c20a9efa64"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/__init__.py": {
+    "bytes": 489,
+    "sha256": "a0bcf5cfd04e7c82b64960b018398e027f0c3f527fc8f85e1193d233653b51b1"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/_cli.py": {
+    "bytes": 3790,
+    "sha256": "ddeacc00745b9bda2a80aa2835a844936bf112d42b7fb82c903281adee6ffab2"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/_episode.py": {
+    "bytes": 11295,
+    "sha256": "af37e48995445aef961e1b8c1fc47ead63979c7aa825159af416b5833cc3b648"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/_episode_batch.py": {
+    "bytes": 10992,
+    "sha256": "08178952a5827fe87ace19c4dad83c45998c8c095f683de8f7a1cbd9214cbef8"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/_response_diagnostics.py": {
+    "bytes": 1759,
+    "sha256": "bb21e5241568bb9628e7c24757a2659289fd50b84150b0ef02ee0c7efb467a34"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/_shared.py": {
+    "bytes": 23004,
+    "sha256": "42bcf04f81fa103d09b82e0e355c759dfb703dcc037e6b609ac8b6404ca2af20"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/generate_params.py": {
+    "bytes": 7504,
+    "sha256": "6e412a01ef5aae130a696eea1c0a7036b2cb2b42588358a55658f9cc0aa75210"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_combined/__init__.py": {
+    "bytes": 126,
+    "sha256": "f13201ec20e53cc292f2c7d12dd60852b1e264efea8055be1d0ae94fd52eb905"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_combined/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_combined/task.py": {
+    "bytes": 3747,
+    "sha256": "f3dbfd2b79e4704cc7ef2e4412ceca254553f5485baa289b7a764af4a1d6e02f"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic/__init__.py": {
+    "bytes": 124,
+    "sha256": "9ce561f104487e8fa7b664790a33644f7ccf90ec76e964597025f33a093eea0b"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic/task.py": {
+    "bytes": 3543,
+    "sha256": "bbc4ef5e59b92e5af1cd387ca3536ebd5b615fa00c3f45f581c9acd3c66de400"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic_batch/__init__.py": {
+    "bytes": 110,
+    "sha256": "ae05b6ae35a78ebfd807c193ebdb47207d5cffb390c745dff29bbb526cb4bda7"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic_batch/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic_batch/task.py": {
+    "bytes": 4122,
+    "sha256": "aeb887c8e2d8c6136985d3cee523111c18b171143a41c043a8da211fbb06ae20"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic_padded/__init__.py": {
+    "bytes": 115,
+    "sha256": "74bdec2ceeb66628ee2504d9532fde8472d87cc71e6db84b3c90538b1f43352b"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic_padded/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic_padded/task.py": {
+    "bytes": 4249,
+    "sha256": "b19357d61e756fe46d8b920d7ebfdff56a37c929f1a695be0dcfa8d77b153ff1"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic_padded_natural/__init__.py": {
+    "bytes": 119,
+    "sha256": "0b1ee48d8e2edb770956e3819bd4633a3c56da5d26a074ac56c34bb6c285750c"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic_padded_natural/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic_padded_natural/task.py": {
+    "bytes": 4056,
+    "sha256": "8a8efd06bc830a4f6f1e6dfff8597a0ee77d03acffc083b1cc405745b71b546e"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic_shuffled/__init__.py": {
+    "bytes": 511,
+    "sha256": "5d461d2b88be41347174f99ba5f835ab182cf9ef1e22be115a817f158d290c66"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic_shuffled/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_symbolic_shuffled/task.py": {
+    "bytes": 2864,
+    "sha256": "70b2a1e0480ecb5d522151c4b5fbc42ed7cfe4866137ff1acb3a77d465159ad1"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_vision/__init__.py": {
+    "bytes": 107,
+    "sha256": "f66a09b038e9af4dbfe10575dab206449d61101645273d3a7887552a49649632"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_vision/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_vision/task.py": {
+    "bytes": 4777,
+    "sha256": "f6ddb3190c80d4527a4a703b9869b996dc42a8313460d0b79b68a1f79aa572ed"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_vision_batch/__init__.py": {
+    "bytes": 108,
+    "sha256": "be9365b742b32c0d817af3cf5abbe11ef18c9c72310490bdc9bce847882a8058"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_vision_batch/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/harness_vision_batch/task.py": {
+    "bytes": 4943,
+    "sha256": "9639131cd1e65696e940885893f17e5203d07d1f35b2c65f79f4c11d67274f19"
+  },
+  "veriworld/benchmark/interactive_control/place_on_bottom/task.md": {
+    "bytes": 2457,
+    "sha256": "a1415ebb6da3c5ef5a7fa33529411f359e6127bcb65e776a6d9cb21427671d88"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/README.md": {
+    "bytes": 2089,
+    "sha256": "568d6fd1a2648758cb7f514f718b6bb593aa38879d22ed9883590aa234127064"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/__init__.py": {
+    "bytes": 573,
+    "sha256": "0ac23e647f49f9308282bad907538baf5649a727e0fb4278688dad143389dbd0"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/generate_params.py": {
+    "bytes": 7985,
+    "sha256": "7f06f9653d0941393a0347bde25ca21b3a35c81a432f18292f2832dcd3d9cdde"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/harness_structured/README.md": {
+    "bytes": 2849,
+    "sha256": "7b74e2f62d38264a190db1b16a7483d9b9581212f9f793bcb36bf923db3480b8"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/harness_structured/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/harness_structured/_common.py": {
+    "bytes": 15247,
+    "sha256": "51f67c3eb3a7d3a739d6580d58a296de732ec7e4c78b27ad6de455e1fd562469"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/harness_structured/af/README.md": {
+    "bytes": 910,
+    "sha256": "72cee4bdb09b41300b9bc94b5f6cb89340da3d81c8e5d2e76a251c8b8afb635f"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/harness_structured/af/__init__.py": {
+    "bytes": 133,
+    "sha256": "431ed1b9049a1261a022b641f04b2b42ddd1c8cf92158e3e2ff6c764f485c786"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/harness_structured/af/__main__.py": {
+    "bytes": 2131,
+    "sha256": "6cfef96e368d83bafac1c94825fb5252e6ac7b88b0b361723c5f4508d288255e"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/harness_structured/af/task.py": {
+    "bytes": 9887,
+    "sha256": "beb553d792a8897bb35ea287cf86812ff1a5c844a18299b28bdb8cf1971f6d07"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/harness_structured/vp_bf/README.md": {
+    "bytes": 864,
+    "sha256": "c1366c0306872a02b6ea56782c93fc60c2e152bd2c12483f553f017871ea9c0e"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/harness_structured/vp_bf/__init__.py": {
+    "bytes": 134,
+    "sha256": "36640c6896415bc8b2b36fe514b07f946f8f082d1fb4fe0ee439d2ab6e5dcdec"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/harness_structured/vp_bf/__main__.py": {
+    "bytes": 2128,
+    "sha256": "146eb826423473f247012aebd9fdc0e1f5cf90bba505eb45f24ecd7fc4675e37"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/harness_structured/vp_bf/task.py": {
+    "bytes": 10078,
+    "sha256": "7a1f756a8e25f03911b092b99e2cd46a46a195c3bc2fa9e67bddd109a4f8bfae"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/lean_verify/README.md": {
+    "bytes": 2357,
+    "sha256": "b27e5e0a9ea5cb5ff97d6cf94e99d9d0c58932d7e813062787887c7be0688c2c"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/lean_verify/TunnelConnectivity.lean": {
+    "bytes": 10282,
+    "sha256": "52c337c0200453a6ba215a5003340de61c2d6bf5fdaeaea278f30ea12b4f67dc"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/lean_verify/cross_check.py": {
+    "bytes": 3298,
+    "sha256": "a4e10982475ae0ff27d9d49d5ad7905f0720d592b0a75b495ca073f756138eff"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/lean_verify/ground_truth.py": {
+    "bytes": 1345,
+    "sha256": "0ab59999e868501f5a37e48f02b3ada80b1a8e23c1fa2e078411e185377b62ca"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/move_camera.py": {
+    "bytes": 14162,
+    "sha256": "854a3e023c68f2d4f0890b08e4e45dbcab7b8fa765e4b8624bd98f76d6b6950f"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/params.json": {
+    "bytes": 3441,
+    "sha256": "ccb1d4a097adc0108c5777cf8f9736ac0e6f82bafec81750db51644fb99292a8"
+  },
+  "veriworld/benchmark/interactive_control/tunnel_nav3d/ue_setup.py": {
+    "bytes": 13076,
+    "sha256": "bc59c8e244053407fe4b97ba1da840aea9201de59a82a54c5ed2550e5e2fe9bb"
+  },
+  "veriworld/benchmark/photoreal_grounding/__init__.py": {
+    "bytes": 56,
+    "sha256": "81f181c02d39e22fbadf0a934f32ab9464eb454bf14040028b8e91b72b2113aa"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/README.md": {
+    "bytes": 3093,
+    "sha256": "f04aeda2060bd84a4412276155100251dad2cb6578d6b1683bfd2c9d125b8d3d"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/__init__.py": {
+    "bytes": 249,
+    "sha256": "97f2d4d2951fa05c7e38569586a46262c81c4b78dcc72f7f47dcf28febe5bf28"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/_action_json.py": {
+    "bytes": 1072,
+    "sha256": "0b2fed9f07f8145008ed8d1482963e2bd7e722e4168b3903bf75dbff4bc9e9b5"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/_bbox_markers.py": {
+    "bytes": 8435,
+    "sha256": "3ecb73179f57595d3540443a02314152897f2026643270bc314e9c655666fdbb"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/_bbox_markers_v2.py": {
+    "bytes": 9267,
+    "sha256": "b38ce2434296e1683ccfc65d067db09a16b0ca19fd6638e39b25a05b348dc168"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/_common.py": {
+    "bytes": 47360,
+    "sha256": "58e94f28ea6533510b94d6fbf94dd3f856e49801d8448cceb5a73f70e4873c80"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/aliases.json": {
+    "bytes": 4035,
+    "sha256": "85cbbab09d45430e9b3a0c052a50c6a635b72de3bb76ea719a7adcb91c1988b5"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/groundtruth.json": {
+    "bytes": 14541,
+    "sha256": "c9cbba0e6519446762b01d5c23edc33e60f823d2d88db3808ef817fadcd67e7d"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_grid_iterate/__init__.py": {
+    "bytes": 455,
+    "sha256": "97bd67fd5154be68e77bb7f279dfd55f7cecc09a3b9be88f69eff8bf02e0776e"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_grid_iterate/__main__.py": {
+    "bytes": 4087,
+    "sha256": "949453386edd819b567209d7aa1ac6c0fe420ecc04c4b81ca19dbe80014782ef"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_grid_iterate/task.py": {
+    "bytes": 49480,
+    "sha256": "253e5a669928d566242cb76631a329c572f346b510d3a5e53f39ea2bf1fd18af"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_grid_iterate_offcenter/__init__.py": {
+    "bytes": 457,
+    "sha256": "e893db7a6e205924e639eb9815eee572126e7840e07cc8d9bde0d90bd3d6e830"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_grid_iterate_offcenter/__main__.py": {
+    "bytes": 4087,
+    "sha256": "949453386edd819b567209d7aa1ac6c0fe420ecc04c4b81ca19dbe80014782ef"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_grid_iterate_offcenter/task.py": {
+    "bytes": 50406,
+    "sha256": "0f427aebd3174ca36cb4382c79f6a4d06b208a56ede318f3fd90d70ce3c48a87"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_grid_iterate_offcenter_bboxv2/__init__.py": {
+    "bytes": 457,
+    "sha256": "e893db7a6e205924e639eb9815eee572126e7840e07cc8d9bde0d90bd3d6e830"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_grid_iterate_offcenter_bboxv2/__main__.py": {
+    "bytes": 4087,
+    "sha256": "949453386edd819b567209d7aa1ac6c0fe420ecc04c4b81ca19dbe80014782ef"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_grid_iterate_offcenter_bboxv2/task.py": {
+    "bytes": 50431,
+    "sha256": "3b74656bf49a18d52b1a731cd2eff31aa245762651df10f781419ebfcb4cb7db"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_iterate/__init__.py": {
+    "bytes": 123,
+    "sha256": "33d0b093e253dcb1ec394fe0e534f6f10b15728dc507c73dadf8eebd4744f6c6"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_iterate/__main__.py": {
+    "bytes": 2909,
+    "sha256": "2a220c13ae19efe3fcf387461ff861d4b040427e8af6479db57ced58f9c6fcfd"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_iterate/task.py": {
+    "bytes": 17270,
+    "sha256": "028c3c4496886fc6fd02221c73f4a348750df8e677e1d727008838c03af86c08"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_match/__init__.py": {
+    "bytes": 129,
+    "sha256": "9ea3804960a2f42620d011a0f59c54d65bdfcd7d9a0bc85167c46a3c48b480ff"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_match/__main__.py": {
+    "bytes": 2811,
+    "sha256": "14afa29b7077cf23113fabc542b2999915b6d5336028f8dc65d89f91fbaf3349"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_match/task.py": {
+    "bytes": 11670,
+    "sha256": "a853aab2a06166e499cda25401023cbaee4dc91ba46dd60d91512df117d7154b"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_single_iterate/__init__.py": {
+    "bytes": 295,
+    "sha256": "64e1551d0ebac98fc14fd1a6bd2aa4ef92dfce7d905592154a49cf0935203ba6"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_single_iterate/__main__.py": {
+    "bytes": 3226,
+    "sha256": "de3dffe1fe97ccba77ff724ef155d1522910beae50e02627c424e61220507ece"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_single_iterate/task.py": {
+    "bytes": 20995,
+    "sha256": "2e1de6cbb86776daff890b955b51c24840ebd8a00c57030ecf79ed749eb08fd1"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_single_iterate_offcenter/__init__.py": {
+    "bytes": 502,
+    "sha256": "1559921875bafa7f925848cc7f66cd6a7fb741718a04390477fcc66bbab8d1b8"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_single_iterate_offcenter/__main__.py": {
+    "bytes": 3226,
+    "sha256": "de3dffe1fe97ccba77ff724ef155d1522910beae50e02627c424e61220507ece"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_single_iterate_offcenter/task.py": {
+    "bytes": 21756,
+    "sha256": "3341558e6885fb74b9310313c59547a743e9508faf22fc41f9cc02d8534b37ed"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_single_iterate_offcenter_bboxv2/__init__.py": {
+    "bytes": 502,
+    "sha256": "1559921875bafa7f925848cc7f66cd6a7fb741718a04390477fcc66bbab8d1b8"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_single_iterate_offcenter_bboxv2/__main__.py": {
+    "bytes": 3226,
+    "sha256": "de3dffe1fe97ccba77ff724ef155d1522910beae50e02627c424e61220507ece"
+  },
+  "veriworld/benchmark/photoreal_grounding/object_grounding/harness_single_iterate_offcenter_bboxv2/task.py": {
+    "bytes": 21781,
+    "sha256": "1070c1c04e16626c07e59d46b9dc35359a0da6072e1a89b13a29caf52fa4f796"
+  },
+  "veriworld/benchmark/photoreal_grounding/scene_grounding/README.md": {
+    "bytes": 3120,
+    "sha256": "60c133280177a619930087765a4f469f5b6a500059119dbbf0786f24bc5539ce"
+  },
+  "veriworld/benchmark/photoreal_grounding/scene_grounding/__init__.py": {
+    "bytes": 1225,
+    "sha256": "09c5b9028f5052a096fdf8b122a69415aa5cd0260d20b5890c0d8305ba3394ce"
+  },
+  "veriworld/benchmark/photoreal_grounding/scene_grounding/_common.py": {
+    "bytes": 36511,
+    "sha256": "e9b25e442d93e2badabc13497b3d69893695811ec5814a449cd4cb9cb70d3e55"
+  },
+  "veriworld/benchmark/photoreal_grounding/scene_grounding/groundtruth.json": {
+    "bytes": 2824,
+    "sha256": "79012bfb5fddcc922ad89c703855a8e77bc52d06b81bc78255aed496a8914170"
+  },
+  "veriworld/benchmark/photoreal_grounding/scene_grounding/harness_teleport/__init__.py": {
+    "bytes": 747,
+    "sha256": "b76aa7c683ec113c3e4dba0054ad220e5685ecb81e330ccd9fa51d3e2b971943"
+  },
+  "veriworld/benchmark/photoreal_grounding/scene_grounding/harness_teleport/__main__.py": {
+    "bytes": 3701,
+    "sha256": "09213b0b6b7dc66adab30532732f5210805efdc14be46cc998c2042321185475"
+  },
+  "veriworld/benchmark/photoreal_grounding/scene_grounding/harness_teleport/task.py": {
+    "bytes": 19739,
+    "sha256": "170398641fcec0af48089b0303ccf8cee9e68b0601b1b7990ec7d2ee39ad9c78"
+  },
+  "veriworld/benchmark/photoreal_grounding/scene_grounding/harness_walk/__init__.py": {
+    "bytes": 353,
+    "sha256": "86b19633972e936ebb84af6ffe57fe41a265d346831f9f10560d3d8be9b87e8d"
+  },
+  "veriworld/benchmark/photoreal_grounding/scene_grounding/harness_walk/__main__.py": {
+    "bytes": 3988,
+    "sha256": "01639d207b9c6b8f2ee487b4a98a79b54c09f0e636535c9d295c3bd7f349f995"
+  },
+  "veriworld/benchmark/photoreal_grounding/scene_grounding/harness_walk/task.py": {
+    "bytes": 15414,
+    "sha256": "a76a07ee90b51dc1820ac198acc0132822260c68b6ae058f36fcae94e2edb837"
+  },
+  "veriworld/benchmark/photoreal_grounding/scene_grounding/walk_tick.py": {
+    "bytes": 10736,
+    "sha256": "f711849d0d2bdc23080ea93031cb64b3429f6c23b72da9ebbe1c3e8540697a08"
+  },
+  "veriworld/benchmark/trial_error_prediction/__init__.py": {
+    "bytes": 59,
+    "sha256": "f0e7b992d9c98522ae7c1f77407da4074b362f91b9735816f7eb941c10503be1"
+  },
+  "veriworld/benchmark/trial_error_prediction/box_fold/__init__.py": {
+    "bytes": 380,
+    "sha256": "aece567f0a9eae7d830da0a53631de243f107fdf1abbb96df8a6a76c09adf16f"
+  },
+  "veriworld/benchmark/trial_error_prediction/box_fold/_cli.py": {
+    "bytes": 3330,
+    "sha256": "b7240a631d01484649d447e8d5b439a7c3b38564970abefcf47d5c353a4bec39"
+  },
+  "veriworld/benchmark/trial_error_prediction/box_fold/_shared.py": {
+    "bytes": 21973,
+    "sha256": "0118af92df134a2d8901fc95b3f254db28ef0dc18d933b97d4d1c2635eb22cd2"
+  },
+  "veriworld/benchmark/trial_error_prediction/box_fold/generate_params.py": {
+    "bytes": 12885,
+    "sha256": "11008752dec0f9b9208dbbb3dfeb2e6c258c5eff6923346031e8b7b75006cc62"
+  },
+  "veriworld/benchmark/trial_error_prediction/box_fold/harness_combined/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/trial_error_prediction/box_fold/harness_combined/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/box_fold/harness_combined/task.py": {
+    "bytes": 11638,
+    "sha256": "bec3fc1f69d38aadeb99f6182881475ae562ee92f75cec77048118ec44315679"
+  },
+  "veriworld/benchmark/trial_error_prediction/box_fold/harness_symbolic/__init__.py": {
+    "bytes": 123,
+    "sha256": "1b7955f7a413b1d01dbfb420238a4721c1bcc4c7ee329add9cde2a854a2ea8a7"
+  },
+  "veriworld/benchmark/trial_error_prediction/box_fold/harness_symbolic/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/box_fold/harness_symbolic/task.py": {
+    "bytes": 10694,
+    "sha256": "da12d3e84fea30577d91f334892dbebd1ffa3ddcebb3e1bc624572d8619945a8"
+  },
+  "veriworld/benchmark/trial_error_prediction/box_fold/harness_vision/__init__.py": {
+    "bytes": 119,
+    "sha256": "025d54227f2fb96a4b53b5d67f282139b03833bb14b85b35f80e29f4d6761b21"
+  },
+  "veriworld/benchmark/trial_error_prediction/box_fold/harness_vision/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/box_fold/harness_vision/task.py": {
+    "bytes": 10220,
+    "sha256": "ba6946c5e4ecb0f73f8077c7ccd7f6abcc3c5a5dbbe3085f9f6df8f3de953dc1"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/__init__.py": {
+    "bytes": 824,
+    "sha256": "66cea89e10f2689e732186b1bfcebab28172a76815453e0493d6df37a9d2432d"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/_cli.py": {
+    "bytes": 3598,
+    "sha256": "17820b58f50090beb70a92fecb035d4ab44c8082a6d67bb8deb56ea041aae170"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/_common.py": {
+    "bytes": 32458,
+    "sha256": "044b91d0314339cbc36ca410b28525354e3d5047569f50de4b298bb4761ffc80"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/_response_diagnostics.py": {
+    "bytes": 1763,
+    "sha256": "90a224338ba6de4b80562284309c2b77764ec49646d7f2746851c6f9a8bd57cf"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/groundtruth.json": {
+    "bytes": 2075,
+    "sha256": "fff886a4c2a132213d90670446c1345ceb6c4041c82c07b0dfea70899a217702"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_arc/__init__.py": {
+    "bytes": 476,
+    "sha256": "826f77cbea224e8ae29d3d23264e33c91ea1c65ce42c9e4f23bbbc6729118a23"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_arc/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_arc/task.py": {
+    "bytes": 45826,
+    "sha256": "8757a24eb39e3a532403c9701ee2fdcbd7649c4d169de29ad063bbcce8e6cbb0"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_arc_visual_only/__init__.py": {
+    "bytes": 744,
+    "sha256": "ecc9ffd9b4195ffa63d97ba945bf38903405fb5c429af9e3a38b824398847ed1"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_arc_visual_only/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_arc_visual_only/task.py": {
+    "bytes": 1521,
+    "sha256": "acc497e0a4b3dec399ce83f6eb37f869c2ff6f6db608d2fb79b3a8cfce594193"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_combined/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_combined/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_combined/task.py": {
+    "bytes": 1744,
+    "sha256": "a78068ac26b6f6782539ba0ffcb29d316a41045cfa6d3fc938195fbb13ef5968"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_combined_ignorevis/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_combined_ignorevis/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_combined_ignorevis/task.py": {
+    "bytes": 1868,
+    "sha256": "ceb80402d25e6fd9528801c8b89dfbc4971ccae7314986d618497f6b27809238"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_combined_neutral/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_combined_neutral/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_combined_neutral/task.py": {
+    "bytes": 2150,
+    "sha256": "b5fa8955948556a39348941e1b17e646d1e13d8377e384765c8d7ff8b101b57a"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_symbolic/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_symbolic/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_symbolic/task.py": {
+    "bytes": 1802,
+    "sha256": "a408e7d33184b30c192c863b63ee7fe3fd7456bda6cd97a47196d56d642dfe0b"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_symbolic_tight/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_symbolic_tight/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/light_war/harness_symbolic_tight/task.py": {
+    "bytes": 2079,
+    "sha256": "1af4e7d78a6afa8b84c510841da8b2156714e2b74abffdf68f78c6032260d322"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/__init__.py": {
+    "bytes": 325,
+    "sha256": "023e7cd9ec401ae0c5f9015aabd126e879b9e05dc26a905d73e4f59fc93b1941"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/_cli.py": {
+    "bytes": 3151,
+    "sha256": "cd2a28791b27de689f819090517b4e8fec2e6845fc50f112e4b428d3589205ca"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/_frames.py": {
+    "bytes": 6640,
+    "sha256": "ab75ad0bb1ae116a466a55ee5ff5d5204d8a13ed37750f7c2d7354def1659274"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/_padding.py": {
+    "bytes": 1492,
+    "sha256": "81803283353d26e1de46699cd5cb93d489cedf6ee0613a27bdea344c76fc5899"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/_shared.py": {
+    "bytes": 42000,
+    "sha256": "cf8f2772a2f8443b135ca30f75bf5e4c4333d16564df3b12f58bbf5ad85be5c7"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/generate_params.py": {
+    "bytes": 8040,
+    "sha256": "70bdc30b008aa3d92154e1bf6e071da57de1706e7bead81b8270529911a74c86"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_combined/__init__.py": {
+    "bytes": 119,
+    "sha256": "b17ae4e19a4b1632dbd8d4a2949591728a22baae89b60865cedb50c565f8f653"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_combined/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_combined/task.py": {
+    "bytes": 8767,
+    "sha256": "9e1d7862886a2aa74205f4564bb22c9b5332b7da38bfead014b043d4a4c18db2"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_combined_frames/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_combined_frames/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_combined_frames/task.py": {
+    "bytes": 10000,
+    "sha256": "2d2a9aba27e965df74c7e60e09723fb804c3382389d5943f2f03af889231ec40"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_symbolic/__init__.py": {
+    "bytes": 122,
+    "sha256": "e46d2fe49e1d73f3b2d408a57678ee3baa0caf139d25b6a9f70b9ef390b73238"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_symbolic/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_symbolic/task.py": {
+    "bytes": 8022,
+    "sha256": "3aa494eed19dd96732ea35f8c121c60fde8f77d2bea06461f412612325c25dbd"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_symbolic_padded/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_symbolic_padded/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_symbolic_padded/task.py": {
+    "bytes": 7835,
+    "sha256": "8197699c688b246d1fd08f9104c26ecfe03f8c63b87b42a1ec940a31d6bf98b8"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_vision/__init__.py": {
+    "bytes": 108,
+    "sha256": "2e5fc08e410acd66124c825993d1dec45aa21e179c38d8ce21adc3649eb8426d"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_vision/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_vision/task.py": {
+    "bytes": 8584,
+    "sha256": "303b0e16c0aebe32ae2d7f4cf7414735526a8f49a81d917ba79303e46bc66e0c"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_vision_frames/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_vision_frames/__main__.py": {
+    "bytes": 78,
+    "sha256": "af7f4182734844a24af92289afbed5519dc6e62ef9485e55f188cd04cd8db7d0"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/harness_vision_frames/task.py": {
+    "bytes": 10053,
+    "sha256": "3c63734841bd9165d3cca785e4b417a76bd18bc1e406ff7bcb226cc91b616586"
+  },
+  "veriworld/benchmark/trial_error_prediction/moving_shooter/task.md": {
+    "bytes": 1707,
+    "sha256": "549c279ab7c3665f1d25bcd73d3622464f7a1fd89c6c506508a084d3662be91c"
+  },
+  "veriworld/common/__init__.py": {
+    "bytes": 633,
+    "sha256": "6b132e90d5595d501605bec4cdb59d02d0be49fb98c1500a2e0d11fd582e59f8"
+  },
+  "veriworld/common/api_receipt.py": {
+    "bytes": 1573,
+    "sha256": "2ec713da3fe6d3caa0d9736ba6a68368ac00c14ca030bf421b5fe2ec3a38e2f2"
+  },
+  "veriworld/common/cli.py": {
+    "bytes": 1020,
+    "sha256": "649350f13b589ea398acc749118930f80926619d8da116ef6e16d88b31e3df25"
+  },
+  "veriworld/common/logger.py": {
+    "bytes": 19025,
+    "sha256": "13884ee6490fb9efc35aa2bf6a96402d6f0be02d9f89886c5f47cc241114f29a"
+  },
+  "veriworld/common/reproduce.py": {
+    "bytes": 3673,
+    "sha256": "d4f6369e0ba16f114d803c4bc4dfbffd8d879ae269e3ec1e595ef08d03fedfd4"
+  },
+  "veriworld/common/runtime_args.py": {
+    "bytes": 603,
+    "sha256": "3536a4d4484fa8a97c6cf8271c2cbcaa28d2546725e107488fc63bce52ec196a"
+  },
+  "veriworld/common/screenshot.py": {
+    "bytes": 5606,
+    "sha256": "ba72ddf6266bf766189f0e8df6110cb89190e6ae94a58df95dfc973d3b8fbe9a"
+  },
+  "veriworld/common/vlm.py": {
+    "bytes": 23932,
+    "sha256": "df49b6e7b0c964b82e585dabd154269ca1c8d3f04ba27b53b77b5eb012c2974b"
+  },
+  "veriworld/common/ws.py": {
+    "bytes": 5148,
+    "sha256": "15b7821fc8f721b16a6d6d40f7d8383d94b320d4e64738764347dfa276885379"
+  },
+  "veriworld/infra/README.md": {
+    "bytes": 3806,
+    "sha256": "74ac8e7079020d26616bbc17e7a6760c4c9e0f1f5b90be7ee63cf737f4c65d42"
+  },
+  "veriworld/infra/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/infra/computational/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/infra/computational/engine.py": {
+    "bytes": 10466,
+    "sha256": "f92075ded2ff12bc7ece56c0d617f47bf5f1bffec03b434944bd0edc595812de"
+  },
+  "veriworld/infra/computational/task_template.py": {
+    "bytes": 7980,
+    "sha256": "8d9e5df262d0fbb7c52b794b0c677ec348007a6ccc7b5e61de9bd2d02f75c85b"
+  },
+  "veriworld/infra/harness/SKILL.md": {
+    "bytes": 8554,
+    "sha256": "267eefe77becdda3dd42d1c7a140e14c661f7162f96f1c95324dda8b66546630"
+  },
+  "veriworld/infra/harness/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/infra/harness/examples/harness_example/README.md": {
+    "bytes": 1685,
+    "sha256": "4228f1a6a3cc85b5121b4d6e693cbb12de02d43437541176d2a12f3fdd3c5c0a"
+  },
+  "veriworld/infra/harness/examples/harness_example/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/infra/harness/examples/harness_example/_common.py": {
+    "bytes": 719,
+    "sha256": "f4d2e84ab17b704fcaa0bd1a46385884a1f9017c9b4c967a2ea93339b3d0551d"
+  },
+  "veriworld/infra/harness/examples/harness_example/example_ablation/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/infra/harness/examples/harness_example/example_ablation/__main__.py": {
+    "bytes": 438,
+    "sha256": "3cca2c80a953d8a4d70788354b3f8a9e7ce7acdb39ed3e37ea4be4bf1b523802"
+  },
+  "veriworld/infra/harness/examples/harness_example/example_ablation/task.py": {
+    "bytes": 1008,
+    "sha256": "a800a3a75e3484579761d0bff4cb5c118ea8bf888239817f99ebb93202c8b8fa"
+  },
+  "veriworld/infra/interactive/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/infra/interactive/engine.py": {
+    "bytes": 11899,
+    "sha256": "12fb520933e13a5241c87ed6924351855105c8179121e2ff18071ca3dad14025"
+  },
+  "veriworld/infra/interactive/task_template.py": {
+    "bytes": 7226,
+    "sha256": "d8bf438a525c3b61d1336a4dad4b4f39ae913be53e4d415262be739cddcfb51e"
+  },
+  "veriworld/infra/lean/SKILL.md": {
+    "bytes": 5119,
+    "sha256": "bd371ba3b3e42b64cee5600c1171c0ae5fb0af9902c9fccb6f47ac59b45de814"
+  },
+  "veriworld/infra/lean/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/infra/lean/api.md": {
+    "bytes": 6371,
+    "sha256": "0e2576419832fdf1b2ba2feef6d4922ed73aaf810281ba13dbf4e3f39bf40888"
+  },
+  "veriworld/infra/lean/examples/hello_world.lean": {
+    "bytes": 3209,
+    "sha256": "b24b97b3a1bfe491d062b0a83385048670646d09fe9b762827bd0bb2216c0a62"
+  },
+  "veriworld/infra/slang/SKILL.md": {
+    "bytes": 4488,
+    "sha256": "bfb1a056a681435aaa8ee54d11d741c82ed9c4e90165ec334760eaf13472035d"
+  },
+  "veriworld/infra/slang/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "veriworld/infra/slang/api.md": {
+    "bytes": 5201,
+    "sha256": "de291fda26498d3c873bd771abada6fe5981a4558396898ddd3ee81047f7361b"
+  },
+  "veriworld/infra/slang/examples/physics_skeleton.slang": {
+    "bytes": 3594,
+    "sha256": "83014fcefc683835c6cbc5f3c3b7c6edfc743a914ad73cfe703460f776e037ca"
+  },
+  "veriworld/infra/slang/examples/trivial_kernel.slang": {
+    "bytes": 1483,
+    "sha256": "3e99fc4982082a8aaa44609af75d405b69169158753a70f36ecd436beecd1ae9"
+  },
+  "veriworld/scripts/__init__.py": {
+    "bytes": 73,
+    "sha256": "67fa35e28fb7c29be727114e4f0c563d6b36ad6c6a0f7da8962727cea7f6c470"
+  },
+  "veriworld/scripts/_bboxoff_dual_panel_10task_12model.sh": {
+    "bytes": 3283,
+    "sha256": "74a5ca6b12bf48411db6c15531f0944e3fbd25e7177fe578a0ffa4193a99efb8"
+  },
+  "veriworld/scripts/_bboxoff_dual_panel_RESUME.sh": {
+    "bytes": 3902,
+    "sha256": "d0a9ae807c8eeb138b023a818decfb877c14400f43b54182ca337660a102a53e"
+  },
+  "veriworld/scripts/_bboxoffv2_dual_panel_10task_12model.sh": {
+    "bytes": 2882,
+    "sha256": "e764585acdeff0767808428d74b31dab26898f57a225773224845925908aa8e7"
+  },
+  "veriworld/scripts/_bboxoffv2_dual_panel_RESUME.sh": {
+    "bytes": 4427,
+    "sha256": "cf10133db6d03bc663d326a7188afcb0443234f64fddd704bbb80b5e11ae617d"
+  },
+  "veriworld/scripts/_bboxoffv2_dual_panel_RESUME2.sh": {
+    "bytes": 3513,
+    "sha256": "e610da36cf60ddacb05b9757d420b97c32f4431d1634199e913590f99e22944b"
+  },
+  "veriworld/scripts/_bboxoffv2_dual_panel_RESUME3.sh": {
+    "bytes": 3531,
+    "sha256": "f6ae72d14d9e90c5d202ef081cf4d4dc1c5143867e4fab99c68b4b59cdd89ed0"
+  },
+  "veriworld/scripts/_box_fold_sweep.sh": {
+    "bytes": 1822,
+    "sha256": "4012f12c97743b032841bc56feececdb999b174da856ad5eaee43b9a93e9ff12"
+  },
+  "veriworld/scripts/_chain_ablation.sh": {
+    "bytes": 989,
+    "sha256": "f8c9321be9b05db8ff2bf944ad538927b8d6fc89110b018b9f5768a06a535487"
+  },
+  "veriworld/scripts/_grid1off_panel_10task_12model.sh": {
+    "bytes": 2613,
+    "sha256": "09307935daef03cee2012110e09dada57da53bde43f9b73e6bc65eaac1e849c5"
+  },
+  "veriworld/scripts/_grid_iterate_10tasks_random.sh": {
+    "bytes": 1703,
+    "sha256": "859656eb1f272758863bdf04099c08389d0085a83dfa6919b1927c09d120d585"
+  },
+  "veriworld/scripts/_grid_iterate_9tasks_gemini.sh": {
+    "bytes": 1882,
+    "sha256": "f020b1a3fd2c20bd4f5032014ef03f5d9731a80a798483c7afa9b80d1c46f757"
+  },
+  "veriworld/scripts/_grid_iterate_panel.sh": {
+    "bytes": 1631,
+    "sha256": "0f538eed436642428fba4c911e6e6ff8a9b2e3ae45cbd175e4a4ad19c8a35121"
+  },
+  "veriworld/scripts/_grid_panel_10task_12model.sh": {
+    "bytes": 2335,
+    "sha256": "e8fba25cc441264f413bab9682969c31227dd1fc60464716ab6d0b7bb2f240cc"
+  },
+  "veriworld/scripts/_grid_panel_10task_multiseed.sh": {
+    "bytes": 2344,
+    "sha256": "6ccdaf75aa871b520442a5bf3f5a37982e1871ffcd49141ab62aee10f3c3443a"
+  },
+  "veriworld/scripts/_grid_panel_3lr_12model.sh": {
+    "bytes": 1594,
+    "sha256": "30598f7be30e318b873bb37e9509eb8e430e5965d0fb5be3d151ea493610ce00"
+  },
+  "veriworld/scripts/_grid_panel_ablation.sh": {
+    "bytes": 2061,
+    "sha256": "4320c41178a23ec3e269c8792abd93b57486ab69be348ea95369959fcfff2376"
+  },
+  "veriworld/scripts/_gridoff_panel_10task_12model.sh": {
+    "bytes": 2249,
+    "sha256": "f60ff85282c0d8566a79f4c271ef8d3e6b76679f52950e4118e671600b132c10"
+  },
+  "veriworld/scripts/_lightwar_dual_harness_panel.sh": {
+    "bytes": 2653,
+    "sha256": "cdbf8a4d7fd64b23112e72726c1c298c33034018e2c3689027b85fead0eaabee"
+  },
+  "veriworld/scripts/_place_on_bottom_rerun_probed.sh": {
+    "bytes": 4104,
+    "sha256": "b40975f09a1100fcd88f56af102d7ed90a4a889fd0a3f5bada2c5d3889b437d3"
+  },
+  "veriworld/scripts/_place_on_bottom_sweep.sh": {
+    "bytes": 1933,
+    "sha256": "90a8d25385d11c24253750d421d9c827bd4c14aeff6a77507b22c8880d507819"
+  },
+  "veriworld/scripts/_single_panel_10task_12model.sh": {
+    "bytes": 2029,
+    "sha256": "b12570c213a319ea5f39f015b8cf0e629b823bfe9940ee2d380037fbf5622344"
+  },
+  "veriworld/scripts/_singleoff_panel_10task_12model.sh": {
+    "bytes": 2217,
+    "sha256": "058f6447e0a59b938ed8066b578af22ea8c1d596531d0fd28ea697dac77ccc6f"
+  },
+  "veriworld/scripts/launch_ue.py": {
+    "bytes": 2101,
+    "sha256": "0099cb723f916bd825437532c10f16f6b5f95bae2f52497feca4df4cc558bbfb"
+  },
+  "veriworld/scripts/run_parallel.py": {
+    "bytes": 24290,
+    "sha256": "06030bfdae700f870645468cff8cb39c61715ab5bb581255a610e9875d1f73d0"
+  }
+}

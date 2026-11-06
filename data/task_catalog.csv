@@ -1,0 +1,12 @@
+task,family,objective,metric,code_path
+MazeNavFPS,Interactive Control,Reach the goal in a generated first-person grid maze.,Goal reached,veriworld/benchmark/interactive_control/mazenavfps
+Billiards,Interactive Control,Choose shot angle and speed to pocket target balls.,Mean fraction of target balls pocketed,veriworld/benchmark/interactive_control/billiards
+TunnelNav3D,Interactive Control,Navigate a generated tunnel using the specified control protocol.,Goal reached,veriworld/benchmark/interactive_control/tunnel_nav3d
+PlaceOnBottom,Interactive Control,Place the specified object on the platform.,Final position within the valid placement region and tolerance,veriworld/benchmark/interactive_control/place_on_bottom
+BoxFold,Trial-and-Error Prediction,Rotate hinges of an unfolding to form the target cube.,Face-centre errors within tolerance,veriworld/benchmark/trial_error_prediction/box_fold
+MovingShooter,Trial-and-Error Prediction,"Choose launch timing, yaw, and pitch to hit a moving target.",Projectile-target hit predicate,veriworld/benchmark/trial_error_prediction/moving_shooter
+LightWar,Trial-and-Error Prediction,"Choose yaw, pitch, and speed for a projectile to reach the target.",Landing distance within tolerance,veriworld/benchmark/trial_error_prediction/light_war
+SceneGrounding,Photoreal Grounding,Recover the camera pose associated with a reference image.,Camera-pose error within tolerance,veriworld/benchmark/photoreal_grounding/scene_grounding
+ObjectGrounding,Photoreal Grounding,Identify a semantic target and localize it with movable markers.,Marker-to-target distance within tolerance,veriworld/benchmark/photoreal_grounding/object_grounding
+CurvyBilliards,Computational Physics,Choose launch parameters so a ball reaches a target on a curved surface.,Deterministic rollout and target predicate,veriworld/benchmark/computational_physics/paper_tasks/curvy
+DropToTarget,Computational Physics,Define a surface-height function that guides a ball into a target below.,Deterministic rollout and landing predicate,veriworld/benchmark/computational_physics/paper_tasks/drop

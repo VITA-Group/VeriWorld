@@ -1,0 +1,12 @@
+Owner-authorized release, 2026-11-06
+
+Code repository (task source, tests, fixtures, supporting data):
+https://github.com/VITA-Group/VeriWorld
+
+Runtime binary (Windows and Linux qualified F hardening builds), distributed as
+GitHub Release assets:
+https://github.com/yanyanzheng96/VeriWorld-release/releases/tag/paper-artifacts-2026-11-03-rc1
+
+The owner's distribution through these channels does not authorize third-party
+redistribution or change remaining attribution, Unreal Engine or third-party
+terms. LICENSE and NOTICE.md remain unchanged.

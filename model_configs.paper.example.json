@@ -1,0 +1,158 @@
+[
+  {
+    "name": "gemini-3.1-pro-preview",
+    "model": "gemini-3.1-pro-preview",
+    "api_key": "env:VERIWORLD_API_KEY",
+    "base_url": "https://app.ppapi.ai/v1",
+    "client_options": {
+      "timeout": 600,
+      "max_retries": 1,
+      "expected_model": "gemini-3.1-pro-preview"
+    },
+    "extra_params": {}
+  },
+  {
+    "name": "claude-sonnet-4-6",
+    "model": "claude-sonnet-4-6",
+    "api_key": "env:VERIWORLD_API_KEY",
+    "base_url": "https://app.ppapi.ai/v1",
+    "client_options": {
+      "timeout": 600,
+      "max_retries": 1,
+      "expected_model": "claude-sonnet-4-6"
+    },
+    "extra_params": {}
+  },
+  {
+    "name": "claude-fable-5",
+    "model": "claude-fable-5",
+    "api_key": "env:VERIWORLD_API_KEY",
+    "base_url": "https://app.ppapi.ai/v1",
+    "client_options": {
+      "timeout": 600,
+      "max_retries": 1,
+      "expected_model": "claude-fable-5"
+    },
+    "extra_params": {}
+  },
+  {
+    "name": "claude-opus-5-5",
+    "model": "claude-opus-5-5",
+    "api_key": "env:VERIWORLD_API_KEY",
+    "base_url": "https://app.ppapi.ai/v1",
+    "client_options": {
+      "timeout": 600,
+      "max_retries": 1,
+      "expected_model": "claude-opus-5-5",
+      "omit_temperature": true,
+      "protocol": "anthropic"
+    },
+    "extra_params": {}
+  },
+  {
+    "name": "gpt-6-astra-2026-09-03",
+    "model": "gpt-6-astra-2026-09-03",
+    "api_key": "env:VERIWORLD_API_KEY",
+    "base_url": "https://app.ppapi.ai/v1",
+    "client_options": {
+      "timeout": 600,
+      "max_retries": 1,
+      "expected_model": "gpt-6-astra-2026-09-03",
+      "omit_temperature": true,
+      "token_parameter": "max_completion_tokens",
+      "request_model": "gpt-6-astra"
+    },
+    "extra_params": {}
+  },
+  {
+    "name": "gpt-6.1-sol-2026-09-29",
+    "model": "gpt-6.1-sol-2026-09-29",
+    "api_key": "env:VERIWORLD_API_KEY",
+    "base_url": "https://app.ppapi.ai/v1",
+    "client_options": {
+      "timeout": 600,
+      "max_retries": 1,
+      "expected_model": "gpt-6.1-sol-2026-09-29",
+      "omit_temperature": true,
+      "token_parameter": "max_completion_tokens",
+      "request_model": "gpt-6.1-sol"
+    },
+    "extra_params": {}
+  },
+  {
+    "name": "claude-opus-4-5",
+    "model": "claude-opus-4-5",
+    "api_key": "env:VERIWORLD_API_KEY",
+    "base_url": "https://app.ppapi.ai/v1",
+    "client_options": {
+      "timeout": 600,
+      "max_retries": 1,
+      "expected_model": "claude-opus-4-5"
+    },
+    "extra_params": {}
+  },
+  {
+    "name": "gemini-2.5-flash",
+    "model": "gemini-2.5-flash",
+    "api_key": "env:VERIWORLD_API_KEY",
+    "base_url": "https://app.ppapi.ai/v1",
+    "client_options": {
+      "timeout": 600,
+      "max_retries": 1,
+      "expected_model": "gemini-2.5-flash"
+    },
+    "extra_params": {}
+  },
+  {
+    "name": "gpt-4.1-2025-04-14",
+    "model": "gpt-4.1-2025-04-14",
+    "api_key": "env:VERIWORLD_API_KEY",
+    "base_url": "https://app.ppapi.ai/v1",
+    "client_options": {
+      "timeout": 600,
+      "max_retries": 1,
+      "expected_model": "gpt-4.1-2025-04-14",
+      "request_model": "gpt-4.1"
+    },
+    "extra_params": {}
+  },
+  {
+    "name": "grok-4.3",
+    "model": "grok-4.3",
+    "api_key": "env:VERIWORLD_API_KEY",
+    "base_url": "https://app.ppapi.ai/v1",
+    "client_options": {
+      "timeout": 600,
+      "max_retries": 1,
+      "expected_model": "grok-4.3"
+    },
+    "extra_params": {}
+  },
+  {
+    "name": "kimi-k2.5",
+    "model": "kimi-k2.5",
+    "api_key": "env:VERIWORLD_API_KEY",
+    "base_url": "https://app.ppapi.ai/v1",
+    "client_options": {
+      "timeout": 600,
+      "max_retries": 1,
+      "expected_model": "kimi-k2.5",
+      "temperature": 1
+    },
+    "extra_params": {},
+    "parallel": false
+  },
+  {
+    "name": "gpt-4o-2024-11-20",
+    "model": "gpt-4o-2024-11-20",
+    "api_key": "env:VERIWORLD_API_KEY",
+    "base_url": "https://app.ppapi.ai/v1",
+    "client_options": {
+      "timeout": 600,
+      "max_retries": 1,
+      "expected_model": "gpt-4o-2024-11-20"
+    },
+    "extra_params": {},
+    "parallel": false
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "_comment": "scene_ground: target-view recovery in photoreal v2 levels. The agent sees a target screenshot taken from a deterministic per-(level,seed) pose, then walks the level (collision-aware) to match it. PASS = final pose within position+yaw tolerance.",
+  "_units": "Unreal cm; rotations Pitch/Yaw/Roll degrees",
+  "_build": "PackagedOutput_v2",
+
+  "_per_level_notes": "spawn_pose = where pawn lands after OpenLevel switch (z-lifted if pawn defaults underground); z_offset_cm = how much to lift pawn after switch; warmup_s = wait after lift before screenshots are usable (GI / lumen settle); target_anchors = hand-picked walkable points captured by manual WASD pilot — target poses are sampled NEAR these anchors (small jitter only) so the random target never lands in a confusing hallway corner / dead-end / wedged behind furniture. forest is excluded — its open-terrain semantic doesn't fit the room-recovery task.",
+
+  "levels": {
+    "living_room": {
+      "ue_path": "/Game/Levels/Day/Living_room_day.Living_room_day",
+      "short_name": "Living_room_day",
+      "spawn_pose": { "X": -102.0, "Y": 275.0, "Z": 95.0,
+                       "Pitch": 0.0, "Yaw": 0.0, "Roll": 0.0 },
+      "z_offset_cm": 0,
+      "warmup_s": 0.0,
+      "sampling_yaw_deg": [0.0, 360.0],
+      "target_anchors": [
+        { "_label": "bathroom",
+          "X":  56.3, "Y":  466.9, "Z": 140.1, "Yaw": 334.8, "Pitch": -1.9 },
+        { "_label": "bedroom",
+          "X": -609.6, "Y": 130.1, "Z": 228.5, "Yaw": 333.9, "Pitch": -12.2 },
+        { "_label": "living_room",
+          "X":   45.5, "Y": 167.2, "Z": 264.0, "Yaw": 315.4, "Pitch": -32.6 }
+      ]
+    },
+    "aiue": {
+      "ue_path": "/Game/AIUE5_vol10_01/maps/AIUE_vol10_01.AIUE_vol10_01",
+      "short_name": "AIUE_vol10_01",
+      "spawn_pose": { "X": -4417.0, "Y": -423.0, "Z": 100.0,
+                       "Pitch": 0.0, "Yaw": 0.0, "Roll": 0.0 },
+      "z_offset_cm": 0,
+      "warmup_s": 0.0,
+      "sampling_yaw_deg": [0.0, 360.0],
+      "target_anchors": [
+        { "_label": "spawn_origin",
+          "X": -4417.5, "Y": -423.0, "Z":  99.7, "Yaw":   0.0, "Pitch":   0.0 },
+        { "_label": "corridor",
+          "X": -1645.1, "Y": -498.5, "Z":  99.7, "Yaw": 162.6, "Pitch": -13.3 },
+        { "_label": "entrance",
+          "X": -1374.5, "Y": -465.4, "Z":  99.7, "Yaw": 184.7, "Pitch":  -0.2 }
+      ]
+    }
+  },
+
+  "_pass_condition": "Final agent pose's XY distance from target_pose <= tolerance_xy_cm AND yaw_delta <= tolerance_yaw_deg AND pitch_delta <= tolerance_pitch_deg. All three axes must match — view recovery is about reproducing the framing, not just standing in the same room.",
+  "tolerance_xy_cm": 100.0,
+  "tolerance_yaw_deg": 10.0,
+  "tolerance_pitch_deg": 10.0,
+  "max_rounds": 15
+}

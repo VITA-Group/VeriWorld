@@ -1,0 +1,15 @@
+[
+  {
+    "name": "example-model",
+    "model": "REPLACE_WITH_PROVIDER_MODEL_ID",
+    "api_key": "env:VERIWORLD_API_KEY",
+    "base_url": "https://api.example.com/v1",
+    "parallel": true,
+    "extra_params": {},
+    "client_options": {
+      "timeout": 600,
+      "max_retries": 1,
+      "expected_model": "REPLACE_WITH_EXPECTED_RETURNED_MODEL_ID"
+    }
+  }
+]

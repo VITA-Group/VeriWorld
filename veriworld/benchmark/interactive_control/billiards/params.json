@@ -1,0 +1,101 @@
+{
+  "seed": 0,
+  "table_center_xy": [
+    -500.0,
+    -1500.0
+  ],
+  "table_top_z": 100.0,
+  "table_size_x": 800.0,
+  "table_size_y": 800.0,
+  "table_thickness": 20.0,
+  "rail_height": 60.0,
+  "rail_thickness": 30.0,
+  "hole_corner_gap": 70.0,
+  "ball_radius": 22.0,
+  "cue_linear_damping": 0.15,
+  "cue_angular_damping": 0.15,
+  "ball_linear_damping": 0.05,
+  "ball_angular_damping": 0.05,
+  "cue_max_speed_cm_s": 1500.0,
+  "balls": [
+    {
+      "id": "cue",
+      "color_name": "white",
+      "rgb": [
+        0.96,
+        0.96,
+        0.92
+      ],
+      "pos": [
+        -720.0,
+        -1500.0
+      ]
+    },
+    {
+      "id": "ball_0",
+      "color_name": "red",
+      "rgb": [
+        0.9,
+        0.12,
+        0.1
+      ],
+      "pos": [
+        -357.2446251877996,
+        -1497.9363647764776
+      ]
+    },
+    {
+      "id": "ball_1",
+      "color_name": "blue",
+      "rgb": [
+        0.1,
+        0.22,
+        0.9
+      ],
+      "pos": [
+        -321.57882735335323,
+        -1479.3786659976563
+      ]
+    },
+    {
+      "id": "ball_2",
+      "color_name": "yellow",
+      "rgb": [
+        0.95,
+        0.8,
+        0.1
+      ],
+      "pos": [
+        -320.85320222905113,
+        -1523.3105269003966
+      ]
+    },
+    {
+      "id": "ball_3",
+      "color_name": "green",
+      "rgb": [
+        0.2,
+        0.72,
+        0.22
+      ],
+      "pos": [
+        -279.6164112877218,
+        -1456.4734981913687
+      ]
+    },
+    {
+      "id": "ball_4",
+      "color_name": "pink",
+      "rgb": [
+        0.9,
+        0.4,
+        0.82
+      ],
+      "pos": [
+        -282.07402436678115,
+        -1544.4329436843598
+      ]
+    }
+  ],
+  "num_target_balls": 5
+}

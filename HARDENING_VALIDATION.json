@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "release": "paper-artifacts-2026-11-03-rc1",
+  "variant": "F",
+  "qualification_date": "2026-11-04",
+  "native_report_sha256": "ba18ed3e5d348949365e11f35ff099547c0db0f7f8d2aaee36b4c839ce6946bd",
+  "environment_supplement_sha256": "43ebb39829f7ba423eedd439528e033ee07b958f588d0991a94bb7e09504d52d",
+  "final_experiment_report_sha256": "772e259e545a09ba26f96764d25d974cb97d5b38e38a0fa1c6d84d23a1629f45",
+  "main_executables": {
+    "linux": "6eb0efb389be4ce4dff879e539d901be95c3f3794154b845cd496ba5f77ef010",
+    "windows": "423264d1312305b84b23388dbb2f8a64f61a957172cc79eb0660e3624d9b8dcd"
+  },
+  "defined_native_scope_passed": true,
+  "scope": {
+    "reflection_smoke_per_platform": true,
+    "task_interface_groups_per_platform": 8,
+    "tasks_covered_by_interface_groups": [
+      "PlaceOnBottom",
+      "BoxFold",
+      "MazeNavFPS",
+      "TunnelNav3D",
+      "MovingShooter",
+      "LightWar",
+      "SceneGrounding",
+      "ObjectGrounding",
+      "Billiards"
+    ],
+    "state_verifiers_per_platform": 2,
+    "standard_script_checks_per_platform": 6,
+    "fixed_task_chains_per_platform": 3,
+    "terminal_consumers_per_platform": 2,
+    "fixed_physics_trajectories_per_platform": 6,
+    "physics_comparison": "36 declared projections agree against original/D/E; elapsed time excluded.",
+    "linux_loader_failure_and_required_registry_controls": true,
+    "windows_screenshot_video_and_task_consumers": true,
+    "windows_two_environment_value_comparison": "Original/D/E/F agree on utf-8 and 0 through an isolated Win32 helper. Earlier os.environ expectation and missing-_ctypes measurement failures remain preserved."
+  },
+  "independent_recovery": {
+    "frozen_before_private_grade": true,
+    "linux": {
+      "normal_checks_passed": 18,
+      "interventions_passed": 8
+    },
+    "windows": {
+      "normal_checks_passed": 18,
+      "missing_library_check_passed": true
+    },
+    "interpretation": "Core Python loader and initialization behavior independently reconstructed; finite boundary only.",
+    "linux_supplemental_measurement_failures": 5
+  },
+  "limits": [
+    "Finite compatibility scope; not every task/seed/model benchmark was rerun.",
+    "Linux GPU graphics and complete native teardown remain unqualified. Historical baseline GPU checks are not F checks.",
+    "Windows variable capture duration does not establish exact frame-count or pixel equivalence.",
+    "Independent executable reconstructions reproduce the tested Python loading and initialization boundary; no claim of unrecoverability or complete Unreal/state-machine reconstruction.",
+    "Nonrandomized, author-dependent timings do not establish resistance superiority over D/E.",
+    "Supplemental measurement failures establish neither resistance nor behavioral mismatch.",
+    "The paused G prototype is excluded."
+  ],
+  "historical_validation": "Original package validation records remain baseline evidence and do not independently qualify the replacement executable."
+}

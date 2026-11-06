@@ -1,0 +1,34 @@
+Numerical support for the camera-ready working copy. Not yet published.
+
+episode_metrics.csv: the 2,184 matched binary-outcome records used in four core panels.
+continuous_metrics.csv: the same records with task-specific errors and BoxFold face completion.
+prompt_and_span_controls.csv: selected PlaceOnBottom and GPT-4o LightWar control records.
+structural_probe.csv: explicit first-round anchor declarations in the visual ObjectGrounding grid harness.
+ranking_inputs.csv: published Billiards/maze rates and exact complete-panel ObjectGrounding rates used for five Kendall tau-b values.
+
+Records are episodes, not necessarily independent generated instances. A seed match is within a task/model comparison.
+Continuous errors have different definitions across tasks and should not be pooled. Rounds to success condition on passing.
+Ranking ranges cover the listed harness pairs only. They are not confidence intervals.
+Hashes identify the archived source summaries. Raw file paths and credentials are not included.
+Final licensing and online accessibility still require author confirmation and publication.
+
+Computational-physics extension (November 2, 2026)
+computational_physics_episodes.csv contains 185 valid scored records from the extended track. Ten models have all 18 cells (two tasks x three conditions x three seeds); Kimi has five completed DropToTarget episodes only. No missing cell is imputed as failure, and Kimi is excluded from complete-model pooled summaries.
+DropToTarget seeds: 0, 1, 2. CurvyBilliards seeds: 0, 2, 9. Each episode has at most five action attempts. Invalid action submissions consume an attempt and are counted separately. API or runtime failures are not included as terminal model outcomes.
+feedback_policy identifies the image-sampling procedure actually consumed by the model. Six retained DropToTarget records use scene-and-target-visible-interval-v2; other consumed trajectory images use scene-ready-recording-fixed-time-v3. no_feedback_images_consumed means the model used no rendered trajectory frames (for example, S or a first-attempt success), not that a feedback policy was inferred.
+source_archive_sha256 identifies the retained full evidence archive. source_record_path locates the outcome within that archive, and source_record_sha256 hashes its original bytes. harness_version is the recorded task-runner identifier; the archive contains the associated source files. Raw archives also retain prompts, complete replies, input images, submitted programs, trajectories, and verifier evidence. This CSV contains no credentials or local absolute paths.
+Run reproduce_statistics.py to recompute complete and partial cells and the pooled totals used in the paper.
+
+Photoreal verified panel (November 2, 2026)
+photoreal_episodes.csv contains 946 valid terminal outcomes, including every retained partial-model outcome. Six models each cover 140 cells: ObjectGrounding has ten targets x three view seeds (0,1,2) x two marker families x V/C; SceneGrounding has two interiors x five seeds (0-4) x two interfaces. ObjectGrounding uses ten rounds and a 15 cm tolerance. SceneGrounding uses fifteen rounds; walk checks XY <=100 cm and yaw <=10 degrees, while the relative-movement interface also checks pitch <=10 degrees.
+model is the preselected campaign grouping, not evidence of an unrecorded backend version. recorded_model preserves the source identifier. identity_basis distinguishes audited API-return identities from historical summary identities. Historical GPT-4o summaries contain only the undated alias; no dated snapshot is inferred. Opus retained summaries use claude-opus-4-5-20251101, and current API returns use claude-opus-4-5. Dates and identifiers remain visible per row. API outages or missing runs never become FAIL entries. Source hashes identify the original unmodified episode summaries.
+structural_probe.csv now uses only explicit anchor_idx declarations in first-round actions of the six complete-model V/grid panels: 112/177 nearest-marker declarations, from 180 episodes; 3 episodes have no explicit declaration. They remain in the main outcome table. Final successes after correct/incorrect declarations are 31/112 and 29/65. These associations are descriptive, not causal.
+ranking_inputs.csv replaces only its ObjectGrounding rows using the same six complete models and exact success fractions. Other tasks retain their original ranking inputs. No valid model failure was removed to improve a score.
+
+Recorded control budgets (November 2, 2026)
+prompt_and_span_controls.csv contains 1,423 valid records after excluding documented transport failures and adding verified replacements. Four added columns expose the recorded budgets: max_rounds, max_total_actions, batch_cap and pad_words. Empty entries are not applicable, not zero.
+PlaceOnBottom core V/S/C and reordered-S runs allow eight rounds. Batch V/S runs allow three rounds, six primitive actions total, and at most five actions per batch. Both padding variants allow six rounds and add 750 filler words. The GPT-4o LightWar instruction controls allow eight rounds. Thus the span and padding comparisons should not be described as equal-budget interventions. The two information channels within each span configuration have the same budget.
+
+Core transport audit and paired selection (November 2, 2026)
+The four core panels use 2,184 valid episodes forming 728 complete V/S/C triplets. core_unpaired_episodes.csv retains the other 74 valid outcomes, including both successes and failures. They are excluded only from paired contrasts, not erased or treated as missing failures. Together the files preserve 2,258 valid records. Missing API results are never imputed as model failures. Per-model seed sets and dates are recoverable from these files.
+Control contrasts use their own common valid seed sets: 17-20 per model for span, 19-20 for padding and serialization. The released statistics script reports both all-available control cells and these paired contrasts. No claim assumes an unchanged denominator of 20.

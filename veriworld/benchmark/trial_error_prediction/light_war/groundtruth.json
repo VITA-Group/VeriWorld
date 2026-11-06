@@ -1,0 +1,52 @@
+{
+  "_doc": "lightwar arc-projectile grounding tasks. Coordinates in cm (UE units). Launch + target_xy adapted from VeriWorld-benchmark/.../lighting/_parabola_artillery_v2 — 463 m horizontal, 940 cm vertical drop from launch to hill base. Tolerance is 3-D distance from final landing point to the beacon's apex (tower top + light gap).",
+
+  "scene_start_pose": {
+    "_view": "launch site, gun-camera looking toward beacon",
+    "location": { "X": 10000.0, "Y": 30000.0, "Z": 1500.0 },
+    "control_rotation": { "Pitch": 5.0, "Yaw": 32.7, "Roll": 0.0 }
+  },
+
+  "constants": {
+    "gravity_cm_s2": 980.0,
+    "trajectory_dt_s": 0.05,
+    "trajectory_max_t_s": 12.0,
+    "frames_per_round": 6,
+    "frame_render_size": [640, 480],
+    "stack_grid_cols": 3,
+    "stack_grid_rows": 2,
+    "fpv_back_offset_cm": 60.0,
+    "fpv_lookahead_cm": 200.0
+  },
+
+  "tasks": {
+    "hit_forest_hilltop_beacon": {
+      "description": "Hit the cylindrical lighthouse beacon on the distant hilltop (light at top of a 8 m tower).",
+      "tolerance_cm": 3000.0,
+      "max_rounds": 8,
+      "launch_pose": {
+        "X": 10000.0,
+        "Y": 30000.0,
+        "Z": 1500.0
+      },
+      "beacon": {
+        "_note": "Tower base is on the hill ground; harness raycasts at task start to get exact ground_z at this XY (verified ~2439 in v2 forest, but raycast wins). Light is CYAN at huge intensity + attenuation so the beacon is unmistakably visible from the launch site 463 m away (otherwise atmospheric fog drowns it).",
+        "X": 49000.0,
+        "Y": 55000.0,
+        "tower_height_cm": 800.0,
+        "tower_radius_cm": 50.0,
+        "light_gap_cm": 30.0,
+        "tower_color": [0.18, 0.18, 0.20],
+        "light_color": [0.3, 0.9, 1.0],
+        "light_intensity": 40000000.0,
+        "light_attenuation_cm": 150000.0,
+        "light_source_radius": 60.0,
+        "vol_scatter": 3.0
+      },
+      "v0_range_cm_s": [4000.0, 18000.0],
+      "yaw_hint_deg": 32.7,
+      "pitch_hint_deg": 17.0,
+      "v0_hint_cm_s": 9500.0
+    }
+  }
+}

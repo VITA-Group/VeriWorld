@@ -1,0 +1,4328 @@
+{
+  "core_per_model": [
+    {
+      "task": "BoxFold",
+      "model": "claude-opus-4-5-20251101",
+      "condition": "C",
+      "successes": 12,
+      "n": 19,
+      "rate": 0.631578947368421,
+      "wilson95": [
+        0.41039533164803066,
+        0.8085048725486492
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "claude-opus-4-5-20251101",
+      "condition": "S",
+      "successes": 14,
+      "n": 19,
+      "rate": 0.7368421052631579,
+      "wilson95": [
+        0.5120844910218489,
+        0.8819358765321748
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "claude-opus-4-5-20251101",
+      "condition": "V",
+      "successes": 2,
+      "n": 19,
+      "rate": 0.10526315789473684,
+      "wilson95": [
+        0.02935856029887013,
+        0.31394082711109006
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "claude-sonnet-4-6",
+      "condition": "C",
+      "successes": 7,
+      "n": 20,
+      "rate": 0.35,
+      "wilson95": [
+        0.18119182410108206,
+        0.5671457233147638
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "claude-sonnet-4-6",
+      "condition": "S",
+      "successes": 7,
+      "n": 20,
+      "rate": 0.35,
+      "wilson95": [
+        0.18119182410108206,
+        0.5671457233147638
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "claude-sonnet-4-6",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "doubao-seed-1-6-flash-250828",
+      "condition": "C",
+      "successes": 2,
+      "n": 20,
+      "rate": 0.1,
+      "wilson95": [
+        0.027866481213768224,
+        0.3010336452284873
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "doubao-seed-1-6-flash-250828",
+      "condition": "S",
+      "successes": 3,
+      "n": 20,
+      "rate": 0.15,
+      "wilson95": [
+        0.052368745896216595,
+        0.36041886474075696
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "doubao-seed-1-6-flash-250828",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gemini-2.5-flash",
+      "condition": "C",
+      "successes": 7,
+      "n": 20,
+      "rate": 0.35,
+      "wilson95": [
+        0.18119182410108206,
+        0.5671457233147638
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gemini-2.5-flash",
+      "condition": "S",
+      "successes": 7,
+      "n": 20,
+      "rate": 0.35,
+      "wilson95": [
+        0.18119182410108206,
+        0.5671457233147638
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gemini-2.5-flash",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gemini-3.1-pro-preview",
+      "condition": "C",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gemini-3.1-pro-preview",
+      "condition": "S",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gemini-3.1-pro-preview",
+      "condition": "V",
+      "successes": 12,
+      "n": 20,
+      "rate": 0.6,
+      "wilson95": [
+        0.3865815007622531,
+        0.781193467627183
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gpt-4o",
+      "condition": "C",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gpt-4o",
+      "condition": "S",
+      "successes": 3,
+      "n": 20,
+      "rate": 0.15,
+      "wilson95": [
+        0.052368745896216595,
+        0.36041886474075696
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gpt-4o",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gpt-5-mini",
+      "condition": "C",
+      "successes": 5,
+      "n": 17,
+      "rate": 0.29411764705882354,
+      "wilson95": [
+        0.1327998961029523,
+        0.5313311006653985
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gpt-5-mini",
+      "condition": "S",
+      "successes": 6,
+      "n": 17,
+      "rate": 0.35294117647058826,
+      "wilson95": [
+        0.17309720397243744,
+        0.5869963651478132
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gpt-5-mini",
+      "condition": "V",
+      "successes": 0,
+      "n": 17,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.1843181350088518
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gpt-5.2",
+      "condition": "C",
+      "successes": 6,
+      "n": 19,
+      "rate": 0.3157894736842105,
+      "wilson95": [
+        0.1536437908779228,
+        0.5398959232467253
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gpt-5.2",
+      "condition": "S",
+      "successes": 18,
+      "n": 19,
+      "rate": 0.9473684210526315,
+      "wilson95": [
+        0.753612688331012,
+        0.9906480059376995
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "gpt-5.2",
+      "condition": "V",
+      "successes": 0,
+      "n": 19,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16817922405261626
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "grok-4.3",
+      "condition": "C",
+      "successes": 9,
+      "n": 20,
+      "rate": 0.45,
+      "wilson95": [
+        0.2581978582556243,
+        0.6579146575496577
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "grok-4.3",
+      "condition": "S",
+      "successes": 14,
+      "n": 20,
+      "rate": 0.7,
+      "wilson95": [
+        0.4810271816464765,
+        0.8545227551323956
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "grok-4.3",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "kimi-k2.5",
+      "condition": "C",
+      "successes": 1,
+      "n": 20,
+      "rate": 0.05,
+      "wilson95": [
+        0.008881448800795402,
+        0.23613119344674205
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "kimi-k2.5",
+      "condition": "S",
+      "successes": 9,
+      "n": 20,
+      "rate": 0.45,
+      "wilson95": [
+        0.2581978582556243,
+        0.6579146575496577
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "kimi-k2.5",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "qwen3-max",
+      "condition": "C",
+      "successes": 0,
+      "n": 7,
+      "rate": 0.0,
+      "wilson95": [
+        5.551115123125783e-17,
+        0.35433043506668743
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "qwen3-max",
+      "condition": "S",
+      "successes": 4,
+      "n": 7,
+      "rate": 0.5714285714285714,
+      "wilson95": [
+        0.2504583645276572,
+        0.8417801447485302
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "qwen3-max",
+      "condition": "V",
+      "successes": 0,
+      "n": 7,
+      "rate": 0.0,
+      "wilson95": [
+        5.551115123125783e-17,
+        0.35433043506668743
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "condition": "C",
+      "successes": 0,
+      "n": 19,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16817922405261626
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "condition": "S",
+      "successes": 0,
+      "n": 19,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16817922405261626
+      ]
+    },
+    {
+      "task": "BoxFold",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "condition": "V",
+      "successes": 0,
+      "n": 19,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16817922405261626
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "claude-sonnet-4-6",
+      "condition": "C",
+      "successes": 10,
+      "n": 10,
+      "rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "claude-sonnet-4-6",
+      "condition": "S",
+      "successes": 10,
+      "n": 10,
+      "rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "claude-sonnet-4-6",
+      "condition": "V",
+      "successes": 1,
+      "n": 10,
+      "rate": 0.1,
+      "wilson95": [
+        0.017876213095072896,
+        0.4041500267952385
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "doubao-seed-1-6-flash-250828",
+      "condition": "C",
+      "successes": 9,
+      "n": 9,
+      "rate": 1.0,
+      "wilson95": [
+        0.7008549515804559,
+        1
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "doubao-seed-1-6-flash-250828",
+      "condition": "S",
+      "successes": 9,
+      "n": 9,
+      "rate": 1.0,
+      "wilson95": [
+        0.7008549515804559,
+        1
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "doubao-seed-1-6-flash-250828",
+      "condition": "V",
+      "successes": 0,
+      "n": 9,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.2991450484195441
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gemini-2.5-flash",
+      "condition": "C",
+      "successes": 9,
+      "n": 10,
+      "rate": 0.9,
+      "wilson95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gemini-2.5-flash",
+      "condition": "S",
+      "successes": 9,
+      "n": 10,
+      "rate": 0.9,
+      "wilson95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gemini-2.5-flash",
+      "condition": "V",
+      "successes": 0,
+      "n": 10,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gemini-3.1-pro-preview",
+      "condition": "C",
+      "successes": 10,
+      "n": 10,
+      "rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gemini-3.1-pro-preview",
+      "condition": "S",
+      "successes": 10,
+      "n": 10,
+      "rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gemini-3.1-pro-preview",
+      "condition": "V",
+      "successes": 8,
+      "n": 10,
+      "rate": 0.8,
+      "wilson95": [
+        0.49016247153664183,
+        0.9433178485456247
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gpt-4o",
+      "condition": "C",
+      "successes": 0,
+      "n": 10,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gpt-4o",
+      "condition": "S",
+      "successes": 5,
+      "n": 10,
+      "rate": 0.5,
+      "wilson95": [
+        0.236593090512564,
+        0.7634069094874361
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gpt-4o",
+      "condition": "V",
+      "successes": 0,
+      "n": 10,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gpt-5-mini",
+      "condition": "C",
+      "successes": 10,
+      "n": 10,
+      "rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gpt-5-mini",
+      "condition": "S",
+      "successes": 10,
+      "n": 10,
+      "rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gpt-5-mini",
+      "condition": "V",
+      "successes": 0,
+      "n": 10,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gpt-5.2",
+      "condition": "C",
+      "successes": 9,
+      "n": 9,
+      "rate": 1.0,
+      "wilson95": [
+        0.7008549515804559,
+        1
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gpt-5.2",
+      "condition": "S",
+      "successes": 9,
+      "n": 9,
+      "rate": 1.0,
+      "wilson95": [
+        0.7008549515804559,
+        1
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "gpt-5.2",
+      "condition": "V",
+      "successes": 0,
+      "n": 9,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.2991450484195441
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "kimi-k2.5",
+      "condition": "C",
+      "successes": 9,
+      "n": 10,
+      "rate": 0.9,
+      "wilson95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "kimi-k2.5",
+      "condition": "S",
+      "successes": 10,
+      "n": 10,
+      "rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "kimi-k2.5",
+      "condition": "V",
+      "successes": 0,
+      "n": 10,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "qwen3-max",
+      "condition": "C",
+      "successes": 10,
+      "n": 10,
+      "rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "qwen3-max",
+      "condition": "S",
+      "successes": 10,
+      "n": 10,
+      "rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "qwen3-max",
+      "condition": "V",
+      "successes": 0,
+      "n": 10,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "condition": "C",
+      "successes": 8,
+      "n": 9,
+      "rate": 0.8888888888888888,
+      "wilson95": [
+        0.5650002944233439,
+        0.9801091123614551
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "condition": "S",
+      "successes": 7,
+      "n": 9,
+      "rate": 0.7777777777777778,
+      "wilson95": [
+        0.45258896910698887,
+        0.9367748928821533
+      ]
+    },
+    {
+      "task": "LightWar",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "condition": "V",
+      "successes": 0,
+      "n": 9,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.2991450484195441
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "claude-sonnet-4-6",
+      "condition": "C",
+      "successes": 2,
+      "n": 20,
+      "rate": 0.1,
+      "wilson95": [
+        0.027866481213768224,
+        0.3010336452284873
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "claude-sonnet-4-6",
+      "condition": "S",
+      "successes": 6,
+      "n": 20,
+      "rate": 0.3,
+      "wilson95": [
+        0.1454772448676043,
+        0.5189728183535235
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "claude-sonnet-4-6",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "doubao-seed-1-6-flash-250828",
+      "condition": "C",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "doubao-seed-1-6-flash-250828",
+      "condition": "S",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "doubao-seed-1-6-flash-250828",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gemini-2.5-flash",
+      "condition": "C",
+      "successes": 1,
+      "n": 20,
+      "rate": 0.05,
+      "wilson95": [
+        0.008881448800795402,
+        0.23613119344674205
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gemini-2.5-flash",
+      "condition": "S",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gemini-2.5-flash",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gemini-3.1-pro-preview",
+      "condition": "C",
+      "successes": 2,
+      "n": 20,
+      "rate": 0.1,
+      "wilson95": [
+        0.027866481213768224,
+        0.3010336452284873
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gemini-3.1-pro-preview",
+      "condition": "S",
+      "successes": 7,
+      "n": 20,
+      "rate": 0.35,
+      "wilson95": [
+        0.18119182410108206,
+        0.5671457233147638
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gemini-3.1-pro-preview",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gpt-4o",
+      "condition": "C",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gpt-4o",
+      "condition": "S",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gpt-4o",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gpt-5-mini",
+      "condition": "C",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gpt-5-mini",
+      "condition": "S",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gpt-5-mini",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gpt-5.2",
+      "condition": "C",
+      "successes": 9,
+      "n": 20,
+      "rate": 0.45,
+      "wilson95": [
+        0.2581978582556243,
+        0.6579146575496577
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gpt-5.2",
+      "condition": "S",
+      "successes": 9,
+      "n": 20,
+      "rate": 0.45,
+      "wilson95": [
+        0.2581978582556243,
+        0.6579146575496577
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "gpt-5.2",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "kimi-k2.5",
+      "condition": "C",
+      "successes": 1,
+      "n": 20,
+      "rate": 0.05,
+      "wilson95": [
+        0.008881448800795402,
+        0.23613119344674205
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "kimi-k2.5",
+      "condition": "S",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "kimi-k2.5",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "qwen3-max",
+      "condition": "C",
+      "successes": 1,
+      "n": 20,
+      "rate": 0.05,
+      "wilson95": [
+        0.008881448800795402,
+        0.23613119344674205
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "qwen3-max",
+      "condition": "S",
+      "successes": 1,
+      "n": 20,
+      "rate": 0.05,
+      "wilson95": [
+        0.008881448800795402,
+        0.23613119344674205
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "qwen3-max",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "condition": "C",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "condition": "S",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "MovingShooter",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "condition": "V",
+      "successes": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "claude-opus-4-5-20251101",
+      "condition": "C",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "claude-opus-4-5-20251101",
+      "condition": "S",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "claude-opus-4-5-20251101",
+      "condition": "V",
+      "successes": 7,
+      "n": 20,
+      "rate": 0.35,
+      "wilson95": [
+        0.18119182410108206,
+        0.5671457233147638
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "claude-sonnet-4-6",
+      "condition": "C",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "claude-sonnet-4-6",
+      "condition": "S",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "claude-sonnet-4-6",
+      "condition": "V",
+      "successes": 7,
+      "n": 20,
+      "rate": 0.35,
+      "wilson95": [
+        0.18119182410108206,
+        0.5671457233147638
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "doubao-seed-1-6-flash-250828",
+      "condition": "C",
+      "successes": 16,
+      "n": 18,
+      "rate": 0.8888888888888888,
+      "wilson95": [
+        0.672002348698212,
+        0.9689804773543876
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "doubao-seed-1-6-flash-250828",
+      "condition": "S",
+      "successes": 15,
+      "n": 18,
+      "rate": 0.8333333333333334,
+      "wilson95": [
+        0.6077796189608428,
+        0.9416342319413856
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "doubao-seed-1-6-flash-250828",
+      "condition": "V",
+      "successes": 10,
+      "n": 18,
+      "rate": 0.5555555555555556,
+      "wilson95": [
+        0.33716415642042774,
+        0.7544048187299437
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gemini-2.5-flash",
+      "condition": "C",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gemini-2.5-flash",
+      "condition": "S",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gemini-2.5-flash",
+      "condition": "V",
+      "successes": 6,
+      "n": 20,
+      "rate": 0.3,
+      "wilson95": [
+        0.1454772448676043,
+        0.5189728183535235
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gemini-3.1-pro-preview",
+      "condition": "C",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gemini-3.1-pro-preview",
+      "condition": "S",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gemini-3.1-pro-preview",
+      "condition": "V",
+      "successes": 17,
+      "n": 20,
+      "rate": 0.85,
+      "wilson95": [
+        0.6395811352592431,
+        0.9476312541037835
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gpt-4o",
+      "condition": "C",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gpt-4o",
+      "condition": "S",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gpt-4o",
+      "condition": "V",
+      "successes": 11,
+      "n": 20,
+      "rate": 0.55,
+      "wilson95": [
+        0.34208534245034233,
+        0.7418021417443759
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gpt-5-mini",
+      "condition": "C",
+      "successes": 17,
+      "n": 17,
+      "rate": 1.0,
+      "wilson95": [
+        0.8156818649911483,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gpt-5-mini",
+      "condition": "S",
+      "successes": 17,
+      "n": 17,
+      "rate": 1.0,
+      "wilson95": [
+        0.8156818649911483,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gpt-5-mini",
+      "condition": "V",
+      "successes": 9,
+      "n": 17,
+      "rate": 0.5294117647058824,
+      "wilson95": [
+        0.30963235060004424,
+        0.7383489355759056
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gpt-5.2",
+      "condition": "C",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gpt-5.2",
+      "condition": "S",
+      "successes": 20,
+      "n": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "gpt-5.2",
+      "condition": "V",
+      "successes": 4,
+      "n": 20,
+      "rate": 0.2,
+      "wilson95": [
+        0.08065766257979806,
+        0.41601743225189364
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "kimi-k2.5",
+      "condition": "C",
+      "successes": 19,
+      "n": 19,
+      "rate": 1.0,
+      "wilson95": [
+        0.8318207759473837,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "kimi-k2.5",
+      "condition": "S",
+      "successes": 19,
+      "n": 19,
+      "rate": 1.0,
+      "wilson95": [
+        0.8318207759473837,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "kimi-k2.5",
+      "condition": "V",
+      "successes": 7,
+      "n": 19,
+      "rate": 0.3684210526315789,
+      "wilson95": [
+        0.19149512745135072,
+        0.5896046683519693
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "qwen3-max",
+      "condition": "C",
+      "successes": 16,
+      "n": 16,
+      "rate": 1.0,
+      "wilson95": [
+        0.8063923194655637,
+        1
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "qwen3-max",
+      "condition": "S",
+      "successes": 15,
+      "n": 16,
+      "rate": 0.9375,
+      "wilson95": [
+        0.7167126242970107,
+        0.9888806552353576
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "qwen3-max",
+      "condition": "V",
+      "successes": 7,
+      "n": 16,
+      "rate": 0.4375,
+      "wilson95": [
+        0.23098652405492354,
+        0.6682144360118811
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "condition": "C",
+      "successes": 5,
+      "n": 20,
+      "rate": 0.25,
+      "wilson95": [
+        0.11186170140766569,
+        0.468700877618744
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "condition": "S",
+      "successes": 11,
+      "n": 20,
+      "rate": 0.55,
+      "wilson95": [
+        0.34208534245034233,
+        0.7418021417443759
+      ]
+    },
+    {
+      "task": "PlaceOnBottom",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "condition": "V",
+      "successes": 3,
+      "n": 20,
+      "rate": 0.15,
+      "wilson95": [
+        0.052368745896216595,
+        0.36041886474075696
+      ]
+    }
+  ],
+  "core_macro_means": [
+    {
+      "task": "BoxFold",
+      "condition": "C",
+      "macro_rate": 0.2951238390092879
+    },
+    {
+      "task": "BoxFold",
+      "condition": "S",
+      "macro_rate": 0.47988168951791244
+    },
+    {
+      "task": "BoxFold",
+      "condition": "V",
+      "macro_rate": 0.0587719298245614
+    },
+    {
+      "task": "LightWar",
+      "condition": "C",
+      "macro_rate": 0.8688888888888889
+    },
+    {
+      "task": "LightWar",
+      "condition": "S",
+      "macro_rate": 0.9177777777777778
+    },
+    {
+      "task": "LightWar",
+      "condition": "V",
+      "macro_rate": 0.09000000000000001
+    },
+    {
+      "task": "MovingShooter",
+      "condition": "C",
+      "macro_rate": 0.08
+    },
+    {
+      "task": "MovingShooter",
+      "condition": "S",
+      "macro_rate": 0.11499999999999999
+    },
+    {
+      "task": "MovingShooter",
+      "condition": "V",
+      "macro_rate": 0.0
+    },
+    {
+      "task": "PlaceOnBottom",
+      "condition": "C",
+      "macro_rate": 0.9217171717171717
+    },
+    {
+      "task": "PlaceOnBottom",
+      "condition": "S",
+      "macro_rate": 0.9382575757575757
+    },
+    {
+      "task": "PlaceOnBottom",
+      "condition": "V",
+      "macro_rate": 0.42189894299027425
+    }
+  ],
+  "continuous": [
+    {
+      "task": "BoxFold",
+      "condition": "C",
+      "n": 221,
+      "metric_n": 221,
+      "median_error_cm": 128.72,
+      "median_success_rounds": 11,
+      "success_n": 69,
+      "mean_face_completion": 0.6885369532428356
+    },
+    {
+      "task": "BoxFold",
+      "condition": "S",
+      "n": 221,
+      "metric_n": 221,
+      "median_error_cm": 85.02,
+      "median_success_rounds": 10,
+      "success_n": 105,
+      "mean_face_completion": 0.7662141779788839
+    },
+    {
+      "task": "BoxFold",
+      "condition": "V",
+      "n": 221,
+      "metric_n": 221,
+      "median_error_cm": 266.8,
+      "median_success_rounds": 6.0,
+      "success_n": 14,
+      "mean_face_completion": 0.3363499245852187
+    },
+    {
+      "task": "LightWar",
+      "condition": "C",
+      "n": 97,
+      "metric_n": 97,
+      "median_error_cm": 2001.64,
+      "median_success_rounds": 2.0,
+      "success_n": 84,
+      "mean_face_completion": null
+    },
+    {
+      "task": "LightWar",
+      "condition": "S",
+      "n": 97,
+      "metric_n": 97,
+      "median_error_cm": 2060.76,
+      "median_success_rounds": 2,
+      "success_n": 89,
+      "mean_face_completion": null
+    },
+    {
+      "task": "LightWar",
+      "condition": "V",
+      "n": 97,
+      "metric_n": 97,
+      "median_error_cm": 143652.78,
+      "median_success_rounds": 5,
+      "success_n": 9,
+      "mean_face_completion": null
+    },
+    {
+      "task": "MovingShooter",
+      "condition": "C",
+      "n": 200,
+      "metric_n": 200,
+      "median_error_cm": 427.85,
+      "median_success_rounds": 4.0,
+      "success_n": 16,
+      "mean_face_completion": null
+    },
+    {
+      "task": "MovingShooter",
+      "condition": "S",
+      "n": 200,
+      "metric_n": 200,
+      "median_error_cm": 449.54999999999995,
+      "median_success_rounds": 4,
+      "success_n": 23,
+      "mean_face_completion": null
+    },
+    {
+      "task": "MovingShooter",
+      "condition": "V",
+      "n": 200,
+      "metric_n": 200,
+      "median_error_cm": 387.1,
+      "median_success_rounds": null,
+      "success_n": 0,
+      "mean_face_completion": null
+    },
+    {
+      "task": "PlaceOnBottom",
+      "condition": "C",
+      "n": 210,
+      "metric_n": 210,
+      "median_error_cm": 0.04999999999999716,
+      "median_success_rounds": 2,
+      "success_n": 193,
+      "mean_face_completion": null
+    },
+    {
+      "task": "PlaceOnBottom",
+      "condition": "S",
+      "n": 210,
+      "metric_n": 210,
+      "median_error_cm": 0.04999999999999716,
+      "median_success_rounds": 2,
+      "success_n": 197,
+      "mean_face_completion": null
+    },
+    {
+      "task": "PlaceOnBottom",
+      "condition": "V",
+      "n": 210,
+      "metric_n": 210,
+      "median_error_cm": 79.91999999999999,
+      "median_success_rounds": 2.5,
+      "success_n": 88,
+      "mean_face_completion": null
+    }
+  ],
+  "controls": [
+    {
+      "task": "LightWar",
+      "harness": "harness_combined",
+      "model": "gpt-4o",
+      "n": 10,
+      "successes": 0
+    },
+    {
+      "task": "LightWar",
+      "harness": "harness_combined_ignorevis",
+      "model": "gpt-4o",
+      "n": 10,
+      "successes": 3
+    },
+    {
+      "task": "LightWar",
+      "harness": "harness_combined_neutral",
+      "model": "gpt-4o",
+      "n": 10,
+      "successes": 6
+    },
+    {
+      "task": "LightWar",
+      "harness": "harness_symbolic",
+      "model": "gpt-4o",
+      "n": 10,
+      "successes": 5
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_combined",
+      "model": "claude-opus-4-5-20251101",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_combined",
+      "model": "claude-sonnet-4-6",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_combined",
+      "model": "doubao-seed-1-6-flash-250828",
+      "n": 20,
+      "successes": 17
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_combined",
+      "model": "gemini-2.5-flash",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_combined",
+      "model": "gemini-3.1-pro-preview",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_combined",
+      "model": "gpt-4o",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_combined",
+      "model": "gpt-5-mini",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_combined",
+      "model": "gpt-5.2",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_combined",
+      "model": "grok-4",
+      "n": 6,
+      "successes": 6
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_combined",
+      "model": "kimi-k2.5",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_combined",
+      "model": "qwen3-max",
+      "n": 19,
+      "successes": 19
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_combined",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "n": 20,
+      "successes": 5
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic",
+      "model": "claude-opus-4-5-20251101",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic",
+      "model": "claude-sonnet-4-6",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic",
+      "model": "doubao-seed-1-6-flash-250828",
+      "n": 19,
+      "successes": 16
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic",
+      "model": "gemini-2.5-flash",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic",
+      "model": "gemini-3.1-pro-preview",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic",
+      "model": "gpt-4o",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic",
+      "model": "gpt-5-mini",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic",
+      "model": "gpt-5.2",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic",
+      "model": "grok-4",
+      "n": 8,
+      "successes": 8
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic",
+      "model": "kimi-k2.5",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic",
+      "model": "qwen3-max",
+      "n": 20,
+      "successes": 19
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "n": 20,
+      "successes": 11
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_batch",
+      "model": "claude-sonnet-4-6",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_batch",
+      "model": "gemini-2.5-flash",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_batch",
+      "model": "gemini-3.1-pro-preview",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_batch",
+      "model": "gpt-5-mini",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_batch",
+      "model": "gpt-5.2",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_batch",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "n": 20,
+      "successes": 2
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded",
+      "model": "claude-sonnet-4-6",
+      "n": 20,
+      "successes": 7
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded",
+      "model": "doubao-seed-1-6-flash-250828",
+      "n": 20,
+      "successes": 17
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded",
+      "model": "gemini-2.5-flash",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded",
+      "model": "gemini-3.1-pro-preview",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded",
+      "model": "gpt-4o",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded",
+      "model": "gpt-5-mini",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded",
+      "model": "gpt-5.2",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded",
+      "model": "kimi-k2.5",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded",
+      "model": "qwen3-max",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "n": 20,
+      "successes": 13
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded_natural",
+      "model": "claude-sonnet-4-6",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded_natural",
+      "model": "doubao-seed-1-6-flash-250828",
+      "n": 20,
+      "successes": 16
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded_natural",
+      "model": "gemini-2.5-flash",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded_natural",
+      "model": "gemini-3.1-pro-preview",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded_natural",
+      "model": "gpt-4o",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded_natural",
+      "model": "gpt-5-mini",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded_natural",
+      "model": "gpt-5.2",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded_natural",
+      "model": "kimi-k2.5",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded_natural",
+      "model": "qwen3-max",
+      "n": 20,
+      "successes": 19
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_padded_natural",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "n": 20,
+      "successes": 11
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_shuffled",
+      "model": "claude-sonnet-4-6",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_shuffled",
+      "model": "doubao-seed-1-6-flash-250828",
+      "n": 20,
+      "successes": 18
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_shuffled",
+      "model": "qwen3-max",
+      "n": 20,
+      "successes": 20
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_symbolic_shuffled",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "n": 20,
+      "successes": 17
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision",
+      "model": "claude-opus-4-5-20251101",
+      "n": 20,
+      "successes": 7
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision",
+      "model": "claude-sonnet-4-6",
+      "n": 20,
+      "successes": 7
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision",
+      "model": "doubao-seed-1-6-flash-250828",
+      "n": 18,
+      "successes": 10
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision",
+      "model": "gemini-2.5-flash",
+      "n": 20,
+      "successes": 6
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision",
+      "model": "gemini-3.1-pro-preview",
+      "n": 20,
+      "successes": 17
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision",
+      "model": "gpt-4o",
+      "n": 20,
+      "successes": 11
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision",
+      "model": "gpt-5-mini",
+      "n": 17,
+      "successes": 9
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision",
+      "model": "gpt-5.2",
+      "n": 20,
+      "successes": 4
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision",
+      "model": "kimi-k2.5",
+      "n": 19,
+      "successes": 7
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision",
+      "model": "qwen3-max",
+      "n": 17,
+      "successes": 8
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "n": 20,
+      "successes": 3
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision_batch",
+      "model": "claude-sonnet-4-6",
+      "n": 20,
+      "successes": 7
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision_batch",
+      "model": "gemini-2.5-flash",
+      "n": 20,
+      "successes": 4
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision_batch",
+      "model": "gemini-3.1-pro-preview",
+      "n": 20,
+      "successes": 7
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision_batch",
+      "model": "gpt-5-mini",
+      "n": 20,
+      "successes": 7
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision_batch",
+      "model": "gpt-5.2",
+      "n": 20,
+      "successes": 7
+    },
+    {
+      "task": "PlaceOnBottom",
+      "harness": "harness_vision_batch",
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "n": 20,
+      "successes": 0
+    }
+  ],
+  "paired_controls": {
+    "span": [
+      {
+        "model": "claude-sonnet-4-6",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          7,
+          20,
+          7,
+          20
+        ],
+        "rates": [
+          0.35,
+          1.0,
+          0.35,
+          1.0
+        ]
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          6,
+          20,
+          4,
+          20
+        ],
+        "rates": [
+          0.3,
+          1.0,
+          0.2,
+          1.0
+        ]
+      },
+      {
+        "model": "gemini-3.1-pro-preview",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          17,
+          20,
+          7,
+          20
+        ],
+        "rates": [
+          0.85,
+          1.0,
+          0.35,
+          1.0
+        ]
+      },
+      {
+        "model": "gpt-5-mini",
+        "n": 17,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          19
+        ],
+        "successes": [
+          9,
+          17,
+          6,
+          17
+        ],
+        "rates": [
+          0.5294117647058824,
+          1.0,
+          0.35294117647058826,
+          1.0
+        ]
+      },
+      {
+        "model": "gpt-5.2",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          4,
+          20,
+          7,
+          20
+        ],
+        "rates": [
+          0.2,
+          1.0,
+          0.35,
+          1.0
+        ]
+      },
+      {
+        "model": "qwen3-vl-30b-a3b-instruct",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          3,
+          11,
+          0,
+          2
+        ],
+        "rates": [
+          0.15,
+          0.55,
+          0.0,
+          0.1
+        ]
+      }
+    ],
+    "padding": [
+      {
+        "model": "claude-sonnet-4-6",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          20,
+          7,
+          20,
+          20
+        ],
+        "rates": [
+          1.0,
+          0.35,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "doubao-seed-1-6-flash-250828",
+        "n": 19,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19
+        ],
+        "successes": [
+          16,
+          16,
+          15,
+          16
+        ],
+        "rates": [
+          0.8421052631578947,
+          0.8421052631578947,
+          0.7894736842105263,
+          0.8421052631578947
+        ]
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "rates": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "gemini-3.1-pro-preview",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "rates": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "gpt-4o",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "rates": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "gpt-5-mini",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "rates": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "gpt-5.2",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "rates": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "kimi-k2.5",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "rates": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "qwen3-max",
+        "n": 19,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          18,
+          19,
+          18,
+          19
+        ],
+        "rates": [
+          0.9473684210526315,
+          1.0,
+          0.9473684210526315,
+          1.0
+        ]
+      },
+      {
+        "model": "qwen3-vl-30b-a3b-instruct",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          11,
+          13,
+          11,
+          5
+        ],
+        "rates": [
+          0.55,
+          0.65,
+          0.55,
+          0.25
+        ]
+      }
+    ],
+    "serialization": [
+      {
+        "model": "claude-sonnet-4-6",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          20,
+          20
+        ],
+        "rates": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "model": "doubao-seed-1-6-flash-250828",
+        "n": 19,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19
+        ],
+        "successes": [
+          16,
+          17
+        ],
+        "rates": [
+          0.8421052631578947,
+          0.8947368421052632
+        ]
+      },
+      {
+        "model": "qwen3-max",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          19,
+          20
+        ],
+        "rates": [
+          0.95,
+          1.0
+        ]
+      },
+      {
+        "model": "qwen3-vl-30b-a3b-instruct",
+        "n": 20,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "successes": [
+          11,
+          17
+        ],
+        "rates": [
+          0.55,
+          0.85
+        ]
+      }
+    ]
+  },
+  "core_valid_unpaired": {
+    "records": 74,
+    "by_task": {
+      "PlaceOnBottom": 33,
+      "BoxFold": 35,
+      "LightWar": 6
+    }
+  },
+  "structural_probe": {
+    "declared": 177,
+    "correct": 112,
+    "accuracy": 0.632768361581921,
+    "passed_after_correct": 31,
+    "passed_after_incorrect": 29
+  },
+  "rank_stability": [
+    {
+      "comparison": "Billiards V/REPL",
+      "n_models": 11,
+      "tau_b": 0.7573172464461019
+    },
+    {
+      "comparison": "MazeNavFPS VP",
+      "n_models": 7,
+      "tau_b": 0.6666666666666666
+    },
+    {
+      "comparison": "MazeNavFPS VRP",
+      "n_models": 7,
+      "tau_b": 0.6155870112510925
+    },
+    {
+      "comparison": "ObjectGrounding V",
+      "n_models": 6,
+      "tau_b": 0.9309493362512627
+    },
+    {
+      "comparison": "ObjectGrounding C",
+      "n_models": 6,
+      "tau_b": 0.8280786712108251
+    }
+  ],
+  "computational_physics": {
+    "cells": [
+      {
+        "task": "CurvyBilliards",
+        "model": "claude-fable-5",
+        "condition": "C",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "claude-fable-5",
+        "condition": "S",
+        "successes": 1,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "claude-fable-5",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "claude-opus-4-5",
+        "condition": "C",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "claude-opus-4-5",
+        "condition": "S",
+        "successes": 1,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "claude-opus-4-5",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "claude-opus-5-5",
+        "condition": "C",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "claude-opus-5-5",
+        "condition": "S",
+        "successes": 1,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "claude-opus-5-5",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "claude-sonnet-4-6",
+        "condition": "C",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "claude-sonnet-4-6",
+        "condition": "S",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "claude-sonnet-4-6",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gemini-2.5-flash",
+        "condition": "C",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gemini-2.5-flash",
+        "condition": "S",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gemini-2.5-flash",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gemini-3.1-pro-preview",
+        "condition": "C",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gemini-3.1-pro-preview",
+        "condition": "S",
+        "successes": 1,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gemini-3.1-pro-preview",
+        "condition": "V",
+        "successes": 1,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gpt-4.1-2025-04-14",
+        "condition": "C",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gpt-4.1-2025-04-14",
+        "condition": "S",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gpt-4.1-2025-04-14",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gpt-6-astra-2026-09-03",
+        "condition": "C",
+        "successes": 1,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gpt-6-astra-2026-09-03",
+        "condition": "S",
+        "successes": 2,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gpt-6-astra-2026-09-03",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gpt-6.1-sol-2026-09-29",
+        "condition": "C",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gpt-6.1-sol-2026-09-29",
+        "condition": "S",
+        "successes": 1,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "gpt-6.1-sol-2026-09-29",
+        "condition": "V",
+        "successes": 1,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "grok-4.3",
+        "condition": "C",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "grok-4.3",
+        "condition": "S",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "CurvyBilliards",
+        "model": "grok-4.3",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          2,
+          9
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "claude-fable-5",
+        "condition": "C",
+        "successes": 1,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "claude-fable-5",
+        "condition": "S",
+        "successes": 2,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "claude-fable-5",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "claude-opus-4-5",
+        "condition": "C",
+        "successes": 3,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "claude-opus-4-5",
+        "condition": "S",
+        "successes": 3,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "claude-opus-4-5",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "claude-opus-5-5",
+        "condition": "C",
+        "successes": 2,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "claude-opus-5-5",
+        "condition": "S",
+        "successes": 2,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "claude-opus-5-5",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "claude-sonnet-4-6",
+        "condition": "C",
+        "successes": 2,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "claude-sonnet-4-6",
+        "condition": "S",
+        "successes": 2,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "claude-sonnet-4-6",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gemini-2.5-flash",
+        "condition": "C",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gemini-2.5-flash",
+        "condition": "S",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gemini-2.5-flash",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gemini-3.1-pro-preview",
+        "condition": "C",
+        "successes": 3,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gemini-3.1-pro-preview",
+        "condition": "S",
+        "successes": 1,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gemini-3.1-pro-preview",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gpt-4.1-2025-04-14",
+        "condition": "C",
+        "successes": 2,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gpt-4.1-2025-04-14",
+        "condition": "S",
+        "successes": 1,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gpt-4.1-2025-04-14",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gpt-6-astra-2026-09-03",
+        "condition": "C",
+        "successes": 3,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gpt-6-astra-2026-09-03",
+        "condition": "S",
+        "successes": 3,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gpt-6-astra-2026-09-03",
+        "condition": "V",
+        "successes": 2,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gpt-6.1-sol-2026-09-29",
+        "condition": "C",
+        "successes": 3,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gpt-6.1-sol-2026-09-29",
+        "condition": "S",
+        "successes": 3,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "gpt-6.1-sol-2026-09-29",
+        "condition": "V",
+        "successes": 1,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "grok-4.3",
+        "condition": "C",
+        "successes": 2,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "grok-4.3",
+        "condition": "S",
+        "successes": 2,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "grok-4.3",
+        "condition": "V",
+        "successes": 0,
+        "n": 3,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "complete_model_panel": true
+      },
+      {
+        "task": "DropToTarget",
+        "model": "kimi-k2.5",
+        "condition": "C",
+        "successes": 1,
+        "n": 2,
+        "seeds": [
+          0,
+          1
+        ],
+        "complete_model_panel": false
+      },
+      {
+        "task": "DropToTarget",
+        "model": "kimi-k2.5",
+        "condition": "S",
+        "successes": 1,
+        "n": 2,
+        "seeds": [
+          0,
+          1
+        ],
+        "complete_model_panel": false
+      },
+      {
+        "task": "DropToTarget",
+        "model": "kimi-k2.5",
+        "condition": "V",
+        "successes": 0,
+        "n": 1,
+        "seeds": [
+          0
+        ],
+        "complete_model_panel": false
+      }
+    ],
+    "complete_models": [
+      "claude-fable-5",
+      "claude-opus-4-5",
+      "claude-opus-5-5",
+      "claude-sonnet-4-6",
+      "gemini-2.5-flash",
+      "gemini-3.1-pro-preview",
+      "gpt-4.1-2025-04-14",
+      "gpt-6-astra-2026-09-03",
+      "gpt-6.1-sol-2026-09-29",
+      "grok-4.3"
+    ],
+    "pooled_complete_models": [
+      {
+        "task": "DropToTarget",
+        "condition": "V",
+        "successes": 3,
+        "n": 30
+      },
+      {
+        "task": "DropToTarget",
+        "condition": "S",
+        "successes": 19,
+        "n": 30
+      },
+      {
+        "task": "DropToTarget",
+        "condition": "C",
+        "successes": 21,
+        "n": 30
+      },
+      {
+        "task": "CurvyBilliards",
+        "condition": "V",
+        "successes": 2,
+        "n": 30
+      },
+      {
+        "task": "CurvyBilliards",
+        "condition": "S",
+        "successes": 7,
+        "n": 30
+      },
+      {
+        "task": "CurvyBilliards",
+        "condition": "C",
+        "successes": 1,
+        "n": 30
+      }
+    ]
+  },
+  "photoreal": {
+    "cells": [
+      {
+        "model": "claude-opus-4-5",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "C",
+        "n": 30,
+        "successes": 12
+      },
+      {
+        "model": "claude-opus-4-5",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "V",
+        "n": 30,
+        "successes": 11
+      },
+      {
+        "model": "claude-opus-4-5",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "C",
+        "n": 30,
+        "successes": 13
+      },
+      {
+        "model": "claude-opus-4-5",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "V",
+        "n": 30,
+        "successes": 12
+      },
+      {
+        "model": "claude-opus-4-5",
+        "task": "SceneGrounding",
+        "harness": "teleport",
+        "condition": "V",
+        "n": 10,
+        "successes": 5
+      },
+      {
+        "model": "claude-opus-4-5",
+        "task": "SceneGrounding",
+        "harness": "walk",
+        "condition": "V",
+        "n": 10,
+        "successes": 0
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "C",
+        "n": 30,
+        "successes": 10
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "V",
+        "n": 30,
+        "successes": 10
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "C",
+        "n": 30,
+        "successes": 11
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "V",
+        "n": 30,
+        "successes": 12
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "task": "SceneGrounding",
+        "harness": "teleport",
+        "condition": "V",
+        "n": 10,
+        "successes": 6
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "task": "SceneGrounding",
+        "harness": "walk",
+        "condition": "V",
+        "n": 10,
+        "successes": 0
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "C",
+        "n": 30,
+        "successes": 8
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "V",
+        "n": 30,
+        "successes": 4
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "C",
+        "n": 30,
+        "successes": 6
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "V",
+        "n": 30,
+        "successes": 6
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "task": "SceneGrounding",
+        "harness": "teleport",
+        "condition": "V",
+        "n": 10,
+        "successes": 7
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "task": "SceneGrounding",
+        "harness": "walk",
+        "condition": "V",
+        "n": 10,
+        "successes": 0
+      },
+      {
+        "model": "gemini-3.1-pro-preview",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "C",
+        "n": 30,
+        "successes": 25
+      },
+      {
+        "model": "gemini-3.1-pro-preview",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "V",
+        "n": 30,
+        "successes": 24
+      },
+      {
+        "model": "gemini-3.1-pro-preview",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "C",
+        "n": 30,
+        "successes": 21
+      },
+      {
+        "model": "gemini-3.1-pro-preview",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "V",
+        "n": 30,
+        "successes": 22
+      },
+      {
+        "model": "gemini-3.1-pro-preview",
+        "task": "SceneGrounding",
+        "harness": "teleport",
+        "condition": "V",
+        "n": 10,
+        "successes": 6
+      },
+      {
+        "model": "gemini-3.1-pro-preview",
+        "task": "SceneGrounding",
+        "harness": "walk",
+        "condition": "V",
+        "n": 10,
+        "successes": 0
+      },
+      {
+        "model": "gpt-4.1-2025-04-14",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "C",
+        "n": 30,
+        "successes": 9
+      },
+      {
+        "model": "gpt-4.1-2025-04-14",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "V",
+        "n": 30,
+        "successes": 2
+      },
+      {
+        "model": "gpt-4.1-2025-04-14",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "C",
+        "n": 30,
+        "successes": 10
+      },
+      {
+        "model": "gpt-4.1-2025-04-14",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "V",
+        "n": 30,
+        "successes": 6
+      },
+      {
+        "model": "gpt-4.1-2025-04-14",
+        "task": "SceneGrounding",
+        "harness": "teleport",
+        "condition": "V",
+        "n": 10,
+        "successes": 2
+      },
+      {
+        "model": "gpt-4.1-2025-04-14",
+        "task": "SceneGrounding",
+        "harness": "walk",
+        "condition": "V",
+        "n": 10,
+        "successes": 1
+      },
+      {
+        "model": "gpt-4o-2024-11-20",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "C",
+        "n": 29,
+        "successes": 7
+      },
+      {
+        "model": "gpt-4o-2024-11-20",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "V",
+        "n": 30,
+        "successes": 10
+      },
+      {
+        "model": "gpt-4o-2024-11-20",
+        "task": "SceneGrounding",
+        "harness": "walk",
+        "condition": "V",
+        "n": 1,
+        "successes": 0
+      },
+      {
+        "model": "grok-4.3",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "C",
+        "n": 30,
+        "successes": 10
+      },
+      {
+        "model": "grok-4.3",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "V",
+        "n": 30,
+        "successes": 9
+      },
+      {
+        "model": "grok-4.3",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "C",
+        "n": 30,
+        "successes": 9
+      },
+      {
+        "model": "grok-4.3",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "V",
+        "n": 30,
+        "successes": 9
+      },
+      {
+        "model": "grok-4.3",
+        "task": "SceneGrounding",
+        "harness": "teleport",
+        "condition": "V",
+        "n": 10,
+        "successes": 3
+      },
+      {
+        "model": "grok-4.3",
+        "task": "SceneGrounding",
+        "harness": "walk",
+        "condition": "V",
+        "n": 10,
+        "successes": 2
+      },
+      {
+        "model": "kimi-k2.5",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "C",
+        "n": 1,
+        "successes": 1
+      },
+      {
+        "model": "kimi-k2.5",
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "V",
+        "n": 2,
+        "successes": 1
+      },
+      {
+        "model": "kimi-k2.5",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "C",
+        "n": 17,
+        "successes": 7
+      },
+      {
+        "model": "kimi-k2.5",
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "V",
+        "n": 25,
+        "successes": 8
+      },
+      {
+        "model": "kimi-k2.5",
+        "task": "SceneGrounding",
+        "harness": "walk",
+        "condition": "V",
+        "n": 1,
+        "successes": 0
+      }
+    ],
+    "complete_models": [
+      "claude-opus-4-5",
+      "claude-sonnet-4-6",
+      "gemini-2.5-flash",
+      "gemini-3.1-pro-preview",
+      "gpt-4.1-2025-04-14",
+      "grok-4.3"
+    ],
+    "pooled_complete_models": [
+      {
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "V",
+        "n": 180,
+        "successes": 60
+      },
+      {
+        "task": "ObjectGrounding",
+        "harness": "grid",
+        "condition": "C",
+        "n": 180,
+        "successes": 74
+      },
+      {
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "V",
+        "n": 180,
+        "successes": 67
+      },
+      {
+        "task": "ObjectGrounding",
+        "harness": "single",
+        "condition": "C",
+        "n": 180,
+        "successes": 70
+      },
+      {
+        "task": "SceneGrounding",
+        "harness": "walk",
+        "condition": "V",
+        "n": 60,
+        "successes": 3
+      },
+      {
+        "task": "SceneGrounding",
+        "harness": "teleport",
+        "condition": "V",
+        "n": 60,
+        "successes": 29
+      }
+    ]
+  }
+}

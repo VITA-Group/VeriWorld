@@ -1,0 +1,284 @@
+{
+  "_comment": "object_ground — pure visual-grounding probe. The harness spawns one tinted sphere per entry in `balls` at the listed world coord (each ball deliberately landing on / next to a real apartment object whose alias is in `alias`). The agent sees the screenshot + the `candidate_aliases` list (with each candidate's listed world coord) and must reply with a `{color: alias}` mapping. Verifier scores percentage of correct matches.",
+  "_scene": "Living_room_day",
+  "_build": "PackagedOutput_v2",
+  "_units": "Unreal cm; rotations Pitch/Yaw/Roll degrees",
+  "_aliases_source": "veriworld/benchmark/interactive/realworld/photoreal_grounding/object_grounding/(see groundtruth).json",
+
+  "scene_start_pose": {
+    "_view": "fallback if a task doesn't specify camera_start_pose",
+    "location": { "X": 406.568341, "Y": -510.160128, "Z": 132.784872 },
+    "control_rotation": { "Pitch": 349.483329, "Yaw": 90.319629, "Roll": 0.0 }
+  },
+
+  "tasks": {
+    "match_4_utensils_pot_view": {
+      "description": "Match colored balls to the four kitchen utensils (wooden spatula, wooden spoon, black spatula, black spoon) — pot-area camera looking down at the utensil row.",
+      "camera_start_pose": {
+        "_view": "default pot view from photoreal_grounding/object_grounding/(see groundtruth) — pawn at (393.7, -456.5, 214.4) yaw 89.7, pitch -48",
+        "location": { "X": 393.744, "Y": -456.474, "Z": 214.375 },
+        "control_rotation": { "Pitch": 311.886, "Yaw": 89.694, "Roll": 0.0 }
+      },
+      "candidate_aliases": ["SM_wooden_spatula", "SM_wooden_spoon", "SM_black_spatula", "SM_black_spoon"],
+      "balls": [
+        { "color": "red",     "x": 298.0, "y": -415.0, "z": 86.0, "alias": "SM_wooden_spatula" },
+        { "color": "blue",    "x": 300.0, "y": -382.0, "z": 86.0, "alias": "SM_wooden_spoon"   },
+        { "color": "green",   "x": 300.0, "y": -350.0, "z": 84.0, "alias": "SM_black_spoon"    },
+        { "color": "yellow",  "x": 300.0, "y": -400.0, "z": 87.0, "alias": "SM_black_spatula"  }
+      ]
+    },
+
+    "match_4_utensils_cutting_view": {
+      "description": "Same four utensils, viewed from the cutting-board side instead of the pot side.",
+      "camera_start_pose": {
+        "_view": "default cutting-board view — pawn south-east of cutting board",
+        "location": { "X": 244.444, "Y": -488.700, "Z": 193.178 },
+        "control_rotation": { "Pitch": 318.995, "Yaw": 89.573, "Roll": 0.0 }
+      },
+      "candidate_aliases": ["SM_wooden_spatula", "SM_wooden_spoon", "SM_black_spatula", "SM_black_spoon"],
+      "balls": [
+        { "color": "red",     "x": 298.0, "y": -415.0, "z": 86.0, "alias": "SM_wooden_spatula" },
+        { "color": "blue",    "x": 300.0, "y": -382.0, "z": 86.0, "alias": "SM_wooden_spoon"   },
+        { "color": "green",   "x": 300.0, "y": -350.0, "z": 84.0, "alias": "SM_black_spoon"    },
+        { "color": "yellow",  "x": 300.0, "y": -400.0, "z": 87.0, "alias": "SM_black_spatula"  }
+      ]
+    },
+
+    "match_2_cookware_cooktop_view": {
+      "description": "Match colored balls to the saucepan and the pot — cooktop default view from south.",
+      "candidate_aliases": ["SM_black_pan", "SM_black_pot"],
+      "balls": [
+        { "color": "red",  "x": 470.0, "y": -410.0, "z": 85.0, "alias": "SM_black_pan" },
+        { "color": "blue", "x": 480.0, "y": -370.0, "z": 84.0, "alias": "SM_black_pot" }
+      ]
+    },
+
+    "match_2_mugs_default_view": {
+      "description": "Match colored balls to the two mugs (blue mug vs white-grey mug) — counter/sink view.",
+      "camera_start_pose": {
+        "_view": "default counter/sink view from photoreal_grounding/object_grounding/(see groundtruth)",
+        "location": { "X": 392.101, "Y": -506.791, "Z": 155.981 },
+        "control_rotation": { "Pitch": 306.174, "Yaw": 269.110, "Roll": 0.0 }
+      },
+      "candidate_aliases": ["SM_blue_mug", "SM_white_grey_mug"],
+      "balls": [
+        { "color": "red",  "x": 377.0, "y": -556.0, "z": 75.0, "alias": "SM_blue_mug" },
+        { "color": "blue", "x": 399.0, "y": -536.0, "z": 90.0, "alias": "SM_white_grey_mug" }
+      ]
+    },
+
+    "match_6_kitchen_cooktop_view": {
+      "description": "Hardest case: 6 differently-colored balls on pan, pot, and 4 utensils — agent must distinguish all six from a single cooktop view.",
+      "candidate_aliases": ["SM_black_pan", "SM_black_pot", "SM_wooden_spatula", "SM_wooden_spoon", "SM_black_spatula", "SM_black_spoon"],
+      "balls": [
+        { "color": "red",     "x": 470.0, "y": -410.0, "z": 85.0, "alias": "SM_black_pan"      },
+        { "color": "blue",    "x": 480.0, "y": -370.0, "z": 84.0, "alias": "SM_black_pot"      },
+        { "color": "green",   "x": 298.0, "y": -415.0, "z": 86.0, "alias": "SM_wooden_spatula" },
+        { "color": "yellow",  "x": 300.0, "y": -382.0, "z": 86.0, "alias": "SM_wooden_spoon"   },
+        { "color": "magenta", "x": 300.0, "y": -350.0, "z": 84.0, "alias": "SM_black_spoon"    },
+        { "color": "cyan",    "x": 300.0, "y": -400.0, "z": 87.0, "alias": "SM_black_spatula"  }
+      ]
+    },
+
+    "_iterate_note": "Tasks below are for `harness_iterate` (multi-round ball placement). They carry `target_alias` instead of `balls`/`candidate_aliases`. The agent does NOT see target_alias's coords — it only sees the camera pose and the screenshot.",
+
+    "find_wooden_spoon_pot_view": {
+      "description": "wooden cooking spoon on the kitchen counter (light wood color, long handle, oval scoop)",
+      "target_alias": "SM_wooden_spoon",
+      "tolerance_cm": 15.0,
+      "max_balls": 4,
+      "extent_endpoints": [
+        { "X": 300.0, "Y": -382.0, "Z": 86.0 },
+        { "X": 333.0, "Y": -382.0, "Z": 86.0 }
+      ],
+      "camera_start_pose": {
+        "_view": "default pot view from object_grounding (was object_grounding)",
+        "location": { "X": 393.744, "Y": -456.474, "Z": 214.375 },
+        "control_rotation": { "Pitch": 311.886, "Yaw": 89.694, "Roll": 0.0 }
+      }
+    },
+    "find_wooden_spatula_pot_view": {
+      "description": "wooden spatula on the kitchen counter (light wood color, flat blade with slots, long handle)",
+      "target_alias": "SM_wooden_spatula",
+      "tolerance_cm": 15.0,
+      "max_balls": 4,
+      "extent_endpoints": [
+        { "X": 298.0, "Y": -413.0, "Z": 84.0 },
+        { "X": 338.0, "Y": -413.0, "Z": 84.0 }
+      ],
+      "camera_start_pose": {
+        "_view": "default pot view",
+        "location": { "X": 393.744, "Y": -456.474, "Z": 214.375 },
+        "control_rotation": { "Pitch": 311.886, "Yaw": 89.694, "Roll": 0.0 }
+      }
+    },
+    "find_black_spatula_pot_view": {
+      "description": "black spatula on the kitchen counter (dark/black, flat blade with slot, long handle)",
+      "target_alias": "SM_black_spatula",
+      "tolerance_cm": 15.0,
+      "max_balls": 4,
+      "extent_endpoints": [
+        { "X": 298.0, "Y": -397.0, "Z": 84.0 },
+        { "X": 338.0, "Y": -397.0, "Z": 84.0 }
+      ],
+      "camera_start_pose": {
+        "_view": "default pot view",
+        "location": { "X": 393.744, "Y": -456.474, "Z": 214.375 },
+        "control_rotation": { "Pitch": 311.886, "Yaw": 89.694, "Roll": 0.0 }
+      }
+    },
+    "find_black_spoon_pot_view": {
+      "description": "black cooking spoon on the kitchen counter (dark/black, oval scoop, long handle)",
+      "target_alias": "SM_black_spoon",
+      "tolerance_cm": 15.0,
+      "max_balls": 4,
+      "extent_endpoints": [
+        { "X": 300.0, "Y": -350.0, "Z": 84.0 },
+        { "X": 333.0, "Y": -350.0, "Z": 84.0 }
+      ],
+      "camera_start_pose": {
+        "_view": "default pot view",
+        "location": { "X": 393.744, "Y": -456.474, "Z": 214.375 },
+        "control_rotation": { "Pitch": 311.886, "Yaw": 89.694, "Roll": 0.0 }
+      }
+    },
+    "find_pot_cooktop_view": {
+      "description": "the saucepot sitting on the cooktop (cylindrical with two side handles, lid on top)",
+      "target_alias": "SM_black_pot",
+      "tolerance_cm": 15.0,
+      "max_balls": 4,
+      "camera_start_pose": {
+        "_view": "high pot view (matches find_wooden_spoon_pot_view) — sees cooktop + handles from above",
+        "location": { "X": 393.744, "Y": -456.474, "Z": 214.375 },
+        "control_rotation": { "Pitch": 311.886, "Yaw": 89.694, "Roll": 0.0 }
+      }
+    },
+    "find_pan_cooktop_view": {
+      "description": "the saucepan sitting on the cooktop (round flat-bottomed pan with one long side handle)",
+      "target_alias": "SM_black_pan",
+      "tolerance_cm": 15.0,
+      "max_balls": 4,
+      "camera_start_pose": {
+        "_view": "high pot view (matches find_wooden_spoon_pot_view) — sees cooktop + handles from above",
+        "location": { "X": 393.744, "Y": -456.474, "Z": 214.375 },
+        "control_rotation": { "Pitch": 311.886, "Yaw": 89.694, "Roll": 0.0 }
+      }
+    },
+    "find_blue_mug_default_view": {
+      "description": "the blue mug on the counter (solid blue cylindrical mug with handle)",
+      "target_alias": "SM_blue_mug",
+      "tolerance_cm": 15.0,
+      "max_balls": 4,
+      "camera_start_pose": {
+        "_view": "default counter/sink view",
+        "location": { "X": 392.101, "Y": -506.791, "Z": 155.981 },
+        "control_rotation": { "Pitch": 306.174, "Yaw": 269.110, "Roll": 0.0 }
+      }
+    },
+    "find_white_grey_mug_default_view": {
+      "description": "the white-and-grey mug on the counter (white mug with grey accent, cylindrical with handle)",
+      "target_alias": "SM_white_grey_mug",
+      "tolerance_cm": 15.0,
+      "max_balls": 4,
+      "camera_start_pose": {
+        "_view": "default counter/sink view",
+        "location": { "X": 392.101, "Y": -506.791, "Z": 155.981 },
+        "control_rotation": { "Pitch": 306.174, "Yaw": 269.110, "Roll": 0.0 }
+      }
+    },
+    "find_coffee_mug_default_view": {
+      "description": "the coffee mug on the counter (separate decorative mug, cylindrical with handle, distinct from the blue mug and the white-and-grey mug)",
+      "target_alias": "SM_coffee_mug",
+      "tolerance_cm": 15.0,
+      "max_balls": 4,
+      "camera_start_pose": {
+        "_view": "default counter/sink view",
+        "location": { "X": 392.101, "Y": -506.791, "Z": 155.981 },
+        "control_rotation": { "Pitch": 306.174, "Yaw": 269.110, "Roll": 0.0 }
+      }
+    },
+    "find_tv_living_view": {
+      "description": "the wall-mounted TV in the living room (large flat rectangular screen mounted on the wall)",
+      "target_alias": "SM_tv",
+      "tolerance_cm": 15.0,
+      "max_balls": 4,
+      "extent_endpoints": [
+        { "X": 25.0, "Y":  110.0, "Z": 141.0 },
+        { "X": 25.0, "Y":  -18.0, "Z":  66.0 }
+      ],
+      "random_view": {
+        "_note": "Wall TV — viewer stands back, near-horizontal pitch.",
+        "distance_range_cm": [220.0, 360.0],
+        "pitch_range_deg":   [-15.0, 10.0],
+        "yaw_range_deg":     [0.0, 360.0],
+        "min_cam_z":         60.0,
+        "max_cam_z":         180.0
+      },
+      "camera_start_pose": {
+        "_view": "fallback if random_view is off — living-room standing view facing the TV wall",
+        "location": { "X": 253.6, "Y": -86.2, "Z": 130.0 },
+        "control_rotation": { "Pitch": 0.0, "Yaw": 178.0, "Roll": 0.0 }
+      }
+    },
+    "find_planter_living_view": {
+      "description": "the planter / vase in the living room (decorative pot with a plant, sitting on a low shelf or floor)",
+      "target_alias": "SM_planter",
+      "tolerance_cm": 15.0,
+      "max_balls": 4,
+      "random_view": {
+        "_note": "Living-room shelf object — eye-level view tilted slightly down.",
+        "distance_range_cm": [80.0, 180.0],
+        "pitch_range_deg":   [-25.0, 5.0],
+        "yaw_range_deg":     [0.0, 360.0],
+        "min_cam_z":         70.0,
+        "max_cam_z":         170.0
+      },
+      "camera_start_pose": {
+        "_view": "fallback view facing the planter from the open living-room area",
+        "location": { "X": 130.0, "Y": -50.0, "Z": 130.0 },
+        "control_rotation": { "Pitch": -10.0, "Yaw": 213.0, "Roll": 0.0 }
+      }
+    },
+    "find_book_living_view": {
+      "description": "the decorative book on a living-room shelf (single book object, distinct from the planter and TV)",
+      "target_alias": "SM_book",
+      "tolerance_cm": 15.0,
+      "max_balls": 4,
+      "random_view": {
+        "_note": "Same shelf zone as the planter.",
+        "distance_range_cm": [80.0, 180.0],
+        "pitch_range_deg":   [-25.0, 5.0],
+        "yaw_range_deg":     [0.0, 360.0],
+        "min_cam_z":         70.0,
+        "max_cam_z":         170.0
+      },
+      "camera_start_pose": {
+        "_view": "fallback view facing the book shelf",
+        "location": { "X": 130.0, "Y": -50.0, "Z": 130.0 },
+        "control_rotation": { "Pitch": -10.0, "Yaw": 200.0, "Roll": 0.0 }
+      }
+    },
+    "find_knife_cutting_view": {
+      "description": "the kitchen knife on the cutting board (long thin metal blade with handle)",
+      "target_alias": "SM_Knife",
+      "tolerance_cm": 15.0,
+      "max_balls": 4,
+      "extent_endpoints": [
+        { "X": 162.0, "Y": -352.0, "Z": 95.0 },
+        { "X": 203.0, "Y": -352.0, "Z": 95.0 }
+      ],
+      "random_view": {
+        "_note": "Cutting board sits in the NW corner of the kitchen — overhead cabinets above (Z~180-220) and walls on the -Y / -X sides. The default prior pose at cam_y=-489 looks SOUTH from inside that alcove, and ±5° jitter still lands in cabinets. For random-view runs we flip to the OPEN living-room side: cam at +Y of the target, looking back NORTH (yaw≈270°). Explicit yaw/pitch ranges bypass the prior-jitter mechanism so we ignore camera_start_pose entirely. Distance 140-170 + pitch -30..-20 keeps cam_y around -198..-225 (well in front of the counter, no walls) and cam_z around 150-170. Aim offset 15-25 cm randomizes the centre off the target.",
+        "yaw_range_deg":    [265.0, 275.0],
+        "pitch_range_deg":  [-30.0, -20.0],
+        "distance_range_cm": [140.0, 170.0],
+        "aim_offset_range_cm": [15.0, 25.0]
+      },
+      "camera_start_pose": {
+        "_view": "default cutting-board view",
+        "location": { "X": 244.444, "Y": -488.700, "Z": 193.178 },
+        "control_rotation": { "Pitch": 318.995, "Yaw": 89.573, "Roll": 0.0 }
+      }
+    }
+  }
+}

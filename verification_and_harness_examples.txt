@@ -1,0 +1,92 @@
+\begin{verbatim}
+import unreal_runtime as ur
+world = ur.Engine.GetDefaultWorld()
+for a in world.GetActorsOfClass(ur.Engine.StaticMeshActor):
+    label = a.GetActorLabel()  # e.g. "OBJ_0", "OBJ_1", "LightDecor_03_post"
+    L = a.K2_GetActorLocation()
+    S = a.GetActorScale3D()
+\end{verbatim}
+
+\begin{verbatim}
+v = ur.CoreUObject.Vector(); v.X=tx; v.Y=ty; v.Z=tz
+target_actor.K2_SetActorLocation(v, False)  # teleport, no physics
+\end{verbatim}
+
+\begin{verbatim}
+cyl = ur.RuntimeCore.RuntimeglTFLibrary.LoadStaticMeshFromPath(
+    "/Engine/BasicShapes/Cylinder.Cylinder")
+base_mat = ur.StaticLoadObject(ur.Engine.MaterialInterface, None,
+    "/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial")
+post = world.SpawnActorEx(ur.Engine.StaticMeshActor, transform, 1)
+post.SetActorLabel("Marker_00")
+mid = post.StaticMeshComponent.CreateDynamicMaterialInstance(0)
+mid.SetVectorParameterValue("Color", ur.CoreUObject.LinearColor(r,g,b,1))
+light = world.SpawnActorEx(ur.Engine.PointLight, light_transform, 1)
+light.LightComponent.SetIntensity(50_000_000.0)
+light.LightComponent.SetLightColor(ur.CoreUObject.LinearColor(r,g,b,1))
+light.K2_AttachToActor(post, "None",
+    ur.Engine.EAttachmentRule.KeepWorld,
+    ur.Engine.EAttachmentRule.KeepWorld,
+    ur.Engine.EAttachmentRule.KeepWorld, False)
+\end{verbatim}
+
+\begin{verbatim}
+def pos_at(t):
+    vx = speed*cos(elev)*cos(az); vy = speed*cos(elev)*sin(az)
+    vz = speed*sin(elev)
+    return (lx + vx*t, ly + vy*t, lz + vz*t - 0.5*980.0*t*t)
+\end{verbatim}
+
+\begin{verbatim}
+-- Grid model: true = wall, false = open
+def generateGrid (d : MazeDims) (seed : Nat) : Grid := Id.run do
+  -- DFS carve with LCG-driven neighbour selection
+  ...
+
+def isConnectedGrid (g : Grid) (d : MazeDims)
+    (start goal : Point) : Bool := Id.run do
+  -- BFS reachability check
+  ...
+
+-- Per-seed proofs: if any line fails, the maze is broken
+theorem bench_seed0 : checkSeed benchmarkDims 0 = true
+    := by native_decide
+theorem bench_seed1 : checkSeed benchmarkDims 1 = true
+    := by native_decide
+-- ... (all benchmark seeds covered)
+\end{verbatim}
+
+\begin{verbatim}
+[shader("compute")]
+[numthreads(256, 1, 1)]
+void SlideBall(uint3 tid : SV_DispatchThreadID,
+    uniform RWStructuredBuffer<ClothNode> nodes) {
+    // Find nearest surface node in 3D
+    // Compute surface normal from neighbours
+    // Project gravity onto tangent plane
+    // Integrate velocity with friction
+    float dt = 0.003f;
+    float mu = 0.4f;   // friction
+    float grav = 300.0f;
+    ...
+}
+\end{verbatim}
+
+\begin{verbatim}
+def bfs_path(grid, start, goal):
+    """BFS from start to goal over open cells.
+    Returns the path if reachable, None otherwise."""
+    queue = deque([(start, [start])])
+    visited = {start}
+    while queue:
+        (r, c), path = queue.popleft()
+        if (r, c) == goal:
+            return path
+        for dr, dc in [(-1,0),(1,0),(0,-1),(0,1)]:
+            nr, nc = r + dr, c + dc
+            if 0 <= nr < len(grid) and 0 <= nc < len(grid[0]):
+                if grid[nr][nc] == 0 and (nr,nc) not in visited:
+                    visited.add((nr, nc))
+                    queue.append(((nr,nc), path + [(nr,nc)]))
+    return None
+\end{verbatim}

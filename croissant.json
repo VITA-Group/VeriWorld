@@ -1,0 +1,629 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "sc": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "dct": "http://purl.org/dc/terms/",
+    "wd": "https://www.wikidata.org/wiki/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "sc:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "samplingRate": "cr:samplingRate",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform",
+    "equivalentProperty": "cr:equivalentProperty",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "creator": [
+    {
+      "@type": "sc:Person",
+      "name": "Yan Zheng",
+      "email": "yanzheng@utexas.edu"
+    },
+    {
+      "@type": "sc:Person",
+      "name": "ShengYun Peng",
+      "email": "speng65@gatech.edu"
+    },
+    {
+      "@type": "sc:Person",
+      "name": "Xuyao Liang",
+      "email": "yao@hanabit.art"
+    },
+    {
+      "@type": "sc:Person",
+      "name": "Xiaoyan Cong",
+      "email": "xiaoyan_cong@brown.edu"
+    },
+    {
+      "@type": "sc:Person",
+      "name": "Nuo Chen",
+      "email": "nuochen@tamu.edu"
+    },
+    {
+      "@type": "sc:Person",
+      "name": "Bangya Liu",
+      "email": "bangya@abaka.ai"
+    },
+    {
+      "@type": "sc:Person",
+      "name": "Zihan Wang",
+      "email": "wzh@abaka.ai"
+    },
+    {
+      "@type": "sc:Person",
+      "name": "Wenyan Cong",
+      "email": "wycong@utexas.edu"
+    },
+    {
+      "@type": "sc:Person",
+      "name": "Zhiwen Fan",
+      "email": "zhiwenfan@tamu.edu"
+    },
+    {
+      "@type": "sc:Person",
+      "name": "Zhangyang Wang",
+      "email": "atlaswang@utexas.edu"
+    }
+  ],
+  "publisher": {
+    "@type": "sc:Organization",
+    "name": "VeriWorld authors"
+  },
+  "inLanguage": "en",
+  "citeAs": "@inproceedings{veriworld2026, title={{VeriWorld: A Verifiable Visual SWE-Bench for Spatial Reasoning in 3D Environments}}, author={Yan Zheng and ShengYun Peng and Xuyao Liang and Xiaoyan Cong and Nuo Chen and Bangya Liu and Zihan Wang and Wenyan Cong and Zhiwen Fan and Zhangyang Wang}, booktitle={Advances in Neural Information Processing Systems}, year={2026}}",
+  "citation": "Yan Zheng; ShengYun Peng; Xuyao Liang; Xiaoyan Cong; Nuo Chen; Bangya Liu; Zihan Wang; Wenyan Cong; Zhiwen Fan; Zhangyang Wang. VeriWorld: A Verifiable Visual SWE-Bench for Spatial Reasoning in 3D Environments. NeurIPS 2026, Evaluations and Datasets Track.",
+  "@type": "sc:Dataset",
+  "@id": "https://huggingface.co/datasets/yanyanzheng96/VeriWorld#tasks",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "VeriWorld task dataset",
+  "description": "Executable 3D test-task definitions, deterministic seed/parameter fixtures and public CLI recipes for VeriWorld. The dataset is not a collection of model-run results. The separately distributed VeriWorld binary and user-configured model API are required to execute tasks.",
+  "url": "https://huggingface.co/datasets/yanyanzheng96/VeriWorld",
+  "sameAs": "https://github.com/VITA-Group/VeriWorld",
+  "version": "1.1.3",
+  "datePublished": "2026-05-06",
+  "dateModified": "2026-11-07T09:39:04.605682+00:00",
+  "license": "https://huggingface.co/datasets/yanyanzheng96/VeriWorld/blob/main/LICENSE.md",
+  "isLiveDataset": false,
+  "keywords": [
+    "3D",
+    "spatial reasoning",
+    "executable benchmark",
+    "synthetic tasks",
+    "seed fixtures",
+    "deterministic verification"
+  ],
+  "prov:wasDerivedFrom": [
+    {
+      "@id": "https://huggingface.co/datasets/yanyanzheng96/VeriWorld/resolve/main/metadata/release_seed_fixtures.json"
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/VITA-Group/VeriWorld/paper-artifacts-2026-11-06-rc3/task_entrypoints.json"
+    }
+  ],
+  "prov:wasGeneratedBy": [
+    {
+      "@type": "prov:Activity",
+      "@id": "https://huggingface.co/datasets/yanyanzheng96/VeriWorld#task-metadata-generation",
+      "name": "Task catalogue and runtime recipe documentation",
+      "description": "Task objectives, verifier metrics and source paths describe the pinned release implementation. Recipes document representative one-round public CLI installation checks; no model outcome is used as a task definition.",
+      "prov:used": [
+        {
+          "@id": "https://github.com/VITA-Group/VeriWorld/tree/paper-artifacts-2026-11-06-rc3"
+        },
+        {
+          "@id": "https://raw.githubusercontent.com/VITA-Group/VeriWorld/paper-artifacts-2026-11-06-rc3/run_task.py"
+        }
+      ]
+    },
+    {
+      "@type": "prov:Activity",
+      "@id": "https://huggingface.co/datasets/yanyanzheng96/VeriWorld#seed-fixture-generation",
+      "name": "Deterministic initialization fixture generation and lossless CSV serialization",
+      "description": "The released generators produce parameter objects from task-specific seeds and configuration. Each fixture retains generator identity, source hash, parameter hash and JSON values. CSV columns preserve these objects as JSON strings. No rendering or model inference is required to read a fixture; model actions are not fixture labels.",
+      "prov:used": [
+        {
+          "@id": "https://huggingface.co/datasets/yanyanzheng96/VeriWorld/resolve/main/metadata/release_seed_fixtures.json"
+        },
+        {
+          "@id": "https://github.com/VITA-Group/VeriWorld/tree/paper-artifacts-2026-11-06-rc3"
+        }
+      ]
+    }
+  ],
+  "rai:dataCollection": "Synthetic task initialization produced by the versioned VeriWorld generators and documented live UE scenes. The catalogue records executable objectives and runtime metrics. No human subjects or scraped personal data were used to generate task instances.",
+  "rai:dataCollectionTimeframe": "This metadata describes the paper-artifacts-2026-11-06-rc3 task source with the paper-artifacts-2026-11-03-rc1 runtime binary. Metadata revision date is not an experiment collection date.",
+  "rai:dataPreprocessingProtocol": "Reference task/seed/generator configurations are serialized to CSV with parameter objects stored as JSON strings and source/parameter SHA256 digests preserved. Runtime recipes are documentation, not trial outcomes. No experimental success/failure records are included in these three record sets.",
+  "rai:dataAnnotationProtocol": "Task objectives and metrics are documented from the released implementation. Reference quantities come from deterministic generators or the live engine state. Execution outcomes are computed by the task verifier; no crowd or model judge labels the fixture dataset.",
+  "rai:dataLimitations": "Eleven task families are documented. Ninety offline fixtures cover eight families; LightWar and photoreal grounding use live runtime/scene configuration. The fixtures are not exhaustive seed coverage. Legacy TunnelNav3D uses fixed construction seed 99 for rendered tunnel waypoints. This synthetic task release does not establish real-world performance, safety, cross-platform score equivalence or universal model API availability.",
+  "rai:dataBiases": "Selected synthetic scenes, geometry, task generators and English instructions constrain the distribution. Asset appearance and task coverage need not represent natural sensors, real-world environments or social spatial reasoning.",
+  "rai:personalSensitiveInformation": "Task records contain synthetic parameters and software instructions, with no human-subject or scraped personal data. Creator identities/contact details describe the public scholarly authorship, not task participants.",
+  "rai:dataUseCases": "Reproduce task initialization, inspect executable verifier definitions, run controlled spatial-reasoning evaluations and test supported model API configurations. The task fixtures alone provide no measured model performance and are not a safety or deployment certification.",
+  "rai:dataSocialImpact": "Reproducible task definitions can improve evaluation transparency. Overgeneralizing synthetic benchmark scores could mislead robotics or embodied-system deployment decisions. Explicit scope, source versions and deterministic verifiers help readers interpret results.",
+  "rai:hasSyntheticData": true,
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "data/task_catalog.csv",
+      "name": "data/task_catalog.csv",
+      "description": "Eleven executable task-family definitions, including objectives, verifier metrics and source paths. Not model-run records.",
+      "contentUrl": "https://huggingface.co/datasets/yanyanzheng96/VeriWorld/resolve/main/data/task_catalog.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "ec30302664ece3c23a618537ab7aa82138ba16ea7165e43c343babb32e0ce995",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "data/seed_fixtures.csv",
+      "name": "data/seed_fixtures.csv",
+      "description": "Ninety reference initialization configurations across eight task families. Parameter JSON includes evaluation-side references, not additional visual-only model input. Not experimental outcomes.",
+      "contentUrl": "https://huggingface.co/datasets/yanyanzheng96/VeriWorld/resolve/main/data/seed_fixtures.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "7cf15c6f0d94d7d796fed4ea78a8535f5d5bdf52f54a5cda8b3ceb3c576a5529",
+      "license": "https://github.com/VITA-Group/VeriWorld/blob/paper-artifacts-2026-11-06-rc3/LICENSE"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "data/runtime_recipes.csv",
+      "name": "data/runtime_recipes.csv",
+      "description": "Twenty-nine example CLI commands spanning eleven task families. These are installation instructions with task-specific interfaces, not independent scenes or scores.",
+      "contentUrl": "https://huggingface.co/datasets/yanyanzheng96/VeriWorld/resolve/main/data/runtime_recipes.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "7a19e3875acf6d023ac70937aff285156c219bee3514262feda558b4b33d1459",
+      "license": "https://github.com/VITA-Group/VeriWorld/blob/paper-artifacts-2026-11-06-rc3/LICENSE"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "task_catalog",
+      "name": "task_catalog",
+      "description": "Eleven executable task-family definitions, including objectives, verifier metrics and source paths. Not model-run records.",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "task_catalog/task",
+          "name": "task",
+          "description": "Task-family name; one row describes a task family, not a model run.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/task_catalog.csv"
+            },
+            "extract": {
+              "column": "task"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "task_catalog/family",
+          "name": "family",
+          "description": "Task category in the released benchmark.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/task_catalog.csv"
+            },
+            "extract": {
+              "column": "family"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "task_catalog/objective",
+          "name": "objective",
+          "description": "Objective of an executable task instance.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/task_catalog.csv"
+            },
+            "extract": {
+              "column": "objective"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "task_catalog/metric",
+          "name": "metric",
+          "description": "Runtime verifier or task outcome metric; this field is a definition, not a measured score.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/task_catalog.csv"
+            },
+            "extract": {
+              "column": "metric"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "task_catalog/code_path",
+          "name": "code_path",
+          "description": "Repository-relative implementation directory at the pinned source revision.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/task_catalog.csv"
+            },
+            "extract": {
+              "column": "code_path"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "seed_fixtures",
+      "name": "seed_fixtures",
+      "description": "Ninety reference initialization configurations across eight task families. Parameter JSON includes evaluation-side references, not additional visual-only model input. Not experimental outcomes.",
+      "license": "https://github.com/VITA-Group/VeriWorld/blob/paper-artifacts-2026-11-06-rc3/LICENSE",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "seed_fixtures/fixture_id",
+          "name": "fixture_id",
+          "description": "Identifier for a reference generator configuration.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/seed_fixtures.csv"
+            },
+            "extract": {
+              "column": "fixture_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "seed_fixtures/task",
+          "name": "task",
+          "description": "Task-family name.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/seed_fixtures.csv"
+            },
+            "extract": {
+              "column": "task"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "seed_fixtures/seed",
+          "name": "seed",
+          "description": "Generator seed within this task and generator configuration. Equal seeds across tasks do not identify equal scenes; see the TunnelNav3D exception.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "data/seed_fixtures.csv"
+            },
+            "extract": {
+              "column": "seed"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "seed_fixtures/generator",
+          "name": "generator",
+          "description": "Python module providing the deterministic parameter generator.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/seed_fixtures.csv"
+            },
+            "extract": {
+              "column": "generator"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "seed_fixtures/generator_config_json",
+          "name": "generator_config_json",
+          "description": "JSON-encoded generator options; decode with json.loads before use.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/seed_fixtures.csv"
+            },
+            "extract": {
+              "column": "generator_config_json"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "seed_fixtures/parameters_json",
+          "name": "parameters_json",
+          "description": "JSON-encoded task initialization and evaluation-side reference parameters. The harness controls which fields are exposed to the model.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/seed_fixtures.csv"
+            },
+            "extract": {
+              "column": "parameters_json"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "seed_fixtures/parameters_sha256",
+          "name": "parameters_sha256",
+          "description": "SHA256 of the canonical serialized parameter object in the source fixture.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/seed_fixtures.csv"
+            },
+            "extract": {
+              "column": "parameters_sha256"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "seed_fixtures/generator_sha256",
+          "name": "generator_sha256",
+          "description": "SHA256 of the generator source used for this fixture.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/seed_fixtures.csv"
+            },
+            "extract": {
+              "column": "generator_sha256"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "seed_fixtures/deterministic",
+          "name": "deterministic",
+          "description": "Whether this recorded parameter generation is deterministic; not a guarantee of repeatable model API responses.",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileObject": {
+              "@id": "data/seed_fixtures.csv"
+            },
+            "extract": {
+              "column": "deterministic"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "seed_fixtures/source_revision",
+          "name": "source_revision",
+          "description": "Source release identifying the generator and task implementation.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/seed_fixtures.csv"
+            },
+            "extract": {
+              "column": "source_revision"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "seed_fixtures/record_type",
+          "name": "record_type",
+          "description": "Fixture category; these rows are not model-response or benchmark-result records.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/seed_fixtures.csv"
+            },
+            "extract": {
+              "column": "record_type"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "runtime_recipes",
+      "name": "runtime_recipes",
+      "description": "Twenty-nine example CLI commands spanning eleven task families. These are installation instructions with task-specific interfaces, not independent scenes or scores.",
+      "license": "https://github.com/VITA-Group/VeriWorld/blob/paper-artifacts-2026-11-06-rc3/LICENSE",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "runtime_recipes/recipe_id",
+          "name": "recipe_id",
+          "description": "Identifier for a representative installation-check command.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/runtime_recipes.csv"
+            },
+            "extract": {
+              "column": "recipe_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "runtime_recipes/task",
+          "name": "task",
+          "description": "Task-family name.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/runtime_recipes.csv"
+            },
+            "extract": {
+              "column": "task"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "runtime_recipes/seed",
+          "name": "seed",
+          "description": "Seed passed to the task CLI, with task-specific initialization semantics.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "data/runtime_recipes.csv"
+            },
+            "extract": {
+              "column": "seed"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "runtime_recipes/information_condition",
+          "name": "information_condition",
+          "description": "Information interface used by this example; VP and RP are not relabeled V/S/C. For PlaceOnBottom, V also supplies anonymous object identifiers with current positions and sizes; the separate pure-visual (V-pure) condition supplies the image and identifiers only.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/runtime_recipes.csv"
+            },
+            "extract": {
+              "column": "information_condition"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "runtime_recipes/command",
+          "name": "command",
+          "description": "Example public CLI invocation. Configure your own model route and runtime; --smoke uses an installation-check budget.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/runtime_recipes.csv"
+            },
+            "extract": {
+              "column": "command"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "runtime_recipes/source_url",
+          "name": "source_url",
+          "description": "Versioned task source location.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/runtime_recipes.csv"
+            },
+            "extract": {
+              "column": "source_url"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "runtime_recipes/runtime_release_url",
+          "name": "runtime_release_url",
+          "description": "Release containing the required Windows/Linux runtime and checksum/download instructions.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/runtime_recipes.csv"
+            },
+            "extract": {
+              "column": "runtime_release_url"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "runtime_recipes/purpose",
+          "name": "purpose",
+          "description": "Purpose of the command, not a benchmark outcome.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/runtime_recipes.csv"
+            },
+            "extract": {
+              "column": "purpose"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "runtime_recipes/notes",
+          "name": "notes",
+          "description": "Task-specific setup and interpretation notes.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/runtime_recipes.csv"
+            },
+            "extract": {
+              "column": "notes"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "runtime_recipes/source_revision",
+          "name": "source_revision",
+          "description": "Source release for the command.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data/runtime_recipes.csv"
+            },
+            "extract": {
+              "column": "source_revision"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

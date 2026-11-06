@@ -1,0 +1,44 @@
+[
+  {
+    "task": "curvy",
+    "seed": 0,
+    "params_sha256": "243bc64e1a02e9c102b1f1a4a1c85930e22477482b718e317a8266d73d7460d2",
+    "source": "VeriWorld paper runtime check: curvy_seed0",
+    "scope": "Reference-validated task instance, not a model outcome"
+  },
+  {
+    "task": "curvy",
+    "seed": 2,
+    "params_sha256": "772d433bedd63a44ea861bb06f072ea7fd8b468a7269a691c36ad75d35741cd2",
+    "source": "VeriWorld paper runtime check: curvy_seed2",
+    "scope": "Reference-validated task instance, not a model outcome"
+  },
+  {
+    "task": "curvy",
+    "seed": 9,
+    "params_sha256": "c4f178812bbcc9cab12688367a710e42328633f39d34cc2ca2b5f4f17d9f1f33",
+    "source": "VeriWorld paper runtime check: curvy_seed9",
+    "scope": "Reference-validated task instance, not a model outcome"
+  },
+  {
+    "task": "drop",
+    "seed": 0,
+    "params_sha256": "dc0cb2875208bdea3a3f8dfef65a720e94592ae8fff83f0ed7dcb301c3a5762b",
+    "source": "VeriWorld paper runtime check: drop_seed0",
+    "scope": "Reference-validated task instance, not a model outcome"
+  },
+  {
+    "task": "drop",
+    "seed": 1,
+    "params_sha256": "2d6763dd4b92b858645e93d9675849e92467d00b1a51099bc1bf9f59ae0325b9",
+    "source": "VeriWorld paper runtime check: drop_seed1",
+    "scope": "Reference-validated task instance, not a model outcome"
+  },
+  {
+    "task": "drop",
+    "seed": 2,
+    "params_sha256": "9da19f8f0dc293dccc4d4c46b6981f5245f89185247ec4e171439d929a8b9bf4",
+    "source": "VeriWorld paper runtime check: drop_seed2",
+    "scope": "Reference-validated task instance, not a model outcome"
+  }
+]

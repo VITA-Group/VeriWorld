@@ -1,0 +1,18 @@
+{
+  "seed": 1,
+  "surface_z": 440.0,
+  "ball_start": [
+    0.0,
+    0.0,
+    465.0
+  ],
+  "target": [
+    206.1141,
+    -110.7836,
+    15.0
+  ],
+  "target_radius": 61.0,
+  "grid_n": 40,
+  "grid_spacing": 12.0,
+  "ball_radius": 15.0
+}

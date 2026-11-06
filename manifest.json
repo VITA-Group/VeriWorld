@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "part_bytes": 1992294400,
+  "archives": {
+    "windows": {
+      "name": "VeriWorld-Windows-hardened-F.zip",
+      "bytes": 4807409406,
+      "sha256": "96f383eb17dc9bee1dd36cd4f418e06fd83352a753bffd1959d804717d85462a",
+      "parts": [
+        {
+          "name": "VeriWorld-Windows-hardened-F.zip.part001",
+          "bytes": 1992294400,
+          "sha256": "b554b5af0234cb775c2a58df9d496992007735aadd081f1bb59f9b112cdf7593"
+        },
+        {
+          "name": "VeriWorld-Windows-hardened-F.zip.part002",
+          "bytes": 1992294400,
+          "sha256": "8ca62ca926cf827a1ba3902c2e2e199a25d778c29a386e57b39c55b278f506cc"
+        },
+        {
+          "name": "VeriWorld-Windows-hardened-F.zip.part003",
+          "bytes": 822820606,
+          "sha256": "c5bf58d353e17fac0d252bf08dcb828f83dd9bb19388ae71c97a3da2b83883af"
+        }
+      ],
+      "contents": "Current task sources, historical supporting data and qualified F Windows runtime"
+    },
+    "linux": {
+      "name": "VeriWorld-Linux-x86_64-hardened-F.tar.gz",
+      "bytes": 4562338429,
+      "sha256": "7b7c1825fd56d6387848944504413379b6018ddf10fcd1f121a79edc811ade26",
+      "parts": [
+        {
+          "name": "VeriWorld-Linux-x86_64-hardened-F.tar.gz.part001",
+          "bytes": 1992294400,
+          "sha256": "452c2a419d251156908f782129d630d32d6b05f97aeea8970cda71c1b4f94c42"
+        },
+        {
+          "name": "VeriWorld-Linux-x86_64-hardened-F.tar.gz.part002",
+          "bytes": 1992294400,
+          "sha256": "796335e8f147a3db3d42ad3c973cd29a726896c627d773bc0039117ef3867086"
+        },
+        {
+          "name": "VeriWorld-Linux-x86_64-hardened-F.tar.gz.part003",
+          "bytes": 577749629,
+          "sha256": "0ec7e8e23212b8aef2f1a22ca040c381a4a76646123a80ada996ed5393df0d7d"
+        }
+      ],
+      "contents": "Qualified F Linux runtime; GPU graphics unqualified; task sources supplied separately"
+    }
+  },
+  "repository": "yanyanzheng96/VeriWorld-release",
+  "tag": "paper-artifacts-2026-11-03-rc1",
+  "source_archive": {
+    "name": "VeriWorld-task-sources-hardened-F.zip",
+    "bytes": 5314214,
+    "sha256": "270cfebe4b0db7307633337cd4d34ee4022430b8e5e538f4deae985581ae19af"
+  },
+  "qualification": "HARDENING_VALIDATION.json",
+  "known_boundaries": "KNOWN_ISSUES.md"
+}

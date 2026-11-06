@@ -1,0 +1,10 @@
+{
+  "source": "VeriWorld-anon/veriworld/infra/interactive/engine.py",
+  "source_sha256": "ed17b2b691c530afc80b9af131ba07dbc23a420331f812eabc1f207025b0493c",
+  "changes": [
+    "Enable Python API in Shipping",
+    "Bind loopback explicitly",
+    "Cap FPS at 60 for tick-based controller compatibility"
+  ],
+  "original_source_unchanged": true
+}

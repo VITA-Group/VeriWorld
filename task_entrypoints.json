@@ -1,0 +1,79 @@
+{
+  "MazeNavFPS": [
+    "interactive_control.mazenavfps.harness_structured.pr_bf",
+    "interactive_control.mazenavfps.harness_structured.pr_sa",
+    "interactive_control.mazenavfps.harness_structured.pv_bf",
+    "interactive_control.mazenavfps.harness_structured.v_bf",
+    "interactive_control.mazenavfps.harness_structured.v_sa",
+    "interactive_control.mazenavfps.harness_structured.vp_bf",
+    "interactive_control.mazenavfps.harness_structured.vp_sa",
+    "interactive_control.mazenavfps.harness_structured.vrp_bf",
+    "interactive_control.mazenavfps.harness_structured.vrp_sa",
+    "interactive_control.mazenavfps.harness_structured.vp_bf_eq",
+    "interactive_control.mazenavfps.harness_structured.vrp_bf_eq"
+  ],
+  "Billiards": [
+    "interactive_control.billiards.harness_aimline_confirm.shot_code",
+    "interactive_control.billiards.harness_groundtruth.shot_code",
+    "interactive_control.billiards.harness_image.shot_code",
+    "interactive_control.billiards.harness_image_aimline_confirm.shot_code",
+    "interactive_control.billiards.harness_querytool.shot_code",
+    "interactive_control.billiards.harness_video.shot_code",
+    "interactive_control.billiards.harness_visiongroundtruth.shot_code",
+    "interactive_control.billiards.harness_visionposition.shot_code",
+    "interactive_control.billiards.harness_visionposition_doublecall.shot_code"
+  ],
+  "TunnelNav3D": [
+    "interactive_control.tunnel_nav3d.harness_structured.vp_bf",
+    "interactive_control.tunnel_nav3d.harness_structured.af",
+    "interactive_control.tunnel_nav3d.harness_structured.legacy_eq"
+  ],
+  "PlaceOnBottom": [
+    "interactive_control.place_on_bottom.harness_vision",
+    "interactive_control.place_on_bottom.harness_symbolic",
+    "interactive_control.place_on_bottom.harness_combined",
+    "interactive_control.place_on_bottom.harness_vision_batch",
+    "interactive_control.place_on_bottom.harness_symbolic_batch",
+    "interactive_control.place_on_bottom.harness_symbolic_padded",
+    "interactive_control.place_on_bottom.harness_symbolic_padded_natural",
+    "interactive_control.place_on_bottom.harness_symbolic_shuffled"
+  ],
+  "BoxFold": [
+    "trial_error_prediction.box_fold.harness_vision",
+    "trial_error_prediction.box_fold.harness_symbolic",
+    "trial_error_prediction.box_fold.harness_combined"
+  ],
+  "MovingShooter": [
+    "trial_error_prediction.moving_shooter.harness_vision_frames",
+    "trial_error_prediction.moving_shooter.harness_symbolic",
+    "trial_error_prediction.moving_shooter.harness_combined_frames",
+    "trial_error_prediction.moving_shooter.harness_symbolic_padded",
+    "trial_error_prediction.moving_shooter.harness_vision",
+    "trial_error_prediction.moving_shooter.harness_combined"
+  ],
+  "LightWar": [
+    "trial_error_prediction.light_war.harness_arc",
+    "trial_error_prediction.light_war.harness_arc_visual_only",
+    "trial_error_prediction.light_war.harness_symbolic",
+    "trial_error_prediction.light_war.harness_combined",
+    "trial_error_prediction.light_war.harness_combined_neutral",
+    "trial_error_prediction.light_war.harness_combined_ignorevis",
+    "trial_error_prediction.light_war.harness_symbolic_tight"
+  ],
+  "SceneGrounding": [
+    "photoreal_grounding.scene_grounding.harness_walk",
+    "photoreal_grounding.scene_grounding.harness_teleport"
+  ],
+  "ObjectGrounding": [
+    "photoreal_grounding.object_grounding.harness_grid_iterate_offcenter",
+    "photoreal_grounding.object_grounding.harness_grid_iterate_offcenter_bboxv2",
+    "photoreal_grounding.object_grounding.harness_single_iterate_offcenter",
+    "photoreal_grounding.object_grounding.harness_single_iterate_offcenter_bboxv2"
+  ],
+  "DropToTarget": [
+    "computational_physics.paper_tasks"
+  ],
+  "CurvyBilliards": [
+    "computational_physics.paper_tasks"
+  ]
+}

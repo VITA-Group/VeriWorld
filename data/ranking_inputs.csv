@@ -1,0 +1,38 @@
+comparison,model,score_a,score_b
+Billiards V/REPL,Flash,0.4,0.8
+Billiards V/REPL,Sonnet,0.33,0.67
+Billiards V/REPL,Gemini-3-Pro,0.63,0.8
+Billiards V/REPL,Grok,0.1,0.27
+Billiards V/REPL,Doubao,0.23,0.37
+Billiards V/REPL,GPT-4o,0.47,0.57
+Billiards V/REPL,GPT-5.2,0.2,0.27
+Billiards V/REPL,Qwen3-235B,0.1,0.17
+Billiards V/REPL,Moonshot,0.1,0.17
+Billiards V/REPL,Qwen-Max,0.07,0.0
+Billiards V/REPL,GPT-4.1,0.33,0.2
+MazeNavFPS VP,Gemini 3 Pro,0.89,0.44
+MazeNavFPS VP,Sonnet,0.89,0.33
+MazeNavFPS VP,GPT-5.2,0.89,0.33
+MazeNavFPS VP,Claude Opus$^{\dagger}$,0.77,0.0
+MazeNavFPS VP,GPT-4.1,0.67,0.22
+MazeNavFPS VP,Qwen3-235B,0.44,0.22
+MazeNavFPS VP,Doubao,0.22,0.0
+MazeNavFPS VRP,Gemini 3 Pro,0.89,0.5
+MazeNavFPS VRP,Sonnet,0.67,0.38
+MazeNavFPS VRP,GPT-5.2,0.78,0.14
+MazeNavFPS VRP,Claude Opus$^{\dagger}$,0.8,0.2
+MazeNavFPS VRP,GPT-4.1,0.78,0.5
+MazeNavFPS VRP,Qwen3-235B,0.33,0.0
+MazeNavFPS VRP,Doubao,0.11,0.0
+ObjectGrounding V,claude-opus-4-5,0.36666666666666664,0.4
+ObjectGrounding V,claude-sonnet-4-6,0.3333333333333333,0.4
+ObjectGrounding V,gemini-2.5-flash,0.13333333333333333,0.2
+ObjectGrounding V,gemini-3.1-pro-preview,0.8,0.7333333333333333
+ObjectGrounding V,gpt-4.1-2025-04-14,0.06666666666666667,0.2
+ObjectGrounding V,grok-4.3,0.3,0.3
+ObjectGrounding C,claude-opus-4-5,0.4,0.43333333333333335
+ObjectGrounding C,claude-sonnet-4-6,0.3333333333333333,0.36666666666666664
+ObjectGrounding C,gemini-2.5-flash,0.26666666666666666,0.2
+ObjectGrounding C,gemini-3.1-pro-preview,0.8333333333333334,0.7
+ObjectGrounding C,gpt-4.1-2025-04-14,0.3,0.3333333333333333
+ObjectGrounding C,grok-4.3,0.3333333333333333,0.3

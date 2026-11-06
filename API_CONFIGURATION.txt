@@ -1,0 +1,32 @@
+Model API configuration
+=======================
+Use model_configs.paper.example.json with the public task CLI --configs option
+(--config for computational_physics.paper_tasks). Set VERIWORLD_API_KEY in your
+own environment. The example contains no secret. Change base_url and model IDs
+for your provider; no single gateway is required by the benchmark.
+
+client_options configures the client, not the task prompt or scoring:
+- timeout: per HTTP request in seconds; the examples allow 600.
+- max_retries: bounded HTTP attempts; examples use one.
+- temperature: explicit provider-required value, e.g. 1 for this Kimi route.
+- omit_temperature: omit temperature for models that reject that parameter.
+- token_parameter: max_tokens or max_completion_tokens for OpenAI-compatible APIs.
+- protocol: auto, openai, anthropic, or gemini. Explicit anthropic supports
+  compatible proxy URLs that do not contain the word anthropic.
+- request_model: provider request alias, if different from the recorded model.
+- expected_model: require this exact returned identifier. A mismatch raises an
+  error and does not authorize replacing a dated model with another version.
+
+The task controls messages and output token budget. extra_params supplies other
+provider parameters; it cannot replace messages or the model/token fields.
+
+Ten example model routes passed one real image request through this public
+client on 2026-11-02. This validates that transport at that time, not every
+model/task/seed combination. GPT-4o-2024-11-20 currently lacks an available route.
+Kimi-k2.5 is intermittent and remains paused despite occasional successful probes.
+These provider availability failures must not be scored as model failures.
+
+Video-only variants require a provider-supported video path. For portable image
+APIs, use MovingShooter harness_vision_frames/harness_combined_frames and the
+paper computational-physics entry point, which send frame grids or sampled PNGs.
+Do not silently replace required visual input with text-only calls.

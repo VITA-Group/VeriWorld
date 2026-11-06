@@ -1,0 +1,33 @@
+{
+  "_comment": "Alias map: user-friendly key -> canonical /Game/.../<asset>.<asset> path. All 12 kitchen targets resolved against Living_room_day Kitchen_Utensils pack 2026-04-28. Use as input to LoadStaticMeshFromPath / batch_spawn_meshes / find-actor-by-mesh-leaf.",
+  "_scene": "apartment",
+  "_resolved_at": "2026-04-28 (UE PackagedOutput_v2, scene=apartment / level=Living_room_day)",
+  "_naming_pattern": "Kitchen_Utensils pack utensils only: C=spoon, E=spatula; _004=black, _005=wooden. Mugs do NOT follow this pattern (visually disambiguated by Z: low=blue, high=white/grey).",
+  "_canonical_source": "this file (mirrored as exploratory snapshot in Plugins/UELivePy/Tests/python/api/examples/apartment/aliases.json)",
+
+  "aliases": {
+    "SM_Knife":            { "real": "SM_Knife_A_002",        "path": "/Game/Kitchen_Utensils/Mesh/SM_Knife_A_002.SM_Knife_A_002" },
+    "SM_wooden_spoon":     { "real": "SM_Utensil_C_005",      "path": "/Game/Kitchen_Utensils/Mesh/SM_Utensil_C_005.SM_Utensil_C_005" },
+    "SM_black_spoon":      { "real": "SM_Utensil_C_004",      "path": "/Game/Kitchen_Utensils/Mesh/SM_Utensil_C_004.SM_Utensil_C_004" },
+    "SM_wooden_spatula":   { "real": "SM_Utensil_E_005",      "path": "/Game/Kitchen_Utensils/Mesh/SM_Utensil_E_005.SM_Utensil_E_005" },
+    "SM_black_spatula":    { "real": "SM_Utensil_E_004",      "path": "/Game/Kitchen_Utensils/Mesh/SM_Utensil_E_004.SM_Utensil_E_004" },
+    "SM_black_pan":        { "real": "SM_SaucePan_A_003",     "path": "/Game/Kitchen_Utensils/Mesh/SM_SaucePan_A_003.SM_SaucePan_A_003" },
+    "SM_black_pan_lid":    { "real": "SM_SaucePan_Lid_A_003", "path": "/Game/Kitchen_Utensils/Mesh/SM_SaucePan_Lid_A_003.SM_SaucePan_Lid_A_003" },
+    "SM_black_pot":        { "real": "SM_Pot_A_003",          "path": "/Game/Kitchen_Utensils/Mesh/SM_Pot_A_003.SM_Pot_A_003" },
+    "SM_white_grey_mug":   { "real": "SM_Mug_B_002",          "path": "/Game/Kitchen_Utensils/Mesh/SM_Mug_B_002.SM_Mug_B_002", "note": "higher Z (90) — counter-top" },
+    "SM_blue_mug":         { "real": "SM_Mug_A_001",          "path": "/Game/Kitchen_Utensils/Mesh/SM_Mug_A_001.SM_Mug_A_001", "note": "lower Z (75) — likely on a lower shelf or table" },
+    "SM_blue_plate":       { "real": "SM_Bowl_B_001",         "path": "/Game/Kitchen_Utensils/Mesh/SM_Bowl_B_001.SM_Bowl_B_001", "note": "user clarified plate=bowl" },
+    "SM_Kitchen_decor_08": { "real": "SM_Kitchen_decor_08",   "path": "/Game/Stanzza/Meshes/SM_Kitchen_decor_08.SM_Kitchen_decor_08", "note": "coffee mug on the counter (separate from SM_Mug_A_001 / SM_Mug_B_002 set)" },
+    "SM_coffee_mug":       { "real": "SM_Kitchen_decor_08",   "path": "/Game/Stanzza/Meshes/SM_Kitchen_decor_08.SM_Kitchen_decor_08", "note": "alias for the coffee mug; same mesh as SM_Kitchen_decor_08" },
+    "SM_Tv_01":            { "real": "SM_Tv_01",              "path": "/Game/Stanzza/Meshes/SM_Tv_01.SM_Tv_01", "note": "wall-mounted TV in the living room; 4-corner rect at X=25 plane" },
+    "SM_tv":               { "real": "SM_Tv_01",              "path": "/Game/Stanzza/Meshes/SM_Tv_01.SM_Tv_01", "note": "alias for the living-room TV" },
+    "SM_Vase_01":          { "real": "SM_Vase_01",            "path": "/Game/Stanzza/Meshes/SM_Vase_01.SM_Vase_01", "note": "planter / vase on the living-room shelf" },
+    "SM_planter":          { "real": "SM_Vase_01",            "path": "/Game/Stanzza/Meshes/SM_Vase_01.SM_Vase_01", "note": "alias for the planter (SM_Vase_01)" },
+    "SM_Decor_5":          { "real": "SM_Decor_5",            "path": "/Game/Stanzza/Meshes/SM_Decor_5.SM_Decor_5", "note": "decorative book on the living-room shelf" },
+    "SM_book":             { "real": "SM_Decor_5",            "path": "/Game/Stanzza/Meshes/SM_Decor_5.SM_Decor_5", "note": "alias for the book (SM_Decor_5)" }
+  },
+
+  "_unmapped": {
+    "SM_Pot_01":           { "path": "/Game/Stanzza/Meshes/SM_Pot_01.SM_Pot_01", "note": "decorative planter on dining table — not a cooking pot, not requested by user" }
+  }
+}

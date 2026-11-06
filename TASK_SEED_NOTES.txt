@@ -1,0 +1,22 @@
+Task seeds and qualification scope
+
+A seed is an input to a task's recorded configuration. It does not by itself
+guarantee an independently sampled rendered scene in every legacy harness.
+
+TunnelNav3D: the retained ue_setup.py uses random.Random(99) for its curved-path
+waypoints. With fixed dimensions, radius and material settings, changing the
+CLI seed changes the generated reference-maze metadata but does not vary those
+rendered tunnel waypoints. This behavior is preserved for compatibility with
+the archived protocol experiments. Do not count these seeds as independent
+tunnel geometries. A new independently sampled geometry study needs an explicit
+generator revision and separate results; no such revision is silently applied.
+
+The release checks cover eleven task families, representative seeds and ten
+available model routes. They do not cover the complete task x seed x model
+Cartesian product. Generator fixtures, historical parameter equality, native
+runtime checks and real API checks are distinct forms of evidence.
+
+CurvyBilliards uses seeds 0, 2 and 9 in the new physics panel; DropToTarget uses
+0, 1 and 2. Each completed model has 2 tasks x 3 conditions x 3 seeds = 18
+episodes. The 185 valid exported physics records include ten full model panels
+and five Kimi records. Missing API/model-version cells are not scored as FAIL.
